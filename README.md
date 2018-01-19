@@ -10,4 +10,4 @@ A UC Berkeley class
 - GSI: Sana Iqbal
 - TA: Kevin Li
 
-testtest
+First lecture chage
