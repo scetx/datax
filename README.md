@@ -9,4 +9,4 @@
 - Lecturer: Alexander Fred Ojala
 - TA: Sana Iqbal
 - TA: Arshi Aggarwal
-- TA: Quinn Trann
+- TA: Quinn Tran
