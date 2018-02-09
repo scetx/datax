@@ -8,5 +8,4 @@
 - Instructor: Ikhlaq Sidhu
 - Lecturer: Alexander Fred Ojala
 - TA: Sana Iqbal
-- TA: Arshi Aggarwal
-- TA: Quinn Tran
+
