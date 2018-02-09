@@ -7,5 +7,5 @@
 #### Teaching team Spring 2018:
 - Instructor: Ikhlaq Sidhu
 - Lecturer: Alexander Fred Ojala
-- TA: Sana Iqbal
+- GSI: Sana Iqbal
 
