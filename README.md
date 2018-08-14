@@ -4,8 +4,8 @@
 
 [Link to course website & syllabus](https://data-x.blog)
 
-#### Teaching team Spring 2018:
+#### Teaching team Fall 2018:
 - Instructor: Ikhlaq Sidhu
 - Lecturer: Alexander Fred Ojala
-- GSI: Sana Iqbal
+- GSIs: Sumayah Rahman and Tanya Piplani
 
