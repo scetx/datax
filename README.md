@@ -2,8 +2,8 @@
    <img src="./imgs/dx_logo.png" alt="Data-X Instructors" alt="data-x logo" title="Data-x" align="bottom-right" height="100" />
 </a>
 
-# IEOR 135 / 290: Applied Data Science with Venture Applications
-## A UC Berkeley course
+### IEOR 135 / 290: Applied Data Science with Venture Applications
+#### A UC Berkeley course
 
 [Link to course website & syllabus](https://data-x.blog)
 
