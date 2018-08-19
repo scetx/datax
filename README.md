@@ -1,5 +1,5 @@
 <a href="https://data-x.blog/">
-   <img src="./imgs/dx_logo.png" alt="Data-X Instructors" alt="data-x logo" title="Data-x" align="bottom-right" height="100" />
+   <img src="./imgsourceource/dx_logo.png" alt="Data-X Instructors" alt="data-x logo" title="Data-x" align="bottom-right" height="100" />
 </a>
 
 ### IEOR 135 / 290: Applied Data Science with Venture Applications
@@ -30,7 +30,7 @@
 To download this Github repository just press the green `Clone or Download` button to the top right.
 
 <p align='center'>
-   <img src="./imgs/zip.png" alt="download" width='400px'>
+   <img src="./imgsource/zip.png" alt="download" width='400px'>
 </p>
 <br>
 
@@ -86,7 +86,7 @@ List of Dependencies:
 <br><br>
 
 <p align='center'>
-   <a href='https://data-x.blog'><img src="./imgs/dx_logo.png" alt="Data-X Instructors" width='250px'></a>
+   <a href='https://data-x.blog'><img src="./imgsource/dx_logo.png" alt="Data-X Instructors" width='250px'></a>
 </p>
 <br>
   
