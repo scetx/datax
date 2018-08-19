@@ -3,7 +3,6 @@
 </a>
 
 ### IEOR 135 / 290: Applied Data Science with Venture Applications
-#### A UC Berkeley course
 
 [Link to course website & syllabus](https://data-x.blog)
 
@@ -12,7 +11,7 @@
 - Instructor: Alexander Fred-Ojala
 - GSIs: Sumayah Rahman and Tanya Piplani
 
-This is the official Github repository for the Data-X class at UC Berkeley
+*This is the official Github repository for the Data-X class at UC Berkeley*
 
 <a href='https://data-x.blog'>
 <img src='https://img.shields.io/badge/Data--X-Berkeley-yellow.svg'>
