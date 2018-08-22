@@ -1,0 +1,5 @@
+# Data-X git ignore
+__pycache__
+*.bak
+.ipynb_checkpoints
+.DS_Store
