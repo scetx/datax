@@ -4,7 +4,7 @@ _____
 **These instructions will guide you through the process of creating a private Github repository so that you can submit your homework solutions and collaborate with your classmates on your project.** 
 
 1. Create a (free) Github account associated with your student `@berkeley.edu email` (if you do not have one already). You will need to have a verified `*.edu` email address for step 2. Choose a logical username, e.g.
-  `alexanderfredojala`: [https://github.com/join](https://github.com/join)
+  `alexanderfredojala`: [https://education.github.com/](https://education.github.com/)
 
 2. When you have registered then request an educational discount. This is optional, but highly recommended (because a couple of private repos are free to host). Request a discount here: [https://education.github.com/](https://education.github.com/). You are a
   `Student` and you want an `Individual account`.
