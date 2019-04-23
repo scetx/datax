@@ -2,7 +2,7 @@
 
 In this intro to SQL we will use an SQL online editor: 
 
-### [https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all)
+### [https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all) -- works in Chrome or Safari (not Firefox, if you on use FF please run commands in Python)
 
 There are already some tables in the online Database, namely: 
 
