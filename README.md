@@ -6,10 +6,10 @@
 
 [Link to course website & syllabus](https://data-x.blog)
 
-#### Teaching team Fall 2018:
+#### Teaching team Spring 2019:
 - Instructor: Ikhlaq Sidhu
 - Instructor: Alexander Fred-Ojala
-- GSIs: Sumayah Rahman and Tanya Piplani
+- GSIs: Tanya Piplani and Srikar Varansi
 
 *This is the official Github repository for the Data-X class at UC Berkeley*
 
@@ -58,7 +58,7 @@ git pull
 - **Ikhlaq Sidhu:** sidhu @ berkeley edu ([LinkedIn](https://www.linkedin.com/in/ikhlaq/))
 - **Alexander Fred-Ojala:** afo @ berkeley edu ([LinkedIn](https://www.linkedin.com/in/alexanderfo/))
 
-## 📁 About the Bootcamp
+## 📁 About the Course
 
 Today, the world is literally reinventing itself with Data and AI.  However, neither leading companies nor the world’s top students have the complete knowledge set to participate in this newly developing world.  This course provides the tools and understanding to boost any student’s ability to create the emerging data applications of the future.  This bootcamp is suitable for individuals interested in hands-on practical understanding of data science and application opportunities in new ventures, industry project areas, and potential support of research with data technologies.
 
