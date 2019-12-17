@@ -79,7 +79,7 @@ List of Dependencies:
 * [TensorFlow](https://www.tensorflow.org/)
 * [Keras](https://keras.io/)
 
-## 🎓 Past contributors
+## ✅ Past contributors
 
 - **Alexander Fred-Ojala:** afo @ berkeley edu ([LinkedIn](https://www.linkedin.com/in/alexanderfo/))
 
