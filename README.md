@@ -6,10 +6,11 @@
 
 [Link to course website & syllabus](https://data-x.blog)
 
-#### Teaching team Spring 2019:
+#### Teaching team Spring 2020:
 - Instructor: Ikhlaq Sidhu
-- Instructor: Alexander Fred-Ojala
-- GSIs: Tanya Piplani and Srikar Varansi
+- Instructor: Arash Nourian
+- GSIs: Ishaan Mahli, Deirdre Quillen, Zhi Li, Lillian Dong
+- Project Lead: Nattaphol Vimolchalao
 
 *This is the official Github repository for the Data-X class at UC Berkeley*
 
@@ -56,7 +57,7 @@ git pull
 ## 📧 Contact us
 
 - **Ikhlaq Sidhu:** sidhu @ berkeley edu ([LinkedIn](https://www.linkedin.com/in/ikhlaq/))
-- **Alexander Fred-Ojala:** afo @ berkeley edu ([LinkedIn](https://www.linkedin.com/in/alexanderfo/))
+- **Arash Nourian:** nourian@berkeley.edu 
 
 ## 📁 About the Course
 
