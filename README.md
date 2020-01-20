@@ -9,7 +9,7 @@
 #### Teaching team Spring 2020:
 - Instructor: Ikhlaq Sidhu
 - Instructor: Arash Nourian
-- GSIs: Ishaan Mahli, Deirdre Quillen, Zhi Li, Lillian Dong
+- GSIs: Ishaan Malhi, Deirdre Quillen, Zhi Li, Lillian Dong
 - Project Lead: Nattaphol Vimolchalao
 
 *This is the official Github repository for the Data-X class at UC Berkeley*
