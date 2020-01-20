@@ -41,7 +41,7 @@ To download this Github repository just press the green `Clone or Download` butt
 To download the material to your computer please [Install git](https://git-scm.com/downloads) and use the Terminal / Command Prompt to clone the repository.
 
 ```bash
-git clone https://github.com/ikhlaqsidhu/data-x
+git clone https://github.com/neuralinfo/data-x.git
 ```
 
 Every time the repository is updated, to get the most recent version, `cd` to the cloned `data-x` folder and run:
@@ -57,7 +57,7 @@ git pull
 ## 📧 Contact us
 
 - **Ikhlaq Sidhu:** sidhu @ berkeley edu ([LinkedIn](https://www.linkedin.com/in/ikhlaq/))
-- **Arash Nourian:** nourian@berkeley.edu 
+- **Arash Nourian:** nourian @ berkeley.edu 
 
 ## 📁 About the Course
 
