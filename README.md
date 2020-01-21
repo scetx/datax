@@ -9,6 +9,7 @@
 #### Teaching team Spring 2020:
 - Instructor: Ikhlaq Sidhu
 - Instructor: Arash Nourian
+
 - GSIs: Ishaan Malhi, Deirdre Quillen, Zhi Li, Lillian Dong
 - Project Lead: Nattaphol Vimolchalao
 
@@ -57,7 +58,7 @@ git pull
 ## 📧 Contact us
 
 - **Ikhlaq Sidhu:** sidhu @ berkeley edu ([LinkedIn](https://www.linkedin.com/in/ikhlaq/))
-- **Arash Nourian:** nourian @ berkeley.edu 
+- **Arash Nourian:** nourian @ berkeley edu ([LinkedIn](www.linkedin.com/in/arashnourian))
 
 ## 📁 About the Course
 
@@ -79,6 +80,10 @@ List of Dependencies:
 * [Scikit-Learn](http://scikit-learn.org/stable/index.html)
 * [TensorFlow](https://www.tensorflow.org/)
 * [Keras](https://keras.io/)
+
+## ✅ Past contributors
+
+- **Alexander Fred-Ojala:** afo @ berkeley edu ([LinkedIn](https://www.linkedin.com/in/alexanderfo/))
 
 ## 🎓 License
 
