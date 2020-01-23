@@ -25,6 +25,7 @@
 * ##### [Data-X Resources](https://data-x.blog/resources/)
 * ##### [Data-X Completed Projects](https://data-x.blog/projects/)
 * ##### [Data-X Project Suggestions](https://data-x.blog/projects/)
+* #### [Course Announcements](https://github.com/ikhlaqsidhu/data-x/wiki/Course-Announcements)
 
 
 ### Download the material
