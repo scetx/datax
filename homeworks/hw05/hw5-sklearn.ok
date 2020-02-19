@@ -1,0 +1,1 @@
+{"name": "hw5-sklearn", "endpoint": "cal/ieor135/sp20", "src": ["hw5-sklearn.ipynb"], "tests": {"tests/q*.py": "ok_test"}, "protocols": ["file_contents", "grading", "backup"]}
