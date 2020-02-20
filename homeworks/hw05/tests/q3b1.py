@@ -1,6 +1,6 @@
 test = {   'name': 'q3b1',
     'points': 2,
-    'suites': [   {   'cases': [   {   'code': '>>> 5 <= '
+    'suites': [   {   'cases': [   {   'code': '>>> 4 <= '
                                                "sum(list(X1.describe().loc['mean'])) "
                                                '<= 9\n'
                                                'True',
