@@ -8,12 +8,11 @@ test = {   'name': 'q3b2',
                                        'hidden': False,
                                        'locked': False},
                                    {   'code': '>>> 0.75 <= training_accuracy '
-                                               '<= 0.95\n'
+                                               '<= 1\n'
                                                'True',
                                        'hidden': False,
                                        'locked': False},
-                                   {   'code': '>>> 0.8 <= test_accuracy <= '
-                                               '0.96\n'
+                                   {   'code': '>>> 0.8 <= test_accuracy <= 1\n'
                                                'True',
                                        'hidden': False,
                                        'locked': False}],

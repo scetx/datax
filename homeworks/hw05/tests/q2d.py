@@ -1,12 +1,12 @@
 test = {   'name': 'q2d',
     'points': 2,
-    'suites': [   {   'cases': [   {   'code': '>>> 35 <= sum(trainset_errors) '
-                                               '<= 55\n'
+    'suites': [   {   'cases': [   {   'code': '>>> 10 <= sum(trainset_errors) '
+                                               '<= 500\n'
                                                'True',
                                        'hidden': False,
                                        'locked': False},
-                                   {   'code': '>>> 45 <= sum(validset_errors) '
-                                               '<= 60\n'
+                                   {   'code': '>>> 10 <= sum(validset_errors) '
+                                               '<= 500\n'
                                                'True',
                                        'hidden': False,
                                        'locked': False}],
