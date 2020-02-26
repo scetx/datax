@@ -9,7 +9,9 @@
 #### Teaching team Spring 2020:
 - Instructor: Ikhlaq Sidhu
 - Instructor: Arash Nourian
-- GSIs: Lillian Dong, Deirdre Quillen, ZHI LI, and Ishaan Malhi
+
+- GSIs: Ishaan Malhi, Deirdre Quillen, Zhi Li, Lillian Dong
+- Project Lead: Nattaphol Vimolchalao
 
 *This is the official Github repository for the Data-X class at UC Berkeley*
 
@@ -23,6 +25,7 @@
 * ##### [Data-X Resources](https://data-x.blog/resources/)
 * ##### [Data-X Completed Projects](https://data-x.blog/projects/)
 * ##### [Data-X Project Suggestions](https://data-x.blog/projects/)
+* #### [Course Announcements](https://github.com/ikhlaqsidhu/data-x/wiki/Course-Announcements)
 
 
 ### Download the material
@@ -40,7 +43,7 @@ To download this Github repository just press the green `Clone or Download` butt
 To download the material to your computer please [Install git](https://git-scm.com/downloads) and use the Terminal / Command Prompt to clone the repository.
 
 ```bash
-git clone https://github.com/ikhlaqsidhu/data-x
+git clone https://github.com/ikhlaqsidhu/data-x.git
 ```
 
 Every time the repository is updated, to get the most recent version, `cd` to the cloned `data-x` folder and run:
