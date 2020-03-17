@@ -2,24 +2,24 @@ test = {   'name': 'q1e',
     'points': 4,
     'suites': [   {   'cases': [   {   'code': '>>> '
                                                "df0.describe().loc['count'].sum() "
-                                               '== 40\n'
+                                               '>= 30\n'
                                                'True',
                                        'hidden': False,
                                        'locked': False},
                                    {   'code': '>>> '
                                                "df0.loc['most_common_w_count'].sum() "
-                                               '== 3308\n'
+                                               '>= 8000\n'
                                                'True',
                                        'hidden': False,
                                        'locked': False},
                                    {   'code': '>>> '
                                                "df0.loc['most_common_w_count'].max() "
-                                               '== 865\n'
+                                               '>= 1300\n'
                                                'True',
                                        'hidden': False,
                                        'locked': False},
                                    {   'code': ">>> df0.loc['Debate char "
-                                               "length'].max() == 87488\n"
+                                               "length'].max() >= 181000\n"
                                                'True',
                                        'hidden': False,
                                        'locked': False}],
