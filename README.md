@@ -25,10 +25,10 @@
 * ##### [Data-X Resources](https://data-x.blog/resources/)
 * ##### [Data-X Completed Projects](https://data-x.blog/projects/)
 * ##### [Data-X Project Suggestions](https://data-x.blog/projects/)
-* #### [Course Announcements](https://github.com/ikhlaqsidhu/data-x/wiki/Course-Announcements)
+* ##### [Course Announcements](https://github.com/ikhlaqsidhu/data-x/wiki/Course-Announcements)
 
 
-### Download the material
+### Download the material:
 
 To download this Github repository just press the green `Clone or Download` button to the top right.
 
@@ -37,6 +37,12 @@ To download this Github repository just press the green `Clone or Download` butt
 </p>
 <br>
 
+### Viewing the material: (Optional)
+
+To view the material through a virtual environment, check out the resources below:
+* ##### [Repl.it](https://repl.it/) Repl.it offers an in-browser IDE where you can copy and paste Python code to try out.  You can either download code onto the site or load code from your Github repo.
+* ##### [PythonAnywhere](https://www.pythonanywhere.com/) PythonAnywhere is a place where you can host, run and code Python in the cloud. You may pay extra to load a Jupyter Notebook environment.
+* ##### [Binder (Recommended)](https://mybinder.org/) Binder turns a Git repo into a collection of interactive notebooks. After forking the repo, you can copy and paste the URL, and Binder will create a reusable link which allows you to access the material in an interactive environment on your browser.
 
 ## ▶️ Usage
 
