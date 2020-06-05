@@ -41,7 +41,7 @@ To download this Github repository just press the green `Clone or Download` butt
 
 __You can view all material in this repository through Binder: [Link](https://mybinder.org/v2/gh/scetx/datax/master)__
 
-Here is a compiled list of resources which with you can view the material.  To view the material through a virtual environment, check out the resources below:
+Here is a compiled list of resources which with you can view the material.  Using these resources may involve creating an account. To view the material through a virtual environment, check out the resources below:
 
 * [Repl.it](https://repl.it/) offers an in-browser IDE where you can copy and paste Python code to try out. You can either download code onto the site or load code from your Github repo.
 * [PythonAnywhere](https://www.pythonanywhere.com/) is a place where you can host, run and code Python in the cloud. You may pay extra to load a Jupyter Notebook environment.
