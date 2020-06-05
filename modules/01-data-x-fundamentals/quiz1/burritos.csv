@@ -1,0 +1,101 @@
+,server,burrito,count,day
+0,Erlang,pollo asada,7,Thursday
+1,Erlang,fish,5,Friday
+2,Gamma,carne asada,2,Monday
+3,Gamma,mission,9,Friday
+4,Poisson,veggie,7,Wednesday
+5,Weibull,pollo asada,8,Friday
+6,Erlang,picadillo,9,Friday
+7,Erlang,carne asada,3,Wednesday
+8,Gamma,fish,3,Thursday
+9,Erlang,fish,2,Tuesday
+10,Gamma,picadillo,6,Saturday
+11,Hedy,veggie,7,Tuesday
+12,Poisson,carne asada,6,Tuesday
+13,Gauss,fish,2,Thursday
+14,Weibull,picadillo,3,Saturday
+15,Lamarr,veggie,7,Wednesday
+16,Poisson,fish,3,Friday
+17,Erlang,pollo asada,7,Tuesday
+18,Gamma,picadillo,7,Monday
+19,Lamarr,carne asada,6,Saturday
+20,Weibull,pollo asada,4,Tuesday
+21,Hedy,carne asada,2,Friday
+22,Gauss,picadillo,5,Saturday
+23,Gamma,veggie,9,Saturday
+24,Gamma,pollo asada,7,Tuesday
+25,Erlang,carne asada,9,Monday
+26,Gamma,mission,9,Tuesday
+27,Hedy,picadillo,7,Saturday
+28,Poisson,picadillo,8,Saturday
+29,Poisson,veggie,2,Thursday
+30,Hedy,fish,7,Monday
+31,Erlang,fish,4,Thursday
+32,Weibull,pollo asada,6,Wednesday
+33,Hedy,mission,7,Tuesday
+34,Weibull,fish,7,Friday
+35,Gauss,carne asada,3,Saturday
+36,Lamarr,carne asada,5,Thursday
+37,Poisson,pollo asada,3,Saturday
+38,Erlang,picadillo,8,Monday
+39,Gamma,carne asada,9,Wednesday
+40,Poisson,pollo asada,4,Saturday
+41,Erlang,pollo asada,3,Wednesday
+42,Weibull,carne asada,5,Thursday
+43,Erlang,fish,4,Wednesday
+44,Erlang,veggie,2,Friday
+45,Gauss,pollo asada,9,Tuesday
+46,Erlang,fish,8,Tuesday
+47,Lamarr,pollo asada,7,Wednesday
+48,Lamarr,mission,2,Friday
+49,Gauss,mission,8,Monday
+50,Erlang,mission,7,Saturday
+51,Poisson,mission,6,Saturday
+52,Gamma,pollo asada,3,Thursday
+53,Hedy,pollo asada,4,Friday
+54,Erlang,picadillo,3,Wednesday
+55,Gamma,carne asada,8,Wednesday
+56,Gamma,carne asada,4,Tuesday
+57,Gamma,fish,7,Saturday
+58,Erlang,carne asada,5,Tuesday
+59,Hedy,fish,9,Thursday
+60,Gamma,pollo asada,6,Tuesday
+61,Gamma,mission,9,Wednesday
+62,Poisson,fish,5,Monday
+63,Erlang,pollo asada,6,Friday
+64,Weibull,pollo asada,2,Wednesday
+65,Poisson,mission,7,Saturday
+66,Lamarr,fish,4,Tuesday
+67,Erlang,carne asada,7,Thursday
+68,Gauss,fish,5,Saturday
+69,Hedy,mission,2,Monday
+70,Poisson,mission,4,Saturday
+71,Poisson,veggie,6,Thursday
+72,Gamma,mission,9,Tuesday
+73,Poisson,carne asada,6,Monday
+74,Hedy,picadillo,3,Tuesday
+75,Hedy,mission,8,Monday
+76,Weibull,picadillo,5,Monday
+77,Weibull,carne asada,9,Monday
+78,Erlang,fish,3,Saturday
+79,Gauss,carne asada,4,Friday
+80,Hedy,mission,2,Wednesday
+81,Lamarr,veggie,5,Monday
+82,Erlang,picadillo,9,Friday
+83,Gamma,carne asada,8,Saturday
+84,Poisson,picadillo,5,Thursday
+85,Weibull,picadillo,5,Wednesday
+86,Weibull,fish,8,Thursday
+87,Gauss,pollo asada,2,Friday
+88,Erlang,mission,3,Saturday
+89,Weibull,pollo asada,4,Saturday
+90,Gauss,pollo asada,9,Wednesday
+91,Poisson,picadillo,6,Thursday
+92,Weibull,pollo asada,3,Tuesday
+93,Lamarr,pollo asada,8,Friday
+94,Erlang,carne asada,9,Thursday
+95,Gauss,pollo asada,6,Saturday
+96,Lamarr,pollo asada,4,Tuesday
+97,Gauss,pollo asada,6,Tuesday
+98,Poisson,picadillo,2,Tuesday
+99,Gauss,pollo asada,4,Friday

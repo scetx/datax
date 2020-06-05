@@ -1,0 +1,1 @@
+{"name": "hw08_webscraping", "endpoint": "cal/ieor135/sp20", "src": ["hw08_webscraping.ipynb"], "tests": {"tests/q*.py": "ok_test"}, "protocols": ["file_contents", "grading", "backup"]}
