@@ -2,6 +2,7 @@ import threading
 import requests
 import json
 import datetime
+from pathlib import Path
 
 
 class TickerInfo:
@@ -14,6 +15,16 @@ class TickerInfo:
     def __init__(self):
         self.memoized_scraped_data = {}
         self.info_keys = {}
+        self.SCRAPER_MAIN_URL_TAG = "finance_scrape_url_main"
+        self.SCRAPER_URL_PARAMS_TAG = "finance_scrape_url_params"
+
+        try:
+            with open(str(Path(__file__).parent.parent) + "/.cofnfig") as config_file:
+                self.config = json.load(config_file)
+        except:
+            raise FileNotFoundError("The configuration file for TickerInfo is unavailable. "
+                                    "Please reinstall the package.")
+
 
     def ____core_parse_helper(self, ticker):
         """ Scrapes Yahoo Finance to retrieve data about an asset ticker.
@@ -25,22 +36,10 @@ class TickerInfo:
         if not isinstance(ticker, str):
             raise TypeError("ticker parameter is not a String")
 
-        query_url = "https://query2.finance.yahoo.com/v10/finance/quoteSummary/{0}?formatted=true&lang=en-US" \
-                    "&region=US&modules=" \
-                    "summaryProfile%2C" \
-                    "financialData%2C" \
-                    "recommendationTrend%2C" \
-                    "upgradeDowngradeHistory%2C" \
-                    "earnings%2C" \
-                    "defaultKeyStatistics%2C" \
-                    "balanceSheetHistory%2C" \
-                    "assetProfile%2C" \
-                    "cashflowStatementHistory%2C" \
-                    "incomeStatementHistory%2CcalendarEvents&corsDomain=finance.yahoo.com".format(ticker)
+        query_url = self.config[self.SCRAPER_MAIN_URL_TAG] + ticker + self.config[self.SCRAPER_URL_PARAMS_TAG]
         summary_json_response = requests.get(query_url)
 
-        final = {}
-
+        final_scraped_information = {}
         json_loaded_summary = json.loads(summary_json_response.text)
         if json_loaded_summary is None \
                 or "quoteSummary" not in json_loaded_summary\
@@ -66,16 +65,16 @@ class TickerInfo:
                 if isinstance(ps[x], list):
                     ps[x] = [y['fmt'] for y in ps[x] if 'fmt' in y]
 
-            final.update(ps)
+            final_scraped_information.update(ps)
 
         self.memoized_scraped_data[ticker] = (
             datetime.datetime.now(),
-            final
+            final_scraped_information
         )
 
-        self.info_keys[ticker] = final.keys()
+        self.info_keys[ticker] = final_scraped_information.keys()
 
-        return final
+        return final_scraped_information
 
     def __core_parse(self, ticker):
         """ Wrapper function on top of scraper function to assist with memoization process
