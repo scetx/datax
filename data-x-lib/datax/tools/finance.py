@@ -11,6 +11,16 @@ class TickerInfo:
     is powered with Yahoo Finance, and the tickers that can be used with TickerInfo are solely the ones permitted
     on Yahoo Finance.
 
+
+    How to use TickerInfo?
+    Instantiate TickerInfo as an object and call its functions for results. Consider the example code below:
+
+    >>> tickerInfo = TickerInfo()
+    >>> tickerInfo.get_current_price("GOOG")
+    1431.72
+    >>> tickerInfo,get_purchase_recommendation("GOOG")
+    1.3
+
     """
     def __init__(self):
         self.memoized_scraped_data = {}
@@ -19,7 +29,7 @@ class TickerInfo:
         self.SCRAPER_URL_PARAMS_TAG = "finance_scrape_url_params"
 
         try:
-            with open(str(Path(__file__).parent.parent) + "/.cofnfig") as config_file:
+            with open(str(Path(__file__).parent.parent) + "/.config") as config_file:
                 self.config = json.load(config_file)
         except:
             raise FileNotFoundError("The configuration file for TickerInfo is unavailable. "
@@ -133,7 +143,7 @@ class TickerInfo:
         if ticker not in self.info_keys:
             self.get_company_data(ticker)
 
-        return self.memoized_scraped_data[ticker][tag] if tag in self.memoized_scraped_data[ticker] else None
+        return self.memoized_scraped_data[ticker][tag] if tag in self.memoized_scraped_data[ticker][1] else None
 
     def get_company_data(self, ticker):
         """ Returns a dictionary of data associated with the asset ticker, as found in Yahoo Finance. For a list of
