@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!-- THIS HTML SERVES AS THE BASE TEMPLATE FOR SITE -->
+<html lang="en">
+<head>
+	<!-- set html defaul global design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- enable CSS design and pass main.css as string -->
+    <link rel="stylesheet" herf="{{ url_for('static', filename='CSS/main.css')}}">
+
+    <!-- Using Jinja2 to pass templating inheritance (text) -->
+    {% block head %}{% endblock %}
+</head>
+<body>
+	<!-- pass text to body-tag -->
+	{% block body %}{% endblock %}
+</body>
+</html>
+
+
