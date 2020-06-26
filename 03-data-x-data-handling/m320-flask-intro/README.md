@@ -1,6 +1,6 @@
 <hr style="border: 8px solid#003262;" />
 
-<img src="/assets/content/datax_logos/DataX_blue_wide_logo.png"
+<img src="assets/content/datax_logos/DataX_blue_wide_logo.png"
      alt="Data-X Logo"
      align="center" 
      style="align:center" 
