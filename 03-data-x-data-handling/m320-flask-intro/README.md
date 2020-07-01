@@ -1,6 +1,6 @@
 <hr style="border: 8px solid#003262;" />
 
-<img src="assets/content/datax_logos/DataX_blue_wide_logo.png"
+<img src="/assets/content/datax_logos/DataX_blue_wide_logo.png"
      alt="Data-X Logo"
      align="center" 
      style="align:center" 
@@ -24,7 +24,7 @@
 
 **Associated Materials:** None
 
-**Keywords (Tags):** data-x, flask, flask-sqlalchemy, flask-web, flask-application, website, webapp, web-app 
+**Keywords (Tags):** flask, flask-sqlalchemy, flask-web, flask-application, website, webapp, web-app, data-x, uc-berkeley-engineering 
 
 **Prerequisite Knowledge:** (1) Python, (2) HTML, and (3) CSS
 
@@ -88,15 +88,15 @@
 #### **III. WRAP UP AND NEXT STEPS**
 
 
-Now that you've learned how to deploy a Flask environment,there is much more than can be done using Flask. Visit the [Data-X website](https://datax.berkeley.edu/) to learn how to link Flask to other services, or use the following links to curated topics of interest:
+Now that you've learned how to deploy a Flask environment,there is much more than can be done using Flask. Visit the [**Data-X website**](https://datax.berkeley.edu/) to learn how to link Flask to other services, or use the following links to curated topics of interest:
 
-> [**Emails With Flask + SMTPLIB: url needed**]() Capitalizes on Flask's barebones architecture to create a lightweight email client using SMTPLIB
+> [Emails With Flask + SMTPLIB: url needed]() Capitalizes on Flask's barebones architecture to create a lightweight email client using SMTPLIB
 
-> [**Linking AWS With FLASK: url needed**]() Shows you how to deploy your Flask environment in an elastic server
+> [Linking AWS With FLASK: url needed]() Shows you how to deploy your Flask environment in an elastic server
 
-> [**Dashboards Using D3.js + Flask: url needed**]() Covers how to deploy a dashboard Flask website with dynamic plots using D3.js
+> [Dashboards Using D3.js + Flask: url needed]() Covers how to deploy a dashboard Flask website with dynamic plots using D3.js
 
-> [**Productionized Machine Learning Models Using Flask: : url needed**]() Introduces how to deploy machine learning models that are accessible via the web
+> [Productionized Machine Learning Models Using Flask: : url needed]() Introduces how to deploy machine learning models that are accessible via the web
 
 
 
