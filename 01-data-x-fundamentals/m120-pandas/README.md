@@ -24,7 +24,7 @@
 
 **Associated Materials:** None
 
-**Keywords (Tags):** data-science, data-analysis, pandas, pandas-tutorial, pandas-python, statistical-analysis, numerical-analysis, data-x 
+**Keywords (Tags):** data-science, data-analysis, pandas, pandas-tutorial, pandas-python, statistical-analysis, numerical-analysis, data-x, uc-berkeley-engineering 
 
 **Prerequisite Knowledge:** (1) Python, (2) NumPy 
 
