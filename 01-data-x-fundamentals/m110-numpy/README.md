@@ -47,7 +47,7 @@
 
 #### **I. NUMPY ARRAY CREATION**
 
-<img src="assets/content/images/numpyillustrations-02.png"
+<img src="assets/content/images/nump_edits-10.png"
      alt="NumPy Array"
      align="center" 
      style="align:center" 
@@ -60,14 +60,28 @@
 #### **II. ACCESS, DATA MANIPULATION, AND OPERATIONS**
 
 
-<img src="assets/content/images/flaskintroscreens_updated-06_09.png"
+<img src="assets/content/images/numpgraphs-16.png"
      alt="Simple Architecture"
      align="center" 
      style="align:center" 
      width="40%"/>
      
     1) PART 2.1: ARRAY SLICING AND INDEXING]
+    
+<img src="assets/content/images/numpgraphs-12.png"
+     alt="Simple Architecture"
+     align="center" 
+     style="align:center" 
+     width="40%"/>
+     
     2) PART 2.2: ARRAY OPERATIONS
+    
+<img src="assets/content/images/numpgraphs-18.png"
+     alt="Simple Architecture"
+     align="center" 
+     style="align:center" 
+     width="40%"/>
+     
     3) PART 2.3 (OPTIONAL) NUMPY ARRAY VS PYTHON LIST
     4) PART 2.4 (OPTIONAL) ARRAY BROADCASTING
     5) PART 2.5 (OPTIONAL) NUMPY APPLICATION - PREDICTION USING ORDINARY LEAST SQUARES
