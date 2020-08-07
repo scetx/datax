@@ -7,8 +7,7 @@
 [Link to course website & syllabus](https://data-x.blog)
 
 #### Teaching team Fall 2020:
-- Faculties: Ikhlaq Sidhu
--            Arash Nourian
+- Faculties: Ikhlaq Sidhu and Arash Nourian
 
 - GSIs: Ming-Yen Kao, Johann Schleier-Smith, Shunan Jiang
  
