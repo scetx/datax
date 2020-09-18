@@ -5,3 +5,4 @@ __pycache__
 .DS_Store
 data-x-lib/datax/.idea/workspace.xml
 slides-*.pdf
+soln-*.ipynb
