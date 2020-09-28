@@ -17,14 +17,14 @@ from skimage.transform import rescale
 
 if __name__ == "__main__":
     
-    data_path=r'C:\Users\tobias.grab\switchdrive\Schule\datax\projekt\magnImg'
+    data_path=r'C:\Users\tobias.grab\switchdrive\Schule\datax\projekt\output'
     
     files=listdir(data_path)
     nrOfFiles=len(files)
 
     
     #Image to match
-    img1 = cv2.imread(r'C:\Users\tobias.grab\switchdrive\Schule\datax\projekt\MagnTestImg\Bauteil1.jpg',0)
+    img1 = cv2.imread(r'C:\Users\tobias.grab\switchdrive\Schule\datax\projekt\test\Testimg1.jpg',0)
     # sift = cv2.xfeatures2d.SIFT_create()
     # (kps1, descs1) = sift.detectAndCompute(img1, None)
     
@@ -49,20 +49,24 @@ if __name__ == "__main__":
         # (kps2, descs2) = sift.detectAndCompute(img_from_database, None)
         
         # BFMatcher with default params
-        bf = cv2.BFMatcher()
-        matches = bf.knnMatch(descs1,descs2, k=2)
+        FLANN_INDEX_KDTREE = 0
+        index_params = dict(algorithm = FLANN_INDEX_KDTREE, trees = 5)
+        search_params = dict(checks=50)   # or pass empty dictionary
+        flann = cv2.FlannBasedMatcher(index_params,search_params)
+        matches = flann.knnMatch(descs1,descs2,k=2)
+
+        # Need to draw only good matches, so create a mask
+        matchesMask = [[0,0] for i in range(len(matches))]
         
-        # Apply ratio test
-        good = []
-        for m,n in matches:
+        # ratio test as per Lowe's paper
+        for i,(m,n) in enumerate(matches):
             if m.distance < 0.75*n.distance:
-                good.append([m])
+                    matchesMask[i]=[1,0]
         
-        nrOfGoodPerImage[bauteilnr]=len(good)
+        nrOfGoodPerImage[bauteilnr]=np.sum(matchesMask[:])
         bauteilnr=bauteilnr+1
+    print("The best match in the database is", files[np.argmax(nrOfGoodPerImage)])
+    io.imshow(img1,cmap="gray")
+    plt.figure()
+    io.imshow(data_path+"\\"+files[np.argmax(nrOfGoodPerImage)])
     
-    
-    # cv2.drawMatchesKnn expects list of lists as matches.
-    # img3 = cv2.drawMatchesKnn(img1,kps1,img2,kps2,good,None,flags=2)
-    
-    # plt.imshow(img3),plt.show()
