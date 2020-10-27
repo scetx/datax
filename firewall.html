@@ -8,13 +8,16 @@
   </style>
 </head>
 <body>
-  <center>
-<h1> Data X ✲ US Cyber Command </h1> 
+    <center>
+  <h1> Data X ✲ US Cyber Command </h1> 
+  
+  <div id="stats"></div>
   <div id="simulation"></div>
   <script src="https://d3js.org/d3-random.v1.min.js"></script>
+  <script src="https://d3js.org/d3-quadtree.v1.min.js"></script>
+  <script src="https://unpkg.com/three@0.105.2/examples/js/libs/stats.min.js"></script>
   <script src="https://unpkg.com/geometric@2/build/geometric.min.js"></script>
   <script>
-
   // The Simulation class
   class Simulation {
     init(opts){
@@ -28,82 +31,94 @@
     
     add(datum){
       const d = datum || {};
-      d.pos = d.pos || this.center;
+      d.pos = d.pos || [this.width / 2, this.height / 2];
       d.radius = d.radius || 5;
       d.angle = d.angle || 0;
       d.speed = d.speed || 1;
+      d.index = this.data.length;
       
       this.data.push(d);
-      
+
       return this;
     }
     
     tick(){
-      // Loop through the data
-      for (let i = 0; i < this.data.length; i++){
-        const d = this.data[i];
-        d.collided = false;
+      const quadtree = d3.quadtree()
+          .x(d => d.pos[0])
+          .y(d => d.pos[1])
+          .extent([-1, -1], [this.width + 1, this.height + 1])
+          .addAll(this.data);
+      
+      for (let i = 0, l = this.data.length, maxRadius = 0; i < l; i++) {
+        const node = this.data[i];
 
-        // Detect collisions
-        for (let i0 = 0; i0 < this.data.length; i0++){
-          const d0 = this.data[i0];
-          d0.collided = false;
+        if (node.radius > maxRadius) maxRadius = node.radius;
 
-          // Collision!
-          if (i !== i0 && geometric.lineLength([d.pos, d0.pos]) < d.radius + d0.radius && !d.collided && !d0.collided){
-            
-            // To avoid having them stick to each other,
-            // test if moving them in each other's angles will bring them closer or farther apart
-            const keep = geometric.lineLength([
-                    geometric.pointTranslate(d.pos, d.angle, d.speed),
-                    geometric.pointTranslate(d0.pos, d0.angle, d0.speed)
+        const r = node.radius + maxRadius,
+              nx1 = node.pos[0] - r,
+              nx2 = node.pos[0] + r,
+              ny1 = node.pos[1] - r,
+              ny2 = node.pos[1] + r;
+
+        // Visit each square in the quadtree
+        // x1 y1 x2 y2 constitutes the coordinates of the square
+        // We want to check if each square is a leaf node (has data prop)
+        quadtree.visit((visited, x1, y1, x2, y2) => {
+          if (visited.data && visited.data.index !== node.index) {
+
+            // Collision!
+            if (geometric.lineLength([node.pos, visited.data.pos]) < node.radius + visited.data.radius) { 
+              
+              // To avoid having them stick to each other,
+              // test if moving them in each other's angles will bring them closer or farther apart
+              const keep = geometric.lineLength([
+                    geometric.pointTranslate(node.pos, node.angle, node.speed),
+                    geometric.pointTranslate(visited.data.pos, visited.data.angle, visited.data.speed)
                   ]),
                   swap = geometric.lineLength([
-                    geometric.pointTranslate(d.pos, d0.angle, d0.speed),
-                    geometric.pointTranslate(d0.pos, d.angle, d.speed)
+                    geometric.pointTranslate(node.pos, visited.data.angle, visited.data.speed),
+                    geometric.pointTranslate(visited.data.pos, node.angle, node.speed)
                   ]);
 
-            if (keep < swap) {
-              const dc = JSON.parse(JSON.stringify(d));
+              if (keep < swap){
+                const copy = Object.assign({}, node);
+                node.angle = visited.data.angle;
+                node.speed = visited.data.speed;
+                visited.data.angle = copy.angle;
+                visited.data.speed = copy.speed;
+              }
 
-              d.angle = d0.angle;
-              d.speed = d0.speed;
-              d0.angle = dc.angle;
-              d0.speed = dc.speed;
-              
-              d.collided = true;
-              d0.collided = true;
             }
-
-            break;
           }
-        }
+
+          return x1 > nx2 || x2 < nx1 || y1 > ny2 || y2 < ny1;
+        });
 
         // Detect sides
-        const wallVertical = d.pos[0] <= d.radius || d.pos[0] >= this.width - d.radius,
-              wallHorizontal = d.pos[1] <= d.radius || d.pos[1] >= this.height - d.radius;
+        const wallVertical = node.pos[0] <= node.radius || node.pos[0] >= this.width - node.radius,
+              wallHorizontal = node.pos[1] <= node.radius || node.pos[1] >= this.height - node.radius;
 
         if (wallVertical || wallHorizontal){
 
           // Is it moving more towards the middle or away from it?
-          const t0 = geometric.pointTranslate(d.pos, d.angle, d.speed);
+          const t0 = geometric.pointTranslate(node.pos, node.angle, node.speed);
           const l0 = geometric.lineLength([this.center, t0]);
 
-          const reflected = geometric.angleReflect(d.angle, wallVertical ? 90 : 0);
-          const t1 = geometric.pointTranslate(d.pos, reflected, d.speed);
+          const reflected = geometric.angleReflect(node.angle, wallVertical ? 90 : 0);
+          const t1 = geometric.pointTranslate(node.pos, reflected, node.speed);
           const l1 = geometric.lineLength([this.center, t1]);
 
-          if (l1 < l0) d.angle = reflected;
+          if (l1 < l0) node.angle = reflected;
         }
 
-        d.pos = geometric.pointTranslate(d.pos, d.angle, d.speed);
+        node.pos = geometric.pointTranslate(node.pos, node.angle, node.speed);
       }
     }
   }
 
   // Initiate a simulation
   const mySimulation = (_ => {
-    const simulation = new Simulation;
+    const simulation = new Simulation();
     
     // Initialize this simulation with simulation.init
     // You can pass an optional configuration object to init with the properties:
@@ -111,7 +126,7 @@
     //   - height
     simulation.init();
     
-    // We'll create 100 circles of random radii, moving in random directions at random speeds.
+    // We'll create 1,000 circles of random radii, moving in random directions at random speeds.
     for (let i = 0; i < 50; i++){
       const radius = 10;
       
@@ -128,6 +143,16 @@
     }
     
     return simulation;
+  })();
+
+  // Stats box
+  const stats = (_ => {
+    const stats = new Stats();
+    stats.domElement.style.position = "absolute";
+    stats.domElement.style.left = "0px";
+    stats.domElement.style.top = "0px";
+    document.getElementById("stats").appendChild(stats.domElement);
+    return stats;
   })();
 
   // Draw the simulation
@@ -147,6 +172,7 @@
 
     // The simulation.tick method advances the simulation one tick
     mySimulation.tick();
+
     for (let i = 0, l = mySimulation.data.length; i < l; i++){
       const d = mySimulation.data[i];
       ctx.beginPath();
@@ -154,6 +180,8 @@
       ctx.fill();   
       ctx.stroke();
     }
+
+    stats.update();
   }
   tick();
 
