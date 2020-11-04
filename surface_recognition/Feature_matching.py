@@ -27,7 +27,7 @@ if __name__ == "__main__":
     # Change the path so it works for you (Images in google Folder 
     # Sampledata/PreprocessedScans_SampleData)
     
-    nrOfFiles=len(files)
+    
 
     # Specify the feature creation algorithm of the opencv library we want to use
     # brisk and akaze seem to work nice for our data. I don't know how they work
@@ -53,6 +53,7 @@ if __name__ == "__main__":
     
     data_path=r'C:\Users\tobias.grab\switchdrive\Schule\datax\projekt\database'
     files=listdir(data_path)  
+    nrOfFiles=len(files)
     imgToMatch = cv2.imread(r'C:\Users\tobias.grab\switchdrive\Schule\datax\projekt\database_test\Nr384_2.jpg',0)
     (kps1, descs1) = ftAlg.detectAndCompute(imgToMatch, None)
     
