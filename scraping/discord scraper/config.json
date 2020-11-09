@@ -1,5 +1,5 @@
 {
-  "token": "NDA3Mjk4MTc3MDEyNTk2NzQ4.X4XYYQ.tItMTOML-9P_EqvbfKEvYC24R9A",
+  "token": "NDA3Mjk4MTc3MDEyNTk2NzQ4.X6Rv2w.wjG6_VUnwjNjMgaQSi-RkcxkYyM",
   "agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) discord/0.0.305 Chrome/69.0.3497.128 Electron/4.0.8 Safari/537.36",
   "buffer": 1048576,
 
@@ -20,5 +20,5 @@
   },
 
   "directs": {},
-  "servers": {"207018395139309569": ["207019048607678464"]}
+  "servers": {"125440014904590336": ["170192253103374338"]}
 }
