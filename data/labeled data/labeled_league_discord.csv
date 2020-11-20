@@ -1,232 +1,222 @@
 ,content,toxic,severe_toxic,obscene,threat,insult,identity_hate
-0,"
-real faker tweet",0.0,0.0,0.0,0.0,0.0,0.0
-1,Lmfao,0.0,0.0,0.0,0.0,0.0,0.0
-2,"bruh, the best teemo player from my country isnt streaming",0.0,0.0,0.0,0.0,0.0,0.0
-3,me and nunu tiered 3 simped for adc,0.0,0.0,0.0,0.0,0.0,0.0
-4,yeah but i think since seraphine was released more people have played her since shes been out more then how much trundle has been played since he came out,0.0,0.0,0.0,0.0,0.0,0.0
-5,"i creasted a chracter concept for spongebob ""the fierce aqua-organism""",0.0,0.0,0.0,0.0,0.0,0.0
-6,and shes just hovering in the air,0.0,0.0,0.0,0.0,0.0,0.0
-7,"I wish she just walked and had floating speakers or something, that would've been way better",0.0,0.0,0.0,0.0,0.0,0.0
+0,real faker tweet,0,0,0,0,0,0
+1,Lmfao,0,0,0,0,0,0
+2,"bruh, the best teemo player from my country isnt streaming",0,0,0,0,0,0
+3,me and nunu tiered 3 simped for adc,0,0,0,0,0,0
+4,yeah but i think since seraphine was released more people have played her since shes been out more then how much trundle has been played since he came out,0,0,0,0,0,0
+5,"i creasted a chracter concept for spongebob ""the fierce aqua-organism""",0,0,0,0,0,0
+6,and shes just hovering in the air,0,0,0,0,0,0
+7,"I wish she just walked and had floating speakers or something, that would've been way better",0,0,0,0,0,0
 8,"We’re conducting a study into how people make and interpret generalizations about strategy in League of Legends when they have limited information. If you have about 20 minutes to take a survey, we would greatly appreciate your participation. It can be found here:
 
 This is our first attempt at an esports study, so we'd also appreciate any comments or feedback you have.
-Please only take the survey once, and make sure to hit “Submit” at the end so that your responses are recorded. Thanks!",0.0,0.0,0.0,0.0,0.0,0.0
-9,No,0.0,0.0,0.0,0.0,0.0,0.0
-10,"if you're looking for something to take your mind off seraphine, we made it before she was a thing",0.0,0.0,0.0,0.0,0.0,0.0
-11,hey guys,0.0,0.0,0.0,0.0,0.0,0.0
-12,do any of you still remember that Kalista is in this game? No? Me neither...,0.0,0.0,0.0,0.0,0.0,0.0
-13, love how i cant win even with me playing well,1.0,0.0,0.0,0.0,0.0,0.0
-14,i keep getting inting jgs man,0.0,0.0,0.0,0.0,0.0,0.0
-15, 1st match kayle adc lmao how did u lose that game,0.0,0.0,0.0,0.0,0.0,0.0
-16,barely,0.0,0.0,0.0,0.0,0.0,0.0
-17,How would I ever win vs this,0.0,0.0,0.0,0.0,0.0,0.0
-18,can anyone confirm if kindred gets bonuses on marks in urf?,0.0,0.0,0.0,0.0,0.0,0.0
-19,bruh how do i keep getting throwing teams,1.0,0.0,0.0,0.0,0.0,0.0
-20,so he decided its my fault and wanted to ruin everyons game,1.0,0.0,0.0,0.0,0.0,0.0
-21,dont know why every game i get people like this on my team,1.0,0.0,0.0,0.0,0.0,0.0
-22,latin america is something else huh,0.0,0.0,0.0,0.0,0.0,0.0
-23,what are eternals set shard?,0.0,0.0,0.0,0.0,0.0,0.0
-24,B i g hype I finally got it - PAX Tf time,0.0,0.0,0.0,0.0,0.0,0.0
-25,bought from ebay?,0.0,0.0,0.0,0.0,0.0,0.0
-26,I'm sorry what 1100 owned skins,0.0,0.0,0.0,0.0,0.0,0.0
-27,a champ like that should be like 1350 but he's already free,0.0,0.0,0.0,0.0,0.0,0.0
-28,back in no time,0.0,0.0,0.0,0.0,0.0,0.0
-29,on 1 of my accs,0.0,0.0,0.0,0.0,0.0,0.0
-30,p good skin imo,0.0,0.0,0.0,0.0,0.0,0.0
-31,"
-okey so i bought a hextech chest with my leftover rp and i got this skin",0.0,0.0,0.0,0.0,0.0,0.0
-32,how long is Seraphine in the game,0.0,0.0,0.0,0.0,0.0,0.0
+Please only take the survey once, and make sure to hit “Submit” at the end so that your responses are recorded. Thanks!",0,0,0,0,0,0
+9,No,0,0,0,0,0,0
+10,"if you're looking for something to take your mind off seraphine, we made it before she was a thing",0,0,0,0,0,0
+11,hey guys,0,0,0,0,0,0
+12,do any of you still remember that Kalista is in this game? No? Me neither...,0,0,0,0,0,0
+13, love how i cant win even with me playing well,1,0,0,0,0,0
+14,i keep getting inting jgs man,0,0,0,0,0,0
+15, 1st match kayle adc lmao how did u lose that game,0,0,0,0,0,0
+16,barely,0,0,0,0,0,0
+17,How would I ever win vs this,0,0,0,0,0,0
+18,can anyone confirm if kindred gets bonuses on marks in urf?,0,0,0,0,0,0
+19,bruh how do i keep getting throwing teams,1,0,0,0,0,0
+20,so he decided its my fault and wanted to ruin everyons game,1,0,0,0,0,0
+21,dont know why every game i get people like this on my team,1,0,0,0,0,0
+22,latin america is something else huh,0,0,0,0,0,0
+23,what are eternals set shard?,0,0,0,0,0,0
+24,B i g hype I finally got it - PAX Tf time,0,0,0,0,0,0
+25,bought from ebay?,0,0,0,0,0,0
+26,I'm sorry what 1100 owned skins,0,0,0,0,0,0
+27,a champ like that should be like 1350 but he's already free,0,0,0,0,0,0
+28,back in no time,0,0,0,0,0,0
+29,on 1 of my accs,0,0,0,0,0,0
+30,p good skin imo,0,0,0,0,0,0
+31,okey so i bought a hextech chest with my leftover rp and i got this skin,0,0,0,0,0,0
+32,how long is Seraphine in the game,0,0,0,0,0,0
 33,"well
-a champ remains in the game forever so",0.0,0.0,0.0,0.0,0.0,0.0
-34,laners dying even with vision 🤡,1.0,0.0,0.0,0.0,0.0,0.0
-35,no katarina in 0/5/2 we won't gank your yasuo,1.0,0.0,0.0,0.0,0.0,0.0
-36, here we go bois,0.0,0.0,0.0,0.0,0.0,0.0
-37,i have that skin and kinda despise it,0.0,0.0,0.0,0.0,0.0,0.0
-38,whgy,0.0,0.0,0.0,0.0,0.0,0.0
-39,Kekw,0.0,0.0,0.0,0.0,0.0,0.0
-40,Invalid,0.0,0.0,0.0,0.0,0.0,0.0
-41,That,0.0,0.0,0.0,0.0,0.0,0.0
-42,Yeh,0.0,0.0,0.0,0.0,0.0,0.0
-43,"Just upload it, get the link, send link here",0.0,0.0,0.0,0.0,0.0,0.0
-44, like this,0.0,0.0,0.0,0.0,0.0,0.0
-45,most people take a month to get to silver or even longer,0.0,0.0,0.0,0.0,0.0,0.0
-46,oh boy . i have yet to face her,0.0,0.0,0.0,0.0,0.0,0.0
-47,aatrox is really op in aram if u buy a lot of life steal u are inmortal unless everyone in enemy team has anti heals,0.0,0.0,0.0,0.0,0.0,0.0
-48,"after a few days the seasons ends, does your mmr reset?",0.0,0.0,0.0,0.0,0.0,0.0
-49,Rooting someone who flashes away is euphoric,0.0,0.0,0.0,0.0,0.0,0.0
-50,It's like lol bitch you thought,0.0,0.0,0.0,0.0,0.0,0.0
-51, Hmm.. Trying to think if I need to remove/add some tiers.,0.0,0.0,0.0,0.0,0.0,0.0
-52,OMGOMGOMGOMGOMG i GOT SETT ARAM,0.0,0.0,0.0,0.0,0.0,0.0
-53,MY HUSBAND EEEEE,0.0,0.0,0.0,0.0,0.0,0.0
-54,aw cute,0.0,0.0,0.0,0.0,0.0,0.0
-55,just dont care,1.0,0.0,0.0,0.0,0.0,0.0
-56," 
-This saves you and me a lot of time",0.0,0.0,0.0,0.0,0.0,0.0
-57,?lfg,0.0,0.0,0.0,0.0,0.0,0.0
+a champ remains in the game forever so",0,0,0,0,0,0
+34,laners dying even with vision 🤡,1,0,0,0,0,0
+35,no katarina in 0/5/2 we won't gank your yasuo,1,0,0,0,0,0
+36, here we go bois,0,0,0,0,0,0
+37,i have that skin and kinda despise it,0,0,0,0,0,0
+38,whgy,0,0,0,0,0,0
+39,Kekw,0,0,0,0,0,0
+40,Invalid,0,0,0,0,0,0
+41,That,0,0,0,0,0,0
+42,Yeh,0,0,0,0,0,0
+43,"Just upload it, get the link, send link here",0,0,0,0,0,0
+44, like this,0,0,0,0,0,0
+45,most people take a month to get to silver or even longer,0,0,0,0,0,0
+46,oh boy . i have yet to face her,0,0,0,0,0,0
+47,aatrox is really op in aram if u buy a lot of life steal u are inmortal unless everyone in enemy team has anti heals,0,0,0,0,0,0
+48,"after a few days the seasons ends, does your mmr reset?",0,0,0,0,0,0
+49,Rooting someone who flashes away is euphoric,0,0,0,0,0,0
+50,It's like lol bitch you thought,0,0,0,0,0,0
+51, Hmm.. Trying to think if I need to remove/add some tiers.,0,0,0,0,0,0
+52,OMGOMGOMGOMGOMG i GOT SETT ARAM,0,0,0,0,0,0
+53,MY HUSBAND EEEEE,0,0,0,0,0,0
+54,aw cute,0,0,0,0,0,0
+55,just dont care,1,0,0,0,0,0
+56, This saves you and me a lot of time,0,0,0,0,0,0
+57,?lfg,0,0,0,0,0,0
 58,"Please use the **L**ooking **F**or **G**ame (LFG) channels to find players. You can join your regional LFG channel by visiting .
 
-If you’re lost or new to the server, please visit ",0.0,0.0,0.0,0.0,0.0,0.0
-59,looking for buddhist friends eu west or ru server,0.0,0.0,0.0,0.0,0.0,0.0
-60,"someone for flex ? we are 4 , silver elo, dm me pls",0.0,0.0,0.0,0.0,0.0,0.0
+If you’re lost or new to the server, please visit ",0,0,0,0,0,0
+59,looking for buddhist friends eu west or ru server,0,0,0,0,0,0
+60,"someone for flex ? we are 4 , silver elo, dm me pls",0,0,0,0,0,0
 61,"Basically a tier list rating every character in the entire game on their support potential in a solo queue / draft scenario.  Like this is this is a draft that im restarting on. 
- ",0.0,0.0,0.0,0.0,0.0,0.0
-62,Question,0.0,0.0,0.0,0.0,0.0,0.0
-63,JESUS CHRIST,0.0,0.0,0.0,0.0,0.0,0.0
-64,"At one point, could Nami solo lane?",0.0,0.0,0.0,0.0,0.0,0.0
-65,seraphine is made to be mid?,0.0,0.0,0.0,0.0,0.0,0.0
-66,play an assassin for mid,0.0,0.0,0.0,0.0,0.0,0.0
-67,she can counterdive easily tho,0.0,0.0,0.0,0.0,0.0,0.0
-68,doesnt matter,0.0,0.0,0.0,0.0,0.0,0.0
+ ",0,0,0,0,0,0
+62,Question,0,0,0,0,0,0
+63,JESUS CHRIST,0,0,0,0,0,0
+64,"At one point, could Nami solo lane?",0,0,0,0,0,0
+65,seraphine is made to be mid?,0,0,0,0,0,0
+66,play an assassin for mid,0,0,0,0,0,0
+67,she can counterdive easily tho,0,0,0,0,0,0
+68,doesnt matter,0,0,0,0,0,0
 69,"""Nooooooo, you can't just keep coming back to life!""
-""Haha passive and Guardian Angel go brrrrrr""",0.0,0.0,0.0,0.0,0.0,0.0
-70,>tier lists,0.0,0.0,0.0,0.0,0.0,0.0
-71,>league,0.0,0.0,0.0,0.0,0.0,0.0
-72," I'm making it where SSS are like ""highly played, highly banned, solo carry worthy"" supports.",0.0,0.0,0.0,0.0,0.0,0.0
-73,hecriam the legit noob stomper,0.0,0.0,0.0,0.0,0.0,0.0
+""Haha passive and Guardian Angel go brrrrrr""",0,0,0,0,0,0
+70,>tier lists,0,0,0,0,0,0
+71,>league,0,0,0,0,0,0
+72," I'm making it where SSS are like ""highly played, highly banned, solo carry worthy"" supports.",0,0,0,0,0,0
+73,hecriam the legit noob stomper,0,0,0,0,0,0
 74,"""SSSSSSSSS""
-~Casseiopia",0.0,0.0,0.0,0.0,0.0,0.0
-75,nah fam kayn isnt busted,0.0,0.0,0.0,0.0,0.0,0.0
-76,hecarim is busted more,0.0,0.0,0.0,0.0,0.0,0.0
+~Casseiopia",0,0,0,0,0,0
+75,nah fam kayn isnt busted,0,0,0,0,0,0
+76,hecarim is busted more,0,0,0,0,0,0
 77,"fammmmmmmmm wha u meannnnn
 > nah fam kayn isnt busted
-",0.0,0.0,0.0,0.0,0.0,0.0
-78,what the...,0.0,0.0,0.0,0.0,0.0,0.0
-79,Spam shield on him,0.0,0.0,0.0,0.0,0.0,0.0
-80,...,0.0,0.0,0.0,0.0,0.0,0.0
-81,"
-
-kayn urf busted, nobody realized XDDDD",0.0,0.0,0.0,0.0,0.0,0.0
-82,Let yorick split against diana,0.0,0.0,0.0,0.0,0.0,0.0
-83,finally 6 winnnnnn,0.0,0.0,0.0,0.0,0.0,0.0
-84, tell ur azir to go zhonya,0.0,0.0,0.0,0.0,0.0,0.0
-85,"Well seeing as how he says top lane lost, though...",0.0,0.0,0.0,0.0,0.0,0.0
-86,>ivern ,0.0,0.0,0.0,0.0,0.0,0.0
-87,he is doing better then diana lmao,0.0,0.0,0.0,0.0,0.0,0.0
-88,Lol,0.0,0.0,0.0,0.0,0.0,0.0
-89,What do you suggest to play on JG to climb?,0.0,0.0,0.0,0.0,0.0,0.0
-90,adc think otherwise,0.0,0.0,0.0,0.0,0.0,0.0
-91,"I play Kayle support. I love that shit. Aery + Ardent + W max for fat heals, movement speed buffs, attack speed buffs, 15% defense shred, ""oh fuck"" saving ult that does damage and can be used to stop dives or power up your own teams dives, etc.",0.0,0.0,0.0,0.0,0.0,0.0
-92,if u wanna climb just play jg its that simple,0.0,0.0,0.0,0.0,0.0,0.0
-93,Not like a bard does.,0.0,0.0,0.0,0.0,0.0,0.0
-94,and have better map access,0.0,0.0,0.0,0.0,0.0,0.0
+",0,0,0,0,0,0
+78,what the...,0,0,0,0,0,0
+79,Spam shield on him,0,0,0,0,0,0
+80,...,0,0,0,0,0,0
+81,"kayn urf busted, nobody realized XDDDD",0,0,0,0,0,0
+82,Let yorick split against diana,0,0,0,0,0,0
+83,finally 6 winnnnnn,0,0,0,0,0,0
+84, tell ur azir to go zhonya,0,0,0,0,0,0
+85,"Well seeing as how he says top lane lost, though...",0,0,0,0,0,0
+86,>ivern ,0,0,0,0,0,0
+87,he is doing better then diana lmao,0,0,0,0,0,0
+88,Lol,0,0,0,0,0,0
+89,What do you suggest to play on JG to climb?,0,0,0,0,0,0
+90,adc think otherwise,0,0,0,0,0,0
+91,"I play Kayle support. I love that shit. Aery + Ardent + W max for fat heals, movement speed buffs, attack speed buffs, 15% defense shred, ""oh fuck"" saving ult that does damage and can be used to stop dives or power up your own teams dives, etc.",0,0,0,0,0,0
+92,if u wanna climb just play jg its that simple,0,0,0,0,0,0
+93,Not like a bard does.,0,0,0,0,0,0
+94,and have better map access,0,0,0,0,0,0
 95,"lets add another 
-",0.0,0.0,0.0,0.0,0.0,0.0
-96,bard is essentially a second jungler,0.0,0.0,0.0,0.0,0.0,0.0
-97,Bard is quite literally a second jungler with how he plays.,0.0,0.0,0.0,0.0,0.0,0.0
-98,Oh pog.,0.0,0.0,0.0,0.0,0.0,0.0
-99,Not exactly how i'd build. But glad to see people already having success with the item I wanna try.,0.0,0.0,0.0,0.0,0.0,0.0
-100,league ,0.0,0.0,0.0,0.0,0.0,0.0
-101,question,0.0,0.0,0.0,0.0,0.0,0.0
-102,I've done bad in urf and the second you get what you need you can all of a sudden do a reverse sweep.,0.0,0.0,0.0,0.0,0.0,0.0
-103,Didn't even get to vote before it happened,0.0,0.0,0.0,0.0,0.0,0.0
-104,Just due to their sheer kits and presence they have,0.0,0.0,0.0,0.0,0.0,0.0
-105,In those roles.,0.0,0.0,0.0,0.0,0.0,0.0
+",0,0,0,0,0,0
+96,bard is essentially a second jungler,0,0,0,0,0,0
+97,Bard is quite literally a second jungler with how he plays.,0,0,0,0,0,0
+98,Oh pog.,0,0,0,0,0,0
+99,Not exactly how i'd build. But glad to see people already having success with the item I wanna try.,0,0,0,0,0,0
+100,league ,0,0,0,0,0,0
+101,question,0,0,0,0,0,0
+102,I've done bad in urf and the second you get what you need you can all of a sudden do a reverse sweep.,0,0,0,0,0,0
+103,Didn't even get to vote before it happened,0,0,0,0,0,0
+104,Just due to their sheer kits and presence they have,0,0,0,0,0,0
+105,In those roles.,0,0,0,0,0,0
 106,"sometimes my adc makes me sad
-",0.0,0.0,0.0,0.0,0.0,0.0
-107,My 0/13 life as urf ww,0.0,0.0,0.0,0.0,0.0,0.0
-108,In 12 mins,0.0,0.0,0.0,0.0,0.0,0.0
-109,"Because better heals, better kit, better ult, and I still get to do damage.",0.0,0.0,0.0,0.0,0.0,0.0
-110,maybe even lvl 3,0.0,0.0,0.0,0.0,0.0,0.0
-111,kayle late game monster sometimes,0.0,0.0,0.0,0.0,0.0,0.0
-112,hard comebacks,0.0,0.0,0.0,0.0,0.0,0.0
-113,"saying kayle is worse than yuumi in top lane is yk, stretching a bit hard",0.0,0.0,0.0,0.0,0.0,0.0
+",0,0,0,0,0,0
+107,My 0/13 life as urf ww,0,0,0,0,0,0
+108,In 12 mins,0,0,0,0,0,0
+109,"Because better heals, better kit, better ult, and I still get to do damage.",0,0,0,0,0,0
+110,maybe even lvl 3,0,0,0,0,0,0
+111,kayle late game monster sometimes,0,0,0,0,0,0
+112,hard comebacks,0,0,0,0,0,0
+113,"saying kayle is worse than yuumi in top lane is yk, stretching a bit hard",0,0,0,0,0,0
 114,"in a sustain front - yuumi is prob better 
-but overall no",0.0,0.0,0.0,0.0,0.0,0.0
-115,I prefer playing kayle support more than that stupid cat anyways.,0.0,0.0,0.0,0.0,0.0,0.0
-116,lmao,0.0,0.0,0.0,0.0,0.0,0.0
-117,learn to take a joke,0.0,0.0,0.0,0.0,0.0,0.0
-118,"
-TOP 0.1% popularity 33.3% win rate",1.0,0.0,0.0,0.0,0.0,0.0
-119,chill,0.0,0.0,0.0,0.0,0.0,0.0
-120,Hes deceptilvely tanky and does not give a hairy rats ass about CC.,0.0,0.0,0.0,0.0,0.0,0.0
-121,He will just keep running through everything like the juggernaut he is until he gets to your ADC,0.0,0.0,0.0,0.0,0.0,0.0
-122,Darius isn't classified as useless at certain points of the game either.,0.0,0.0,0.0,0.0,0.0,0.0
-123,"Nasus is classified as useless at the start of the game, and then later on without stacks.",0.0,0.0,0.0,0.0,0.0,0.0
-124,"When my partner goes down, is it worth it to try and stand my ground, or will I only give the enemy a free kill?",0.0,0.0,0.0,0.0,0.0,0.0
-125,Love when I get competant teams like this,0.0,0.0,0.0,0.0,0.0,0.0
+but overall no",0,0,0,0,0,0
+115,I prefer playing kayle support more than that stupid cat anyways.,0,0,0,0,0,0
+116,lmao,0,0,0,0,0,0
+117,learn to take a joke,0,0,0,0,0,0
+118,TOP 0.1% popularity 33.3% win rate,1,0,0,0,0,0
+119,chill,0,0,0,0,0,0
+120,Hes deceptilvely tanky and does not give a hairy rats ass about CC.,0,0,0,0,0,0
+121,He will just keep running through everything like the juggernaut he is until he gets to your ADC,0,0,0,0,0,0
+122,Darius isn't classified as useless at certain points of the game either.,0,0,0,0,0,0
+123,"Nasus is classified as useless at the start of the game, and then later on without stacks.",0,0,0,0,0,0
+124,"When my partner goes down, is it worth it to try and stand my ground, or will I only give the enemy a free kill?",0,0,0,0,0,0
+125,Love when I get competant teams like this,0,0,0,0,0,0
 126,"I climb to diamond all the time across multiple regions, doing a LAN account right now
 Trust me I know how to win games
-",0.0,0.0,0.0,0.0,0.0,0.0
-127, What you mean? Explain it better.,0.0,0.0,0.0,0.0,0.0,0.0
-128,cringe,0.0,0.0,0.0,0.0,0.0,0.0
-129,I will admit it took adc and I a bit of time to push them back enough for it to be safe,0.0,0.0,0.0,0.0,0.0,0.0
-130,Question about playing support,0.0,0.0,0.0,0.0,0.0,0.0
-131,sept 22,0.0,0.0,0.0,0.0,0.0,0.0
-132,that was the original nexon release of DFO,0.0,0.0,0.0,0.0,0.0,0.0
-133,Dungeon Fighter Online,0.0,0.0,0.0,0.0,0.0,0.0
-134,DFO always had some swag ass shit going for it. I wish I got the chance to get into it more.,0.0,0.0,0.0,0.0,0.0,0.0
-135,"i found em, i found my original Magic Exo",0.0,0.0,0.0,0.0,0.0,0.0
-136,Shes swag,0.0,0.0,0.0,0.0,0.0,0.0
-137,NUD3$ club tag ,0.0,0.0,0.0,0.0,0.0,0.0
-138,bigpapasmurf,0.0,0.0,0.0,0.0,0.0,0.0
-139,I only lost once at 0 lp,0.0,0.0,0.0,0.0,0.0,0.0
-140,rip Bulge club tag,0.0,0.0,0.0,0.0,0.0,0.0
-141,never forget,0.0,0.0,0.0,0.0,0.0,0.0
-142,This babe right here.,0.0,0.0,0.0,0.0,0.0,0.0
-143,My mains were  magic exo and the brawler,0.0,0.0,0.0,0.0,0.0,0.0
-144,have u guys seen the ew champion?,0.0,0.0,0.0,0.0,0.0,0.0
-145,ruined king,0.0,0.0,0.0,0.0,0.0,0.0
-146,oh,0.0,0.0,0.0,0.0,0.0,0.0
-147,they just ffed to,0.0,0.0,0.0,0.0,0.0,0.0
-148,"
-
-welp back to gold 3 even though all i did this game was trade 1 for 1",0.0,0.0,0.0,0.0,0.0,0.0
-149,I dislike games where I carry and my team feeds ;/,1.0,0.0,0.0,0.0,0.0,0.0
-150,even it's a win,0.0,0.0,0.0,0.0,0.0,0.0
-151,either modded or just plugins,0.0,0.0,0.0,0.0,0.0,0.0
-152,lf top lanner flex,0.0,0.0,0.0,0.0,0.0,0.0
-153,"Without spending cash, what's the best/quickest way to get to level 30?",0.0,0.0,0.0,0.0,0.0,0.0
-154,Bored af,0.0,0.0,0.0,0.0,0.0,0.0
-155,come play MINECRAFT with me,0.0,0.0,0.0,0.0,0.0,0.0
-156,"
-i got a rare drop",0.0,0.0,0.0,0.0,0.0,0.0
-157,> two rows of hearts,0.0,0.0,0.0,0.0,0.0,0.0
-158,if there isnt sue riot,0.0,0.0,0.0,0.0,0.0,0.0
+",0,0,0,0,0,0
+127, What you mean? Explain it better.,0,0,0,0,0,0
+128,cringe,0,0,0,0,0,0
+129,I will admit it took adc and I a bit of time to push them back enough for it to be safe,0,0,0,0,0,0
+130,Question about playing support,0,0,0,0,0,0
+131,22-Sep,0,0,0,0,0,0
+132,that was the original nexon release of DFO,0,0,0,0,0,0
+133,Dungeon Fighter Online,0,0,0,0,0,0
+134,DFO always had some swag ass shit going for it. I wish I got the chance to get into it more.,0,0,0,0,0,0
+135,"i found em, i found my original Magic Exo",0,0,0,0,0,0
+136,Shes swag,0,0,0,0,0,0
+137,NUD3$ club tag ,0,0,0,0,0,0
+138,bigpapasmurf,0,0,0,0,0,0
+139,I only lost once at 0 lp,0,0,0,0,0,0
+140,rip Bulge club tag,0,0,0,0,0,0
+141,never forget,0,0,0,0,0,0
+142,This babe right here.,0,0,0,0,0,0
+143,My mains were  magic exo and the brawler,0,0,0,0,0,0
+144,have u guys seen the ew champion?,0,0,0,0,0,0
+145,ruined king,0,0,0,0,0,0
+146,oh,0,0,0,0,0,0
+147,they just ffed to,0,0,0,0,0,0
+148,welp back to gold 3 even though all i did this game was trade 1 for 1,0,0,0,0,0,0
+149,I dislike games where I carry and my team feeds ;/,1,0,0,0,0,0
+150,even it's a win,0,0,0,0,0,0
+151,either modded or just plugins,0,0,0,0,0,0
+152,lf top lanner flex,0,0,0,0,0,0
+153,"Without spending cash, what's the best/quickest way to get to level 30?",0,0,0,0,0,0
+154,Bored af,0,0,0,0,0,0
+155,come play MINECRAFT with me,0,0,0,0,0,0
+156,i got a rare drop,0,0,0,0,0,0
+157,> two rows of hearts,0,0,0,0,0,0
+158,if there isnt sue riot,0,0,0,0,0,0
 159,"
 
- 
-the shen was flaming the zed for throwing and being boosted and being paid to win trade ",0.0,0.0,0.0,0.0,0.0,0.0
-160,Every single one of your messages takes away 2 years from my life,1.0,0.0,0.0,0.0,1.0,0.0
-161,Playing NA with 300 ping is probably more cancer than eune,0.0,0.0,0.0,0.0,0.0,0.0
-162, enjoy it while it lasts,0.0,0.0,0.0,0.0,0.0,0.0
-163,like why is pyke working with miss fortune,0.0,0.0,0.0,0.0,0.0,0.0
+ the shen was flaming the zed for throwing and being boosted and being paid to win trade ",0,0,0,0,0,0
+160,Every single one of your messages takes away 2 years from my life,1,0,0,0,1,0
+161,Playing NA with 300 ping is probably more cancer than eune,0,0,0,0,0,0
+162, enjoy it while it lasts,0,0,0,0,0,0
+163,like why is pyke working with miss fortune,0,0,0,0,0,0
 164,"> but he has the sword tho
- the ruined king item in game and the sword looks different",0.0,0.0,0.0,0.0,0.0,0.0
-165,HHHAHAHAHHAHAHAHAYAYAHAHHAHAHAHAHA,0.0,0.0,0.0,0.0,0.0,0.0
-166,probably the prince or his right hand man,0.0,0.0,0.0,0.0,0.0,0.0
-167,but he has the sword tho,0.0,0.0,0.0,0.0,0.0,0.0
-168,where it says split 3 of 3 9D 4H 4M mean the time until the next season?,0.0,0.0,0.0,0.0,0.0,0.0
-169,the ruined king is possessing the princes body,0.0,0.0,0.0,0.0,0.0,0.0
-170,i dont think thats the ruined king anyways,0.0,0.0,0.0,0.0,0.0,0.0
-171,why the fuck does he look like he's 20 and is in his late blunder years,0.0,0.0,0.0,0.0,0.0,0.0
-172,everything other than the cg was good in the opening ceremony,0.0,0.0,0.0,0.0,0.0,0.0
-173,Riot making som real layoffs on the 3d modeling division,0.0,0.0,0.0,0.0,0.0,0.0
-174,because that isnt his actual body,0.0,0.0,0.0,0.0,0.0,0.0
-175,bro what is that faceeeeeeeeee,0.0,0.0,0.0,0.0,0.0,0.0
-176,"Wait, is that the opening ceremony??",0.0,0.0,0.0,0.0,0.0,0.0
-177,pentakill band member ,0.0,0.0,0.0,0.0,0.0,0.0
-178,POV: Yuumi getting ulted by Morde,0.0,0.0,0.0,0.0,0.0,0.0
-179,How does katarina go against sylas,0.0,0.0,0.0,0.0,0.0,0.0
-180,"Man I love LAN server, I don't speak spanish so I can pretend people aren't blaming the jungle for everything.",0.0,0.0,0.0,0.0,0.0,0.0
-181,my god the stupidity of people,1.0,0.0,0.0,0.0,0.0,0.0
-182,"asked him to build executioners and his main reason not building it was ""i wont do damage"" even tho he already had 4 items",0.0,0.0,0.0,0.0,0.0,0.0
-183,Anyone know if you can use visa gift cards on league?,0.0,0.0,0.0,0.0,0.0,0.0
-184,If I’m doing decent in intermediate bots should I play a game of quick play?,0.0,0.0,0.0,0.0,0.0,0.0
-185,you mean blind pick?,0.0,0.0,0.0,0.0,0.0,0.0
-186,LMAOO,0.0,0.0,0.0,0.0,0.0,0.0
-187,why hasnt riot visually reworked vladimir yet if they rework visually viktor out of the blue,0.0,0.0,0.0,0.0,0.0,0.0
-188,"Hot take, the collector is an item made specifically for farming and objective challenges",0.0,0.0,0.0,0.0,0.0,0.0
-189,Wtf,0.0,0.0,0.0,0.0,0.0,0.0
-190,LOL,0.0,0.0,0.0,0.0,0.0,0.0
-191,pta trist or hob,0.0,0.0,0.0,0.0,0.0,0.0
-192,I see HoB more,0.0,0.0,0.0,0.0,0.0,0.0
+ the ruined king item in game and the sword looks different",0,0,0,0,0,0
+165,HHHAHAHAHHAHAHAHAYAYAHAHHAHAHAHAHA,0,0,0,0,0,0
+166,probably the prince or his right hand man,0,0,0,0,0,0
+167,but he has the sword tho,0,0,0,0,0,0
+168,where it says split 3 of 3 9D 4H 4M mean the time until the next season?,0,0,0,0,0,0
+169,the ruined king is possessing the princes body,0,0,0,0,0,0
+170,i dont think thats the ruined king anyways,0,0,0,0,0,0
+171,why the fuck does he look like he's 20 and is in his late blunder years,0,0,0,0,0,0
+172,everything other than the cg was good in the opening ceremony,0,0,0,0,0,0
+173,Riot making som real layoffs on the 3d modeling division,0,0,0,0,0,0
+174,because that isnt his actual body,0,0,0,0,0,0
+175,bro what is that faceeeeeeeeee,0,0,0,0,0,0
+176,"Wait, is that the opening ceremony??",0,0,0,0,0,0
+177,pentakill band member ,0,0,0,0,0,0
+178,POV: Yuumi getting ulted by Morde,0,0,0,0,0,0
+179,How does katarina go against sylas,0,0,0,0,0,0
+180,"Man I love LAN server, I don't speak spanish so I can pretend people aren't blaming the jungle for everything.",0,0,0,0,0,0
+181,my god the stupidity of people,1,0,0,0,0,0
+182,"asked him to build executioners and his main reason not building it was ""i wont do damage"" even tho he already had 4 items",0,0,0,0,0,0
+183,Anyone know if you can use visa gift cards on league?,0,0,0,0,0,0
+184,If I’m doing decent in intermediate bots should I play a game of quick play?,0,0,0,0,0,0
+185,you mean blind pick?,0,0,0,0,0,0
+186,LMAOO,0,0,0,0,0,0
+187,why hasnt riot visually reworked vladimir yet if they rework visually viktor out of the blue,0,0,0,0,0,0
+188,"Hot take, the collector is an item made specifically for farming and objective challenges",0,0,0,0,0,0
+189,Wtf,0,0,0,0,0,0
+190,LOL,0,0,0,0,0,0
+191,pta trist or hob,0,0,0,0,0,0
+192,I see HoB more,0,0,0,0,0,0
 193,"> Yo Riot wtf 
- fuck brand he always deals the most damage for some reason EVERY GANE",1.0,0.0,0.0,0.0,0.0,0.0
-194,"He was already busted and then Riot was like ""wait, we dont see him mid enough lets buff his damage""",0.0,0.0,0.0,0.0,0.0,0.0
-195,And now hes giga broken in mid and support,0.0,0.0,0.0,0.0,0.0,0.0
-196,lux support,0.0,0.0,0.0,0.0,0.0,0.0
-197,bois theres a fucking electrical storm going on outside,0.0,0.0,0.0,0.0,0.0,0.0
-198,Yo Riot wtf ,0.0,0.0,0.0,0.0,0.0,0.0
-199,55% WR,0.0,0.0,0.0,0.0,0.0,0.0
-200,i first got placed in b2 actually,0.0,0.0,0.0,0.0,0.0,0.0
+ fuck brand he always deals the most damage for some reason EVERY GANE",1,0,0,0,0,0
+194,"He was already busted and then Riot was like ""wait, we dont see him mid enough lets buff his damage""",0,0,0,0,0,0
+195,And now hes giga broken in mid and support,0,0,0,0,0,0
+196,lux support,0,0,0,0,0,0
+197,bois theres a fucking electrical storm going on outside,0,0,0,0,0,0
+198,Yo Riot wtf ,0,0,0,0,0,0
+199,55% WR,0,0,0,0,0,0
+200,i first got placed in b2 actually,0,0,0,0,0,0
