@@ -1,4 +1,4 @@
-index,text,toxic,severe_toxic,obscene,threat,insult,identity_hate
+index,text,toxic,severe_toxic,obscene,threat,insult,indentity_hate
 0,real faker tweet,0,0,0,0,0,0
 1,Lmfao,0,0,0,0,0,0
 2,"bruh, the best teemo player from my country isnt streaming",0,0,0,0,0,0
@@ -7,10 +7,10 @@ index,text,toxic,severe_toxic,obscene,threat,insult,identity_hate
 5,"i creasted a chracter concept for spongebob ""the fierce aqua-organism""",0,0,0,0,0,0
 6,and shes just hovering in the air,0,0,0,0,0,0
 7,"I wish she just walked and had floating speakers or something, that would've been way better",0,0,0,0,0,0
-8,"Weâ€™re conducting a study into how people make and interpret generalizations about strategy in League of Legends when they have limited information. If you have about 20 minutes to take a survey, we would greatly appreciate your participation. It can be found here:
+8,"We’re conducting a study into how people make and interpret generalizations about strategy in League of Legends when they have limited information. If you have about 20 minutes to take a survey, we would greatly appreciate your participation. It can be found here:
 
 This is our first attempt at an esports study, so we'd also appreciate any comments or feedback you have.
-Please only take the survey once, and make sure to hit â€œSubmitâ€ at the end so that your responses are recorded. Thanks!",0,0,0,0,0,0
+Please only take the survey once, and make sure to hit “Submit” at the end so that your responses are recorded. Thanks!",0,0,0,0,0,0
 9,No,0,0,0,0,0,0
 10,"if you're looking for something to take your mind off seraphine, we made it before she was a thing",0,0,0,0,0,0
 11,hey guys,0,0,0,0,0,0
@@ -37,7 +37,7 @@ Please only take the survey once, and make sure to hit â€œSubmitâ€ at t
 32,how long is Seraphine in the game,0,0,0,0,0,0
 33,"well
 a champ remains in the game forever so",0,0,0,0,0,0
-34,laners dying even with vision ðŸ¤¡,1,0,0,0,0,0
+34,laners dying even with vision 🤡,1,0,0,0,0,0
 35,no katarina in 0/5/2 we won't gank your yasuo,1,0,0,0,0,0
 36, here we go bois,0,0,0,0,0,0
 37,i have that skin and kinda despise it,0,0,0,0,0,0
@@ -63,7 +63,7 @@ a champ remains in the game forever so",0,0,0,0,0,0
 57,?lfg,0,0,0,0,0,0
 58,"Please use the **L**ooking **F**or **G**ame (LFG) channels to find players. You can join your regional LFG channel by visiting .
 
-If youâ€™re lost or new to the server, please visit ",0,0,0,0,0,0
+If you’re lost or new to the server, please visit ",0,0,0,0,0,0
 59,looking for buddhist friends eu west or ru server,0,0,0,0,0,0
 60,"someone for flex ? we are 4 , silver elo, dm me pls",0,0,0,0,0,0
 61,"Basically a tier list rating every character in the entire game on their support potential in a solo queue / draft scenario.  Like this is this is a draft that im restarting on. 
@@ -201,7 +201,7 @@ Trust me I know how to win games
 180,my god the stupidity of people,1,0,0,0,0,0
 181,"asked him to build executioners and his main reason not building it was ""i wont do damage"" even tho he already had 4 items",0,0,0,0,0,0
 182,Anyone know if you can use visa gift cards on league?,0,0,0,0,0,0
-183,If Iâ€™m doing decent in intermediate bots should I play a game of quick play?,0,0,0,0,0,0
+183,If I’m doing decent in intermediate bots should I play a game of quick play?,0,0,0,0,0,0
 184,you mean blind pick?,0,0,0,0,0,0
 185,LMAOO,0,0,0,0,0,0
 186,why hasnt riot visually reworked vladimir yet if they rework visually viktor out of the blue,0,0,0,0,0,0
@@ -223,7 +223,7 @@ Trust me I know how to win games
 201,> fuck seraphineHorny as fuck,1,0,1,0,1,0
 202,Quite the shit,0,0,0,0,0,0
 203,YEAH U WERE RIGHT BITCH JUST THE OTHER JUNGLER,1,0,0,0,0,0
-204,Lol when adc became weak as shit I was like wtf happened did I just become ass turns out it wasnâ€™t me,1,0,0,0,0,0
+204,Lol when adc became weak as shit I was like wtf happened did I just become ass turns out it wasn’t me,1,0,0,0,0,0
 205,my team was so fucking usless,1,0,0,0,0,0
 206,THIS GAME MIGHT AS WELL RESET MY FUCKING LP TO 0,1,0,0,0,0,0
 207,FUCKING HELL,1,0,0,0,0,0
@@ -311,7 +311,7 @@ Trust me I know how to win games
 289,gona suck when they nerf him to shit,0,0,0,0,0,0
 290,eat shit riot,1,0,0,0,0,0
 291,fuck,1,0,0,0,0,0
-292,Being memed for releasing an overpowered adc and being shit on by the whole community.Rito after a few months: â€œ Iâ€™ll fucking do it again.â€,1,0,0,0,0,0
+292,Being memed for releasing an overpowered adc and being shit on by the whole community.Rito after a few months: “ I’ll fucking do it again.”,1,0,0,0,0,0
 293,then ezreal says shut the fuck up mutedthen they both die to the first gank of the game 10 seconds after it was warnedand then they say jungle diff,1,0,0,0,0,0
 294,Im not a fucking loser,1,0,0,0,0,0
 295,LIKE NANI THE FUCK,0,0,0,0,0,0
@@ -436,11 +436,11 @@ Trust me I know how to win games
 414,those hooks were fucking insane,0,0,0,0,0,0
 415,"Which is ... fucking hard , almost impossible",0,0,0,0,0,0
 416,because its fucking bronze,1,0,0,0,0,0
-417,"Bun thatâ€™s called surrendering, fuck that",0,0,0,0,0,0
+417,"Bun that’s called surrendering, fuck that",0,0,0,0,0,0
 418,HOLY FUCKING,1,0,0,0,0,0
 419,literally fuck wukong,1,0,0,0,0,0
 420,anbyone else getting this shit ****,1,0,0,0,0,0
-421,> If they fucking give this guy the style mechanic Iâ€™ll lose my god damn mind,0,0,0,0,0,0
+421,> If they fucking give this guy the style mechanic I’ll lose my god damn mind,0,0,0,0,0,0
 422,This is why you go Jhin mid and carry it like a fucking man,0,0,0,0,0,0
 423,No fucking shit it is,1,0,0,0,0,0
 424,I'm safe for now so fuck you guys,1,0,0,0,0,0
@@ -494,20 +494,20 @@ What a time to be alive",0,0,0,0,0,0
 470,I secretly play League of Legends when Matthew turns me off.,0,0,0,0,0,0
 471,"@ESPN_Esports is there any chance that the League of Legends Fantasy Leagues will continue for regular Spring/Summer Splits going forward, or was this just a Worlds thing? #espn",0,0,0,0,0,0
 472,"@JakeSucky ""Jung ""Impact"" Eon-yeong, the highest-paid player in the League of Legends Championship Series in 2020. Impact's contract with Liquid will expire on Nov. 16. In late 2017, Impact signed a three-year deal with Liquid that saw him entitled to $3.4 million over the deal's lifespan""",0,0,0,0,0,0
-473,"No stream tonight. Iâ€™m going to finish watching Barbarians. 
+473,"No stream tonight. I’m going to finish watching Barbarians. 
 
 This week I will be trying something new...
 
 League of Legends!",0,0,0,0,0,0
 474,guys league of legends anyone want to play,0,0,0,0,0,0
 475,"RT @GlenwoodEsports: Another exciting week of @IHSEA_org esports action is in the books! Lets recap:
-- Varsity and JV OW take strong wins oâ€¦",0,0,0,0,0,0
+- Varsity and JV OW take strong wins o…",0,0,0,0,0,0
 476,.@Zedd should play #Zed for the Verizon League of Legends: Wild Rift 5G Invitational! Disagree? Vote for your pick and you could also be in the running to win the new #iPhone12 Pro with 5G thanks to @Verizon! #5GJustGotReal #VerizonWRsweeps,0,0,0,0,0,0
 477,"I like League of legends because I had a guy say I don't care about the role I got I'm playing what I want, then he went 1/9",1,0,0,0,0,0
 478,"Tonight we made history as our League of Legends team finishes as the @playvs CLoL Fall Invitational North Region Champions with a 2-1 comeback win over @BoilermakersLoL !
 
 With that we qualify for the National Invitational starting on Tuesday!",0,0,0,0,0,0
-479,@zamboni_goblin Itâ€™s basically league of legends with Blizzard characters from WoW and Diablo and Starcraft,0,0,0,0,0,0
+479,@zamboni_goblin It’s basically league of legends with Blizzard characters from WoW and Diablo and Starcraft,0,0,0,0,0,0
 480,"@RiasSerenity none.
 
 I have infinite stamina when it comes to these kinda things, maybe its a problem, maybe it isnt.
@@ -518,7 +518,7 @@ I understand that I am a rare breed, but after playing nothing but League of Leg
 483,@RiotSupport hi is there any update when riot will make a new and usable client for league of legends? Thanks,0,0,0,0,0,0
 484,"ratatouille 2
 
-following the closure of the second restaurant and egoâ€™s death, remy decides to use linguiniâ€™s body to take advantage of another one of his talents - league of legends",0,0,0,0,0,0
+following the closure of the second restaurant and ego’s death, remy decides to use linguini’s body to take advantage of another one of his talents - league of legends",0,0,0,0,0,0
 485,"@YTLegendOfSonic @bench0de @IGNWorseThan How is a spinning blade copying animations. Guess League of Legends copied spinning blade, barbarians, pirates, ghosts, Dante, anime...",0,0,0,0,0,0
 486,"Another exciting week of @IHSEA_org esports action is in the books! Lets recap:
 - Varsity and JV OW take strong wins on Wednesday
@@ -530,14 +530,14 @@ On to next week!",0,0,0,0,0,0
 488,Taking a break from Overwatch btw. Gonna start playing Valorant and League of Legends,0,0,0,0,0,0
 489,time for another epic and wholesome game of league of legends,0,0,0,0,0,0
 490,a podcast where a first-worldist dick n balls go on a long rant about league of legends,1,0,1,0,0,0
-491,"RT @LITCollective0x: For the first gaming competition that will be held on our server, we have a close vote on which game will be played. Iâ€¦",0,0,0,0,0,0
-492,"@ecthoribe For me as someone who used to play league of legends it's not a lot of buttons ðŸ‘€, but I understand your struggle. But don't worry they are gonna add some control changes in version 1.1 [11. Nov I think]",0,0,0,0,0,0
+491,"RT @LITCollective0x: For the first gaming competition that will be held on our server, we have a close vote on which game will be played. I…",0,0,0,0,0,0
+492,"@ecthoribe For me as someone who used to play league of legends it's not a lot of buttons 👀, but I understand your struggle. But don't worry they are gonna add some control changes in version 1.1 [11. Nov I think]",0,0,0,0,0,0
 493,Best character in league of legends???,0,0,0,0,0,0
 494,"@RisenEsportsNA Just doing the right thing @RisenEsportsNA.
 
 However, I better not catch you doing the same thing for your League of Legends team competing in @UpsurgeGG.",0,0,0,0,0,0
 495,@DhanVermillion @KDA_MUSIC oh i see so the premiere will be at the League of Legends oficial youtube?,0,0,0,0,0,0
-496,RT @NorthwoodEsport: Northwood League of Legends finishes (5-3) on the weekend and takes 3rd place in the @DruryEsports invitational! ðŸº#wolâ€¦,0,0,0,0,0,0
+496,RT @NorthwoodEsport: Northwood League of Legends finishes (5-3) on the weekend and takes 3rd place in the @DruryEsports invitational! 🐺#wol…,0,0,0,0,0,0
 497,@obrunoprimeiro @GalanticsGirl League of legends,0,0,0,0,0,0
 498,"@triggerwasright @bench0de @IGNWorseThan &gt;BOTW invented gliding? With different gliding tools?
 &gt;League of Legends has like 5 characters with sword that spin in a much similar manner. And that was in 2009.
@@ -545,27 +545,27 @@ However, I better not catch you doing the same thing for your League of Legends 
 &gt;BOTW invented hitting stuff to get other stuff?",0,0,0,0,0,0
 499,"more symptoms: League of legends, Being European or British",0,0,0,0,0,0
 500,So can I get my soul back from league of legends or am I just doomed to suffer,1,0,0,0,0,0
-501,Iâ€™m married to the game and the game is league of legends and I want a divorce,1,0,0,0,0,0
+501,I’m married to the game and the game is league of legends and I want a divorce,1,0,0,0,0,0
 502,#AceWeek we when my team kills everyone on the enemy team in online free game league of legends:,0,0,0,0,0,0
 503,@yuumi1trick okay and? i play league of legends with my index and thats it,0,0,0,0,0,0
 504,"league of legends playing friends, female friends, black friends, crypto friends, gacha friends.. .i could have written this about all of you",0,0,0,0,0,0
 505,I'm playing League of Legends. Fancy a game?,0,0,0,0,0,0
-506,"Wow, I am so hyped to see a random team winning League of Legends World Championship and never qualify for it again. ðŸ‘",1,0,0,0,1,0
+506,"Wow, I am so hyped to see a random team winning League of Legends World Championship and never qualify for it again. 👍",1,0,0,0,1,0
 507,RT @KarasMaii: how do you know someone plays league of legends? whenever they're losing an argument they type XD,1,0,0,0,1,0
 508,@Coach_Spilo A similar event happened throughout league of legends teams. They used to run 7 man rosters in SKT/C9/TSM but they never worked out and found more success building internal synergy and confidence.,0,0,0,0,0,0
-509,Northwood League of Legends finishes (5-3) on the weekend and takes 3rd place in the @DruryEsports invitational! ðŸº#wolfpack,0,0,0,0,0,0
+509,Northwood League of Legends finishes (5-3) on the weekend and takes 3rd place in the @DruryEsports invitational! 🐺#wolfpack,0,0,0,0,0,0
 510,"BTW. I'm going to keep streaming, because I genuinely like it. Expect them all to be super late though because that's legit the ONLY time I am able to stream.
 
 I am only streaming League of Legends because that's all I care to play these days.
 
 Hope you enjoyed my dose of reality",0,0,0,0,0,0
-511,@chaosemeraIds I know which one you're talking about ðŸ˜­ it's the collab song from league of legends with Madison beer? It's so bad,0,0,0,0,0,0
+511,@chaosemeraIds I know which one you're talking about 😭 it's the collab song from league of legends with Madison beer? It's so bad,0,0,0,0,0,0
 512,@NOmonster_ League of legends,0,0,0,0,0,0
-513,everyone needs to know how handsome my boyfriend is. and that heâ€™s playing league of legends,0,0,0,0,0,0
+513,everyone needs to know how handsome my boyfriend is. and that he’s playing league of legends,0,0,0,0,0,0
 514,I picked a surprisingly terrible year to get us pumped about a LEAGUE OF LEGENDS CLONE?,0,0,0,0,0,0
 515,i have assignments due... who wanna play league of legends?,0,0,0,0,0,0
-516,@Toxicxtx ðŸ˜ž okay I wonâ€™t play league of legends anymore,0,0,0,0,0,0
-517,@emwtherims I hear it can run League of Legends ðŸ¤¤,0,0,0,0,0,0
+516,@Toxicxtx 😞 okay I won’t play league of legends anymore,0,0,0,0,0,0
+517,@emwtherims I hear it can run League of Legends 🤤,0,0,0,0,0,0
 518,I am rebelling against my Asian cultural upbringing by playing League of Legends and listening to K-Pop,0,0,0,0,0,0
 519,"Why do I have to be so competitive and hold myself to such an unfair standard when it comes to content?
 
@@ -575,25 +575,25 @@ Somehow I will find a way to shift this blame on League of Legends or something.
 522,should I trust people that play league of legends if they,0,0,0,0,0,0
 523,"RT @PeterXinping: If You Want To Get Girls You Should Just Be Yourself! 
 
-Unless Youâ€™re 5â€™8, No Muscles, 3000 Hours League Of Legends, Twitâ€¦",1,0,0,0,0,0
+Unless You’re 5’8, No Muscles, 3000 Hours League Of Legends, Twit…",1,0,0,0,0,0
 524,@ChonkUwUwU @CronchyCrispy @LeagueOfLegends @sonimiku19 @checkurdms09 @jherr_ie @gopede_the_seal How the hell do you get 58 mentions from league of legends,0,0,0,0,0,0
-525,RT @FionnOnFire: i'm so haappy for the vietnamse fans. they're so passionate and love league of legends so much. i'm glad that even in a yeâ€¦,0,0,0,0,0,0
-526,Gonna TRY league of Legends on stream. Be live in 45 ðŸ‘ŠðŸ»,0,0,0,0,0,0
-527,So I was told that I canâ€™t get gold in league of legends. Hold my Mountain Dew cause itâ€™s coming. Every other game is gonna have to wait. Itâ€™s on.,0,0,0,0,0,0
+525,RT @FionnOnFire: i'm so haappy for the vietnamse fans. they're so passionate and love league of legends so much. i'm glad that even in a ye…,0,0,0,0,0,0
+526,Gonna TRY league of Legends on stream. Be live in 45 👊🏻,0,0,0,0,0,0
+527,So I was told that I can’t get gold in league of legends. Hold my Mountain Dew cause it’s coming. Every other game is gonna have to wait. It’s on.,0,0,0,0,0,0
 528,league of legends,0,0,0,0,0,0
 529,@dj_danl  Do you ever play league of legends?,0,0,0,0,0,0
 530,"i talk a lot of shit about league of legends, and rightfully so, but evelynn k/da is what cracked my egg so i feel like i owe whoever designed her my firstborn child",0,0,0,0,0,0
 531,"Sometimes I miss the times when I was a teenager. Dicking around all day on Newgrounds, playing Metal Slug, League of Legends and Dragonfable all weekend.
 
 Those were good years.",0,0,0,0,0,0
-532,RT @DavidYu22131769: @StefanEtienne Donâ€™t mind me. Just benchmarking League of Legends at 120 FPS!,0,0,0,0,0,0
+532,RT @DavidYu22131769: @StefanEtienne Don’t mind me. Just benchmarking League of Legends at 120 FPS!,0,0,0,0,0,0
 533,@a_nmira League of legends &gt;,0,0,0,0,0,0
 534,"@mashumaro_desu it is a event which is supported by china and chinese company, which supposed to be used for the S10 lpl of league of legends. It is cancelled because the action of coco, so of course it is relevant",0,0,0,0,0,0
 535,"why do people say that fortnite is toxic, there literally isnt any proximity chat or ingame text chat or any of that, league of legends is 100x more toxic generally",1,0,0,0,0,0
 536,A relationship should be 50/50 you play league of legends and I always  bug you to play teemo,0,0,0,0,0,0
 537,"RT @zIMxnkey: Since the Split is coming to an end i will offer free league of Legends Team Coaching for the next few weeks. 
-If you are intâ€¦",0,0,0,0,0,0
-538,"who plays valorant or league of legends!!! letâ€™s play together, i had to make a new acc tho :(",0,0,0,0,0,0
+If you are int…",0,0,0,0,0,0
+538,"who plays valorant or league of legends!!! let’s play together, i had to make a new acc tho :(",0,0,0,0,0,0
 539,play league of legends or,0,0,0,0,0,0
 540,im going to k*ll the league of legends whores,1,1,1,1,0,1
 541,Pretty much every PL legends ever have said he is one of the best to ever play in this league but im supposed to listen to twitter account Paceyodoi una,0,0,0,0,0,0
@@ -616,9 +616,9 @@ If you are intâ€¦",0,0,0,0,0,0
 10. No
 11. Ye
 12. No
-13. ðŸ¤¡
+13. 🤡
 
-drop an emoji and iâ€™ll send you the questions",0,0,0,0,0,0
+drop an emoji and i’ll send you the questions",0,0,0,0,0,0
 548,"what gender, race, sexuality or age you are (although you must be at least** 14 years of age**, sorry)
  
 Some of the games we play are:
@@ -636,10 +636,10 @@ And a few smaller games!!
 552,"@park_plant AIGHT
 I watched a Hades stream this week and I was straight up gonna ask if it was League of Legends LOL",0,0,0,0,0,0
 553,Playboi Carti saves troubled man from League of Legends addiction (REAL),0,0,0,0,0,0
-554,"13-9 back against the wall, I win 3 straight to get another 16 Wâ€™s in Weekend League!
+554,"13-9 back against the wall, I win 3 straight to get another 16 W’s in Weekend League!
 
 Most Feared Part 1 - Complete
-House Rules - 25 Wâ€™s
+House Rules - 25 W’s
 The 50 Weekly - Complete
 Legends Token - Complete
 
@@ -757,7 +757,7 @@ That is so cool",0,0,0,0,0,0
 663,@Yamikazexz what a boss,0,0,0,0,0,0
 664,I love that you are explaining this like we are 5 years of age,0,0,0,0,0,0
 665,dont u think that talon have some problem with mana ?,0,0,0,0,0,0
-666,@yamikazexz you speak personal experience there isnÕt it ? xD,0,0,0,0,0,0
+666,@yamikazexz you speak personal experience there isn�t it ? xD,0,0,0,0,0,0
 667,YAMI ID TWITCH SINGLE!,0,0,0,0,0,0
 668,is Yami twitch single O.o ??? hehe xd,0,0,0,0,0,0
 669,215 cs,0,0,0,0,0,0
@@ -901,7 +901,7 @@ That is so cool",0,0,0,0,0,0
 807,10% xd,0,0,0,0,0,0
 808,ppHop,0,0,0,0,0,0
 809,Dd ?,0,0,0,0,0,0
-810,Ur not an assassin if u donÕt one tap the adc,0,0,0,0,0,0
+810,Ur not an assassin if u don�t one tap the adc,0,0,0,0,0,0
 811,YEP TIT,0,0,0,0,0,0
 812,sell boots for triforce?,0,0,0,0,0,0
 813,:thumb:,0,0,0,0,0,0
@@ -988,7 +988,7 @@ That is so cool",0,0,0,0,0,0
 894,because americans are stupid ppl,1,0,0,0,1,0
 895,@buttery_butt1094 YEAH shit funny af,1,0,0,0,0,0
 896,INVADE HIS NERCOMANCER ASS,1,0,1,0,1,0
-897,@santalama I’m 100% sure you’re fucking with me now,1,0,1,0,1,0
+897,@santalama I�m 100% sure you�re fucking with me now,1,0,1,0,1,0
 898,Why is every game in NA diamond a fucking booster or wintrader? like wtf,1,0,1,0,0,0
 899,holy shit this kaisa is stupid,1,0,1,0,1,0
 900,BUSSERS BOUNCE DAT ASS,1,0,1,0,0,0
@@ -1092,10 +1092,10 @@ That is so cool",0,0,0,0,0,0
 998,fuck this game,1,0,1,0,0,0
 999,I suck so bad loool,1,0,0,0,0,0
 1000,this suck,1,0,0,0,0,0
-1001,Wtf thats stupidðŸ˜‚ðŸ˜‚,1,0,0,0,0,0
+1001,Wtf thats stupid😂😂,1,0,0,0,0,0
 1002,so its not the fucking card,1,0,0,0,0,0
 1003,here I just an administrator up my ass,1,0,0,0,0,0
-1004,They should just keep it ES then put KV in others and fuck off mirimar everyone backs out that shit map ðŸ˜‚,1,0,1,0,0,0
+1004,They should just keep it ES then put KV in others and fuck off mirimar everyone backs out that shit map 😂,1,0,1,0,0,0
 1005,How to mute this shit,1,0,0,0,0,0
 1006,when are the ygonna rework the zones? so fucking stupid,1,0,1,0,1,0
 1007,fucking shit,1,0,1,0,0,0
@@ -1109,7 +1109,7 @@ That is so cool",0,0,0,0,0,0
 1015,without stupid shit,1,0,1,0,0,0
 1016,They put weird stupid shit in the game like weather who needs that? xD,1,0,1,0,1,0
 1017,"""Shit's on fire yo""",1,0,0,0,1,0
-1018,how the fuck is there only 7 people in queue? i wanna plÃ¶ay ffs,1,0,1,0,0,0
+1018,how the fuck is there only 7 people in queue? i wanna plöay ffs,1,0,1,0,0,0
 1019,OH SHIT DESYNC YOUR DEAD,1,0,0,0,0,0
 1020,"how the fuck, is this game still alive",1,0,1,0,1,0
 1021,stupid racist coward,1,0,0,0,1,0
@@ -1121,15 +1121,15 @@ That is so cool",0,0,0,0,0,0
 1027,why did pubg add this creepy shit?,1,0,0,0,0,0
 1028,I got a fucking question,1,0,0,0,0,0
 1029,hell yoah,0,0,0,0,0,0
-1030,why the fuck are the servers still upðŸ˜„,1,0,0,0,1,0
+1030,why the fuck are the servers still up😄,1,0,0,0,1,0
 1031,Who else hate their life?,1,0,0,0,0,0
 1032,Like Hell Do I Care.,1,0,0,0,0,0
 1033,sakura is stupid crap,1,0,0,0,1,0
 1034,> cod is crap which one?,1,0,0,0,0,0
-1035,But who the âœ¨hell âœ¨are you ?,1,0,0,0,1,0
+1035,But who the ✨hell ✨are you ?,1,0,0,0,1,0
 1036,>  u only know music Stupid,1,0,0,0,1,0
 1037,Its my stupid earphones,1,0,0,0,0,0
-1038,> hundustan looks stupid ðŸ˜ ðŸ¤£,1,0,0,0,1,0
+1038,> hundustan looks stupid 😝 🤣,1,0,0,0,1,0
 1039,emojis here suck tbh,1,0,0,0,0,0
 1040,@Clyde#0001  stupid claim down,1,0,0,0,0,0
 1041,u really idiot,1,0,0,0,1,0
@@ -1146,12 +1146,12 @@ That is so cool",0,0,0,0,0,0
 1052,Daniel= dumb and stupid,1,0,0,0,1,0
 1053,Hell no ew,1,0,0,0,0,0
 1054,Get the hell out,1,0,0,0,0,0
-1055,no it is stupid dâ€™smellyio sisters,1,0,0,0,1,0
+1055,no it is stupid d’smellyio sisters,1,0,0,0,1,0
 1056,play this stupid shat,1,0,0,0,0,0
 1057,Like what the hell is this,1,0,0,0,0,0
 1058,I hate my life,1,0,0,0,0,0
 1059,Hell,0,0,0,0,0,0
-1060,why he is calling u idiot tho? ðŸ˜®,1,0,0,0,0,0
+1060,why he is calling u idiot tho? 😮,1,0,0,0,0,0
 1061,Melanie is in hell now,1,0,0,0,0,0
 1062,suck ur wee,1,0,1,0,0,0
 1063,I hate stupid people too coz they r stupid,1,0,0,0,1,0
@@ -1161,7 +1161,7 @@ That is so cool",0,0,0,0,0,0
 1067,shut up damn,1,0,0,1,0,0
 1068,Dont bother with salty lol he's tryna make yall look like an idiot when he is the moron himself,1,0,0,0,0,0
 1069,The hell,1,0,0,0,0,0
-1070,im stupid hbu?ðŸ™‡,1,0,0,0,0,0
+1070,im stupid hbu?🙇,1,0,0,0,0,0
 1071,u just stupid,1,0,0,0,1,0
 1072,shut up rzr u loser,1,0,0,1,1,0
 1073,your memes suck shut up,1,0,0,1,0,0
@@ -1175,7 +1175,7 @@ That is so cool",0,0,0,0,0,0
 1081,Stupid net tbh,1,0,0,0,0,0
 1082,do you have stupid brain idot,1,0,0,0,1,0
 1083,They suck,1,0,0,0,0,0
-1084,m stupid ðŸ˜–,1,0,0,0,0,0
+1084,m stupid 😖,1,0,0,0,0,0
 1085,you're stupid,1,0,0,0,1,0
 1086,Are you gay?,1,0,0,0,1,1
 1087,The only idiot is you.,1,0,0,0,0,0
@@ -1185,7 +1185,7 @@ That is so cool",0,0,0,0,0,0
 1091,Who is this stupid Jerry guy?,1,0,0,0,1,1
 1092,Ur one big dumb f,1,0,0,0,1,0
 1093,~~~gay~~,1,0,0,0,1,1
-1094,**FÃ¼cking DONKEEY**,1,0,1,0,1,0
+1094,**Fücking DONKEEY**,1,0,1,0,1,0
 1095,the hell is a karak?,1,0,0,0,0,0
 1096,Meebot is shit,1,0,0,0,0,0
 1097,bc my stupid dog eat it,1,0,0,0,0,0
@@ -1208,7 +1208,7 @@ Please participate in this gaming survey.
 https://forms.gle/Rqcho2UCE1zF9CiE9",0,0,0,0,0,0
 1111,Wkfvdf,0,0,0,0,0,0
 1112,among us,0,0,0,0,0,0
-1113,Anyone know if Paramo is down for console? Shit is so fucked. Game won't even start. What a dumb company ðŸ¤£,0,0,0,0,0,0
+1113,Anyone know if Paramo is down for console? Shit is so fucked. Game won't even start. What a dumb company 🤣,0,0,0,0,0,0
 1114,does anyone plays pubg pc lite?,0,0,0,0,0,0
 1115,"This is the Official PUBG Discord for PC Steam, Xbox, and PlayStation 4, we do not provide support for PUBG LITE.
 
@@ -1225,17 +1225,17 @@ http://discord.gg/pubgm",0,0,0,0,0,0
 1121,"> <@!419518776992858122> Doubt he was cheating. Beryl 6x full auto spray is pretty effective lol
 <@409827982455078912>
 He was using red dot. He killed me without a single bullet missing the target. Also he knew I was behind a certain building and he was crouch waiting me whilst going closer with his team after he killed my other two teammates. No previous vision or gunshot of me or whatsoever. I know when I am beat and there was clearly a cheat honestly.",0,0,0,0,0,0
-1122,"If he knew where you were/seeing through walls fair enough, they're the people I've seen (but very rarely) who were the most obvious cheats. But people get accused of aimbot a lot who may just be really good at the game. Watch Shroud or DanUCD or other top streamers, spinning 180 and perfectly controlling full auto-sprays killing targets a long way off â€” I bet they get reported for aimbot a lot. Some people are just bloody good at the game. But seeing through walls is more obvious, I got killed by someone the other day who knew where I was despite me hiding â€” his username ffffffffo0_ â€”Â I checked, his K/D last season 100 games was 17+. Obvious cheater. But as I say, some people are just really good.",0,0,0,0,0,0
+1122,"If he knew where you were/seeing through walls fair enough, they're the people I've seen (but very rarely) who were the most obvious cheats. But people get accused of aimbot a lot who may just be really good at the game. Watch Shroud or DanUCD or other top streamers, spinning 180 and perfectly controlling full auto-sprays killing targets a long way off — I bet they get reported for aimbot a lot. Some people are just bloody good at the game. But seeing through walls is more obvious, I got killed by someone the other day who knew where I was despite me hiding — his username ffffffffo0_ — I checked, his K/D last season 100 games was 17+. Obvious cheater. But as I say, some people are just really good.",0,0,0,0,0,0
 1123,<:crate:590504090791051275>,0,0,0,0,0,0
 1124,!pclite <@!761867680810401812>,0,0,0,0,0,0
 1125,No solo ranked in SEA DED,0,0,0,0,0,0
 1126,whats pubg lite?,0,0,0,0,0,0
-1127,STILL waiting for the reasoning behind stats on Paramo not being recorded. And also why itâ€™s in a separate queue.,0,0,0,0,0,0
+1127,STILL waiting for the reasoning behind stats on Paramo not being recorded. And also why it’s in a separate queue.,0,0,0,0,0,0
 1128,"<@490548703208144906> you were given a response yesterday, along with being tagged. 
 https://discord.com/channels/207018395139309569/207019048607678464/771681923810590730",0,0,0,0,0,0
 1129,"> <@490548703208144906> you were given a response yesterday, along with being tagged. 
 > https://discord.com/channels/207018395139309569/207019048607678464/771681923810590730
-<@!165746109837213697>  And this is EXACTLY why Discord doesnâ€™t work. Unless youâ€™re constantly sat reading every single â€˜helloâ€™ or â€˜hiâ€™, things are missed. Discord is a mess of unnecessary messages, bot accounts, and spam. And thereâ€™s still no console specific section for chat, so you have 2 platforms all intermingled. And thatâ€™s not including the constant PUBG lite and mobile posts!",0,0,0,0,0,0
+<@!165746109837213697>  And this is EXACTLY why Discord doesn’t work. Unless you’re constantly sat reading every single ‘hello’ or ‘hi’, things are missed. Discord is a mess of unnecessary messages, bot accounts, and spam. And there’s still no console specific section for chat, so you have 2 platforms all intermingled. And that’s not including the constant PUBG lite and mobile posts!",0,0,0,0,0,0
 1130,"I'm sorry that you are having trouble with discord, but missing a tag can happen irrespective of how chat moves",0,0,0,0,0,0
 1131,We won't be bringing back the forums and things will remain as they are currently.,0,0,0,0,0,0
 1132,Please bring back pubg in INDIA<:pubgcd2:286295723547426826>,0,0,0,0,0,0
@@ -1244,11 +1244,11 @@ https://discord.com/channels/207018395139309569/207019048607678464/7716819238105
 <@315135093394112513> 
 I don't think so.",0,0,0,0,0,0
 1134,But you can play cross platform between consoles.,0,0,0,0,0,0
-1135,"""Failure doesn't mean the game is over, it means try again with experience.""ðŸ’¯
+1135,"""Failure doesn't mean the game is over, it means try again with experience.""💯
 
-Pardon the mistakesðŸ™
+Pardon the mistakes🙏
 https://www.instagram.com/tv/CG_-UWYpUL2/?igshid=1acqtsyhczs0n",0,0,0,0,0,0
-1136,Please do support ðŸ¥ºðŸ™,0,0,0,0,0,0
+1136,Please do support 🥺🙏,0,0,0,0,0,0
 1137,"<@!165746109837213697> can you add chat box in PUBG , even though voice chat doesn't work in some of countries. It would be helpful for us",0,0,0,0,0,0
 1138,"> <@!165746109837213697> please bring back the forums. I hate scrolling through the channels looking for I
 <@665180616324808704>  
@@ -1262,12 +1262,12 @@ https://www.instagram.com/tv/CG_-UWYpUL2/?igshid=1acqtsyhczs0n",0,0,0,0,0,0
 1144,"> I can't even play a duo game with my wife. Every time we get into a fight she hitches/freeze/lag. The last game we played, before she couldn't take it anymore, it did all the above and then got network lag detected. I'm on a One X and didn't have that issue in fights. She's on a One S.
 <@409827982455078912>  wired or WiFi? And what kind of internet speeds are you getting?",0,0,0,0,0,0
 1145,https://tenor.com/view/confused-white-persian-guardian-why-gif-11908780,0,0,0,0,0,0
-1146,"> Iâ€™m going to ask again. Whoâ€™s bright idea was it to decide that stats for games on Paramo werenâ€™t recorded? I mean, why?!? Also, by making one map in a separate queue to every other map, youâ€™ve INCREASED queues ðŸ¤¦ðŸ¼â€â™‚ï¸ And why no solo or duos on the map?!? Genuinely, I question the intelligence of the people making these decisions. Itâ€™s absolutely preposterous that you think youâ€™re improving things.
+1146,"> I’m going to ask again. Who’s bright idea was it to decide that stats for games on Paramo weren’t recorded? I mean, why?!? Also, by making one map in a separate queue to every other map, you’ve INCREASED queues 🤦🏼‍♂️ And why no solo or duos on the map?!? Genuinely, I question the intelligence of the people making these decisions. It’s absolutely preposterous that you think you’re improving things.
 <@490548703208144906> 
 Release of Paramo is an experimental way of doing seasonal content which is why it's in the separate queue we call labs. It was decided to be only released in squads because squads is the most played gamemode by far compared to others so it would have the least impact on splitting the playerbase/increasing queue times. Insulting others intelligence because you disagree on their decisions is not constructive. We welcome any and all feedback and read it all, but we do not welcome insulting or toxic behavior.",0,0,0,0,0,0
 1147,"> hey
-<@756358498215919616> ì´ì   ë¯¸ì¹œë†ˆì´ë„¤...",0,0,0,0,0,0
-1148,"<@213002637107265537> I think itâ€™s probably because ARâ€™s are the norm in ranked, and there was a distinct lack of AR extended/extended quick draw mags. Theyâ€™ll of had to reduce the spawn rate of something to accommodate this, and smgâ€™s being much less used, it sort of makes sense.",0,0,0,0,0,0
+<@756358498215919616> 이젠 미친놈이네...",0,0,0,0,0,0
+1148,"<@213002637107265537> I think it’s probably because AR’s are the norm in ranked, and there was a distinct lack of AR extended/extended quick draw mags. They’ll of had to reduce the spawn rate of something to accommodate this, and smg’s being much less used, it sort of makes sense.",0,0,0,0,0,0
 1149,What time will the update happen for consoles?,0,0,0,0,0,0
 1150,<@!707348665932447764> https://discord.com/channels/207018395139309569/390065258460348416/771018985649995776,0,0,0,0,0,0
 1151,Thank you,0,0,0,0,0,0
@@ -1275,16 +1275,16 @@ Release of Paramo is an experimental way of doing seasonal content which is why 
 1153,Why im lagging when ever i open the door ?,0,0,0,0,0,0
 1154,<@770599459969040404> people have got better to control the recoil,0,0,0,0,0,0
 1155,<@!490548703208144906> <@!213002637107265537> https://www.theverge.com/2020/9/14/21435831/xbox-series-s-backward-compatibility-one-x-enhanced-mode,0,0,0,0,0,0
-1156,Thatâ€™s pretty pathetic. I stick with the One X I think. First time in my 30+ years of gaming that I havenâ€™t been excited for a next gen console.,0,0,0,0,0,0
-1157,"Well Iâ€™m a ps player, so my digital version will be as strong as the disc version",0,0,0,0,0,0
+1156,That’s pretty pathetic. I stick with the One X I think. First time in my 30+ years of gaming that I haven’t been excited for a next gen console.,0,0,0,0,0,0
+1157,"Well I’m a ps player, so my digital version will be as strong as the disc version",0,0,0,0,0,0
 1158,i got banned for doing nothing wrong,0,0,0,0,0,0
 1159,"If you feel you were incorrectly banned please submit an appeal on our support website:
 
 https://support.pubg.com/hc/en-us",0,0,0,0,0,0
-1160,Sa tÃ¼rk varmi,0,0,0,0,0,0
+1160,Sa türk varmi,0,0,0,0,0,0
 1161,"<@521043205060296725>  dont bother submitting a ticket it will just be ignored , been temp banned sinse they introduced the broken anti cheat been 3 weeks so far no support from the ""support"" just copy paste replies its really not worth your time .",0,0,0,0,0,0
 1162,"> <@490548703208144906> play solo when
-<@490291669468708901>  there is currently no solo ranked (yes, I know itâ€™s coming). Still doesnâ€™t change the fact that the current restrictions on ranked squad are ridiculous. I canâ€™t play WITH teammates who are Master tier, but I can be matched AGAINST them?!? Just another idiotic decision from the company ðŸ¤¦ðŸ¼â€â™‚ï¸ Youâ€™ll notice that one of the community managers has conveniently overlooked my post, as he often does too.",0,0,0,0,0,0
+<@490291669468708901>  there is currently no solo ranked (yes, I know it’s coming). Still doesn’t change the fact that the current restrictions on ranked squad are ridiculous. I can’t play WITH teammates who are Master tier, but I can be matched AGAINST them?!? Just another idiotic decision from the company 🤦🏼‍♂️ You’ll notice that one of the community managers has conveniently overlooked my post, as he often does too.",0,0,0,0,0,0
 1163,"yeah, I mean, i think we already knew it would run on the Series X with the 9.1 update. Sad that they basically announced it won't be optimized for the Series X/S",0,0,0,0,0,0
 1164,The series X running on PTS https://youtu.be/kwlBYQZbxs0,0,0,0,0,0,0
 1165,And no 60fps available on the Series S at launch?!?,0,0,0,0,0,0
@@ -1304,8 +1304,8 @@ https://support.pubg.com/hc/en-us",0,0,0,0,0,0
 1178,console update yet anyone nothing here yet ...,0,0,0,0,0,0
 1179,"> <@!81228883214467072> 160K current players
 <@!710179948270190662> Where can u see this",0,0,0,0,0,0
-1180,Iâ€™m new here,0,0,0,0,0,0
-1181,Somewhat new to the game my play time is about a day Iâ€™m looking for some tips,0,0,0,0,0,0
+1180,I’m new here,0,0,0,0,0,0
+1181,Somewhat new to the game my play time is about a day I’m looking for some tips,0,0,0,0,0,0
 1182,"XDDDD   Normal Match mode! ! Team of 6! ! ! Hahahaha
 https://ibb.co/SrWGYs1",0,0,0,0,0,0
 1183,"Bruh I was on the new map, I was in a smoke, and my FPS dropped from 140 ish to 70-60",0,0,0,0,0,0
@@ -1362,7 +1362,7 @@ https://ibb.co/SrWGYs1",0,0,0,0,0,0
 1233,!weather danu,0,0,0,0,0,0
 1234,"danu) Weather for Danu, MD: Overcast clouds with a temperature of 12.5 C (54.5 F). Wind is blowing from the North at 3.2 kph (1.99 mph) and the humidity is 92%",0,0,0,0,0,0
 1235,@jrrod91 KEKEW,0,0,0,0,0,0
-1236,"can i say ""QUE OTA"" when hit a headshot ý",0,0,0,0,0,0
+1236,"can i say ""QUE OTA"" when hit a headshot �",0,0,0,0,0,0
 1237,LUL LUL,0,0,0,0,0,0
 1238,!cam,0,0,0,0,0,0
 1239,"MsRoselyn BMPCC 4k, Tokina 11-16 mm Lens - Logitech C922 PRO",0,0,0,0,0,0
@@ -1373,7 +1373,7 @@ https://ibb.co/SrWGYs1",0,0,0,0,0,0
 1244,white_medium_star:,0,0,0,0,0,0
 1245,!weather Paramo,0,0,0,0,0,0
 1246,danucdRespect danucdRespect danucdRespect danucdRespect danucdRespect danucdRespect danucdRespect danucdRespect danucdRespect danucdRespect danucdRespect danucdRespect danucdRespect,0,0,0,0,0,0
-1247,"Paramo) Weather for P ramo, ES: Scattered clouds with a temperature of 13.6 C (56.4 F). Wind is blowing from the West at 31.32 kph (19.46 mph) and the humidity is 66%",0,0,0,0,0,0
+1247,"Paramo) Weather for P�ramo, ES: Scattered clouds with a temperature of 13.6 C (56.4 F). Wind is blowing from the West at 31.32 kph (19.46 mph) and the humidity is 66%",0,0,0,0,0,0
 1248,danucdTwitchPrime,0,0,0,0,0,0
 1249,PogChamp danucdTwitchPrime,0,0,0,0,0,0
 1250,@milesm41 thanks for the resub danucdBanana,0,0,0,0,0,0
@@ -2331,7 +2331,7 @@ https://ibb.co/SrWGYs1",0,0,0,0,0,0
 2202,Is that Asian server?,0,0,0,0,0,0
 2203,random?,0,0,0,0,0,0
 2204,nah this is russia server,0,0,0,0,0,0
-2205,Asia server¨,0,0,0,0,0,0
+2205,Asia server�,0,0,0,0,0,0
 2206,4th guy,0,0,0,0,0,0
 2207,5th guy,0,0,0,0,0,0
 2208,"He just said ""NA piece of cake compared to EU"".",0,0,0,0,0,0
@@ -2925,7 +2925,7 @@ https://ibb.co/SrWGYs1",0,0,0,0,0,0
 2796,holy shit subs,1,0,0,0,0,0
 2797,shit winds are acomin'!,1,0,0,0,0,0
 2798,high key this guy is scaryin the fuck ouutta me,1,0,1,0,0,0
-2799,“Personally i’d rather fuck a moose”- Canadian Mountie,1,0,1,0,0,0
+2799,�Personally i�d rather fuck a moose�- Canadian Mountie,1,0,1,0,0,0
 2800,fucking illogical babies.,1,0,1,0,0,0
 2801,@guccixslaya cheaters suck hard tho,1,0,0,0,0,0
 2802,"WTF is wrong with people who play solos. HOLY FUCK, JUST fucking PEAK me!!!",1,0,1,0,1,0
@@ -2976,7 +2976,7 @@ https://ibb.co/SrWGYs1",0,0,0,0,0,0
 2847,Shootin the shit smokin sum herb,1,0,0,0,0,0
 2848,a shit zoo,1,0,1,0,0,0
 2849,Stupid decisions mean stupid result,1,0,0,0,0,0
-2850,I’m hungry as fuck but stuck at work,1,0,1,0,0,0
+2850,I�m hungry as fuck but stuck at work,1,0,1,0,0,0
 2851,in and out sucks COCK,1,0,1,0,0,0
 2852,Jesus fuck. This map,1,0,1,0,0,0
 2853,grizz gonna take a shit,1,0,1,0,0,0
