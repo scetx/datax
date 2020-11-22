@@ -1,0 +1,5 @@
+,city,year,total_pop,black_pct,white_pct,latinx_pct,asian_pct,other_pct,black_drive_stops,white_drive_stops,latinx_drive_stops,asian_drive_stops,other_drive_stops,black_uof,white_uof,latinx_uof,asian_uof,other_uof
+0,Bloomington,2019,85755,0.043,0.814,0.041,0.099,0.039,162,777,39,5,145,72.0,216.0,2.0,4.0,2.0
+1,Bloomington,2018,84981,0.0414,0.782,0.0412,0.0992,0.03563,187,993,44,65,137,67.0,250.0,7.0,0.0,0.0
+2,Bloomington,2017,84896,0.041,0.78,0.041,0.099,0.035,149,848,38,62,121,51.0,162.0,7.0,1.0,1.0
+3,Bloomington,2016,84396,0.041,0.78,0.041,0.099,0.035,87,527,23,24,121,96.0,244.0,3.0,3.0,0.0

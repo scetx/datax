@@ -1,0 +1,5 @@
+﻿city,year,total_pop,black_pct,white_pct,latinx_pct,asian_pct,other_pct,black_drive_stops,white_drive_stops,latinx_drive_stops,asian_drive_stops,other_drive_stops,black_uof,white_uof,latinx_uof,asian_uof,other_uof
+Chicago,2016,2719000,0.293,0.326,0.297,0.04,0.29,105018,"291,186",66829,14320,3130,"2,664",301,512,11,177
+Chicago,2017,2713000,0.29,0.33,0.297,0.045,0.3,120643,291555,75402,16085,3200,2648,245,477,23,177
+Chicago,2018,2706000,0.3,0.45,0.293,0.05,0.3,152171,315212,81520,16304,3804,2497,210,418,16,119
+Chicago,2019,2693976,0.301,0.494,0.29,0.064,0.301,316945,109292,163937,81969,4279,2726,211,473,11,116
