@@ -26,11 +26,11 @@ With this system, game developers can understand toxicity surrounding their game
 
 Our team decided to use the [Jigsaw Dataset](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data) that contains Wikipedia comments to train our classification models. This dataset has multiple labels for different types of toxicity: i) toxic, ii) severe_toxic, iii) obscene, iv) threat, v) insult, and vi) identity_hate. The occurences of the labels are shown below:
 
-![label_distribution](./images/label_distribution.png)
+![label_distribution](./images/label_distribution.PNG)
 
 Our training data is clearly imbalanced. We have to keep in mind that we will need to address this when evaluating our models.
 
-![label_correlation](./images/label_correlation.png)
+![label_correlation](./images/label_correlation.PNG)
 
 In this correlation matrix, we see that toxic is corerlated with all labels, and most significantly for obscene and threat. Threat is least correlated with the rest of the labels.
 
@@ -56,7 +56,7 @@ One problem that we encountered, however, is imbalanced data. Much like our trai
 
 To further address the imbalanced data, we used the area under the receiving operating characteristic curve (ROC-AUC) as our evaluation metric. In the end, we compared Logistic Regression, Support Vector Machine, Random Forest, LSTM, and BERT. The ROC-AUC scores for each model evaluated on the validation set are shown below:
 
-![model_results](./images/models.png)
+![model_results](./images/models.PNG)
 
 As you can see, our champion model is BERT, as it has the highest ROC-AUC. 
 
@@ -68,9 +68,9 @@ Using our champion BERT model, we analyzed the toxicity of communities for Leagu
 
 The bar charts below summarize the distribution of the different types of toxicity for each game across the platforms:
 
-![league_summary](./images/lol_summary.png)
+![league_summary](./images/lol_summary.PNG)
 
-![pubg_summary](./images/pubg_summary.png)
+![pubg_summary](./images/pubg_summary.PNG)
 
 Highlights:
 * _Severe toxic_ and _threat_ comments usually include words aboutd eath and severe crime
