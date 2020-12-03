@@ -60,7 +60,7 @@ To further address the imbalanced data, we used the area under the receiving ope
 
 As you can see, our champion model is BERT, as it has the highest ROC-AUC. 
 
-The models are located in this folder [models_folder](https://github.com/pl2599/GGWP-Toxic-Behavior/tree/main/models).
+The models are located in this [models_folder](https://github.com/pl2599/GGWP-Toxic-Behavior/tree/main/models).
 
 # Summary Report
 
@@ -75,3 +75,5 @@ The bar charts below summarize the distribution of the different types of toxici
 Highlights:
 * _Severe toxic_ and _threat_ comments usually include words aboutd eath and severe crime
 * For PUBG, a larger proportion of toxic comments are severely toxic (e.g. 10% for PUBG Twitter compared to 2% for LoL Twitter)
+
+The summary reports can be viewed in this [reports_folder](https://github.com/pl2599/GGWP-Toxic-Behavior/tree/main/reports)
