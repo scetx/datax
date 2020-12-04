@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Network</title>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    </script>
+    <script src="https://cdn.anychart.com/releases/8.8.0/js/anychart-core.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.8.0/js/anychart-graph.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.8.0/js/anychart-data-adapter.min.js"></script>
+    <style>
+        #mynetwork {
+        width: 800px;
+        height: 400px;
+        margin: 0 auto;
+        border: 1px solid black;
+        background-color: rgb(220, 240, 247);
+}
+
+        h1 {text-align: center; font-style: oblique;}
+
+    </style>
+  </head>
+  <body>
+      <h1>Cyber Attacks in Computer Networks</h1>
+
+    <div id="mynetwork"></div>
+
+    <button onclick="perimeterDefense()">Perimeter Defense</button>
+    <button onclick="activeThreatHunt()">Active Threat Hunting</button>
+    <button onclick="zeroTrust()">Zero Trust Network</button>
+    
+    <script src="js/app.js">
+
+    </script>
+  </body>
+</html>
