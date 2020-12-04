@@ -1,0 +1,9 @@
+#mynetwork {
+  width: 800px;
+  height: 400px;
+  margin: 0 auto;
+  border: 1px solid black;
+  background-color: rgb(220, 240, 247);
+}
+
+h1 {text-align: center; font-style: oblique;}
