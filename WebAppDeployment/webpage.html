@@ -1,19 +1,15 @@
 <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
-
 
 <!DOCTYPE html><html class=''>
 <head><link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
   <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-  <!-- <script src='https://production-assets.codepen.io/assets/editor/live/console_runner-079c09a0e3b9ff743e39ee2d5637b9216b3545af0de366d4b9aad9dc87e26bfd.js'></script> -->
-  <!-- <script src='https://production-assets.codepen.io/assets/editor/live/events_runner-73716630c22bbc8cff4bd0f07b135f00a0bdc5d14629260c3ec49e5606f98fdd.js'></script> -->
   <script src='https://production-assets.codepen.io/assets/editor/live/css_live_reload_init-2c0dc5167d60a5af3ee189d570b1835129687ea2a61bee3513dee3a50c115a77.js'></script>
   <meta charset='UTF-8'><meta name="robots" content="noindex">
   <link rel="shortcut icon" type="image/x-icon" href="https://production-assets.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico" />
   <link rel="mask-icon" type="" href="https://production-assets.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111" />
   <link rel="canonical" href="https://codepen.io/michellelpepe/pen/GoQyoJ?depth=everything&order=popularity&page=84&q=pack&show_forks=false" />
 <link href='https://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
-
+<!-- Adding all the CSS styles/properties required here -->
 <style class="cp-pen-styles">* {
   margin: 0;
   padding: 0;
@@ -60,20 +56,6 @@ html, body {
   box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* .chatbox__messages:nth-of-type(odd) .chatbox__messages__user-message--ind-message {
-  float: right;
-}
-.chatbox__messages:nth-of-type(odd) .chatbox__messages__user-message--ind-message:after {
-  content: '';
-  position: absolute;
-  margin: -1.5em -17.06em;
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-right: 10px solid rgba(255, 255, 255, 0.2);
-} */
-/*******************************************************************************************************************************************************************/
 .chatbox__messages:nth-of-type(2) .chatbox__messages__user-message--ind-message {
   float: left;
 }
@@ -165,21 +147,6 @@ html, body {
   border-bottom: 10px solid transparent;
   border-right: 10px solid rgba(255, 255, 255, 0.2);
 }
-/*******************************************************************************************************************************************************************/
-
-/* .chatbox__messages:nth-of-type(even) .chatbox__messages__user-message--ind-message {
-  float: left;
-}
-.chatbox__messages:nth-of-type(even) .chatbox__messages__user-message--ind-message:after {
-  content: '';
-  position: absolute;
-  margin: -1.5em 1.87em;
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 10px solid rgba(255, 255, 255, 0.2);
-} */
 
 .chatbox__messages__user-message {
   width: 450px;
@@ -298,18 +265,23 @@ html, body {
 :-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.9);
 }
-</style></head><body>
+</style></head>
+  <!-- The main body of the page starts here -->
+
+  <body>
 <div class='container' ng-cloak ng-app="chatApp">
   <h1>Toxicity Detecting Messenger</h1>
   <div class='chatbox' ng-controller="MessageCtrl as chatMessage">
     <div class='chatbox__user-list'>
      <h1 ng-click="clicking()"  id="myInput">Submit</h1>
-     
+     <!-- This hiddenDiv below will be used to show the warning to the player as and when required -->
+
      <div id='hiddenDiv' class='chatbox__user--busy' style='visibility: hidden;'>
        <p class="inner" id="innerMessage"></p>
      </div>
     </div> 
-    
+    <!-- These are the divs actually showing the messages by getting those values from the Angular app's scope's messages array -->
+
     <div class="chatbox__messages" ng-repeat="message in messages">
       <div class="chatbox__messages__user-message">
         <div class="chatbox__messages__user-message--ind-message">
@@ -320,15 +292,16 @@ html, body {
       </div>
     </div>
     <form>
+      <!-- Adding an event listener to our text input. If "Enter" is pressed or form is submitted with the button on the right, we will call the clicking() method in our angular app's scope -->
       <input ng-keyup="$event.keyCode == 13 ? clicking() : null" type="text" id="myText" placeholder="Type Message">
     </form>
   </div>
-<!-- <script src='https://production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script> -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js'></script>
 <script >(function() {
   var app = angular.module('chatApp', []);
 
   app.controller('MessageCtrl', function($scope) {
+    //This messages array that is part of the scope of the angular app, holds the messages as Name + Message pair objects.
     $scope.messages = [{
       Name: 'Michelle Pepe',
       Message: "Hey! What's up?"
@@ -336,8 +309,9 @@ html, body {
       Name: 'Michael Johnson',
       Message: "Nothing much. New to this game and exploring, what about you?"
     }];
-
+    // The method called when submitting the text from the input box
     $scope.clicking = function () {
+      // The URL on my local system that the server is running/hosted on
       let reqURL = 'http://localhost:5000/api/v1/predict';
       var submitText = document.getElementById("myText").value;
       var features = {
@@ -345,25 +319,30 @@ html, body {
       }
       console.log("message: " + submitText);
 
-      var neg = 1.0
+      // Creating a XML HTTP Request Object to be able to make a REST POST method call to the server, converting the input to a JSON by stringifying the above features object.
       const Http = new XMLHttpRequest();
       Http.open("POST", reqURL);
       Http.setRequestHeader("Content-Type", "application/json");
       Http.send(JSON.stringify(features));
       Http.onloadend = (e) => {
+        // We come here once the server has returned a response.
         let rc = JSON.parse(Http.responseText);
         console.log(rc);
+        // We parse the response from the HTTP request and check for the number (count) of violations in the input text. Based on the violation, we take our next steps below. 
         if (rc.Count >= 3) {
+          // Very Highly negative block. Display appropriate below message.
           console.log("Highly Negative");
           document.getElementById("hiddenDiv").style["visibility"] = "visible";
           document.getElementById("innerMessage").innerHTML="Your message violates our community guidelines. It was highly toxic and your profile has been flagged for moderator review."
         }
          else if (rc.Count > 0) {
+          // Negative block. Display appropriate below message.
           document.getElementById("innerMessage").innerHTML="Your message violates our community guidelines. Please reconsider before sending."
           console.log("Medium Negative");
           document.getElementById("hiddenDiv").style["visibility"] = "visible";
         } 
         else {
+          // Harmless message. Allow it to be posted by updating the Angular App's scope and apply()-ing to the UI again. Also clear any irrelavant error messages.
           document.getElementById("hiddenDiv").style["visibility"] = "hidden";
           $scope.messages.push({Name: "Me", Message:submitText});
           document.getElementById("myText").value = "";
@@ -374,7 +353,6 @@ html, body {
   });
 
 })();
-//# sourceURL=pen.js
 </script>
 
 </body></html>
