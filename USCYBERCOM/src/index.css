@@ -1,0 +1,33 @@
+
+.compromised {
+    fill: red;
+  }
+.resistant {
+    fill: rgba(255, 255, 255, 0.432);
+  }
+.normal {
+    fill: rgb(29, 209, 12);
+}
+
+.ring.normal {
+    fill: none;
+    stroke: rgb(74, 156, 66);
+  }
+  
+.under-attack {
+    animation: pulse 1000ms infinite ease-in-out;
+  }
+  
+  @keyframes pulse {
+    0% {
+      fill: rgb(0, 0, 0);
+    }
+    50% {
+      fill: red;
+    }
+    100% {
+      fill: darkblue;
+    }
+  }
+
+h1 {text-align: center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
