@@ -1,6 +1,6 @@
 # GGWP - Analyzing Game Toxicity through Public Data
 <p align="center">
-    <img src = "./images/gamer.jpg" height=300>
+    <img src = "./images_figs/gamer.jpg" height=300>
 </p>
 
 
@@ -26,17 +26,17 @@ With this system, game developers can understand toxicity surrounding their game
 
 Our team decided to use the [Jigsaw Dataset](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data) that contains Wikipedia comments to train our classification models. This dataset has multiple labels for different types of toxicity: i) toxic, ii) severe_toxic, iii) obscene, iv) threat, v) insult, and vi) identity_hate. The occurences of the labels are shown below:
 
-![label_distribution](./images/label_distribution.PNG)
+![label_distribution](./images_figs/label_distribution.PNG)
 
 Our training data is clearly imbalanced. We have to keep in mind that we will need to address this when evaluating our models.
 
-![label_correlation](./images/label_correlation.PNG)
+![label_correlation](./images_figs/label_correlation.PNG)
 
 In this correlation matrix, we see that toxic is corerlated with all labels, and most significantly for obscene and threat. Threat is least correlated with the rest of the labels.
 
 Lastly, here is a word cloud that shows most frequent words within toxic comments:
 
-![word_cloud](./images/word_cloud.jpg)
+![word_cloud](./images_figs/word_cloud.jpg)
 
 # Data Collection
 
@@ -56,7 +56,7 @@ One problem that we encountered, however, is imbalanced data. Much like our trai
 
 To further address the imbalanced data, we used the area under the receiving operating characteristic curve (ROC-AUC) as our evaluation metric. In the end, we compared Logistic Regression, Support Vector Machine, Random Forest, LSTM, and BERT. The ROC-AUC scores for each model evaluated on the validation set are shown below:
 
-![model_results](./images/models.PNG)
+![model_results](./images_figs/models.PNG)
 
 As you can see, our champion model is BERT, as it has the highest ROC-AUC. 
 
