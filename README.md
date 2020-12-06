@@ -1,4 +1,4 @@
-# GGWP - Improving Public Gaming Communities by Analyzing Toxicity
+# GGWP - Analyzing Game Toxicity through Public Data
 <p align="center">
     <img src = "./images/gamer.jpg" height=300>
 </p>
@@ -68,12 +68,9 @@ Using our champion BERT model, we analyzed the toxicity of communities for Leagu
 
 The bar charts below summarize the distribution of the different types of toxicity for each game across the platforms:
 
-![league_summary](./images/lol_summary.PNG)
-
-![pubg_summary](./images/pubg_summary.PNG)
-
 Highlights:
-* _Severe toxic_ and _threat_ comments usually include words aboutd eath and severe crime
-* For PUBG, a larger proportion of toxic comments are severely toxic (e.g. 10% for PUBG Twitter compared to 2% for LoL Twitter)
+* All platforms for LoL generally have similar distributions of toxicity types
+* PUBG Discord has the least toxic community
+* PUBG Twitter has relatively more _severe toxic_, _threat_, and _identity hate_ comments
 
-The summary reports can be viewed in this [reports_folder](https://github.com/pl2599/GGWP-Toxic-Behavior/tree/main/reports)
+The summary reports can be viewed in this [reports_folder](https://github.com/pl2599/GGWP-Toxic-Behavior/tree/main/reports).
