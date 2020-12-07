@@ -66,8 +66,6 @@ The models are located in this [models_folder](https://github.com/pl2599/GGWP-To
 
 Using our champion BERT model, we analyzed the toxicity of communities for League of Legends and Player Unknown Battlegrounds across the three platforms. 
 
-The bar charts below summarize the distribution of the different types of toxicity for each game across the platforms:
-
 Highlights:
 * All platforms for LoL generally have similar distributions of toxicity types
 * PUBG Discord has the least toxic community
