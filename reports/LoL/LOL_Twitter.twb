@@ -1,0 +1,484 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20202.20.0721.1350                               -->
+<workbook original-version='18.1' source-build='2020.2.4 (20202.20.0721.1350)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='predicted_lol_twitter' inline='true' name='federated.1jlxklx0aufg2u19dzoh3135ziqe' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='predicted_lol_twitter' name='textscan.08ebni70m16ekp1dq50ff1u0dqvk'>
+            <connection class='textscan' directory='C:/Users/vergi/OneDrive/Desktop/GGWP' filename='predicted_lol_twitter.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.08ebni70m16ekp1dq50ff1u0dqvk' name='predicted_lol_twitter.csv' table='[predicted_lol_twitter#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='zh_CN' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='Tweet' ordinal='1' />
+            <column datatype='real' name='toxic' ordinal='2' />
+            <column datatype='real' name='severe_toxic' ordinal='3' />
+            <column datatype='real' name='obscene' ordinal='4' />
+            <column datatype='real' name='threat' ordinal='5' />
+            <column datatype='real' name='insult' ordinal='6' />
+            <column datatype='real' name='identity_hate' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.08ebni70m16ekp1dq50ff1u0dqvk' name='predicted_lol_twitter.csv' table='[predicted_lol_twitter#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='zh_CN' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='Tweet' ordinal='1' />
+            <column datatype='real' name='toxic' ordinal='2' />
+            <column datatype='real' name='severe_toxic' ordinal='3' />
+            <column datatype='real' name='obscene' ordinal='4' />
+            <column datatype='real' name='threat' ordinal='5' />
+            <column datatype='real' name='insult' ordinal='6' />
+            <column datatype='real' name='identity_hate' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[predicted_lol_twitter.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;zh_Hans_CN&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;￥&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;zh_CN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[predicted_lol_twitter.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[predicted_lol_twitter.csv_35E8BF62B0144795992D3283D61B575E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tweet</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Tweet]</local-name>
+            <parent-name>[predicted_lol_twitter.csv]</parent-name>
+            <remote-alias>Tweet</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LZH_RCN' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[predicted_lol_twitter.csv_35E8BF62B0144795992D3283D61B575E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>toxic</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[toxic]</local-name>
+            <parent-name>[predicted_lol_twitter.csv]</parent-name>
+            <remote-alias>toxic</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[predicted_lol_twitter.csv_35E8BF62B0144795992D3283D61B575E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>severe_toxic</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[severe_toxic]</local-name>
+            <parent-name>[predicted_lol_twitter.csv]</parent-name>
+            <remote-alias>severe_toxic</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[predicted_lol_twitter.csv_35E8BF62B0144795992D3283D61B575E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>obscene</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[obscene]</local-name>
+            <parent-name>[predicted_lol_twitter.csv]</parent-name>
+            <remote-alias>obscene</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[predicted_lol_twitter.csv_35E8BF62B0144795992D3283D61B575E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>threat</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[threat]</local-name>
+            <parent-name>[predicted_lol_twitter.csv]</parent-name>
+            <remote-alias>threat</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[predicted_lol_twitter.csv_35E8BF62B0144795992D3283D61B575E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>insult</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[insult]</local-name>
+            <parent-name>[predicted_lol_twitter.csv]</parent-name>
+            <remote-alias>insult</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[predicted_lol_twitter.csv_35E8BF62B0144795992D3283D61B575E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>identity_hate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[identity_hate]</local-name>
+            <parent-name>[predicted_lol_twitter.csv]</parent-name>
+            <remote-alias>identity_hate</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[predicted_lol_twitter.csv_35E8BF62B0144795992D3283D61B575E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.1jlxklx0aufg2u19dzoh3135ziqe].[usr:Calculation_1243837975804796949:qk]&quot;' value='Toxic' />
+          <alias key='&quot;[federated.1jlxklx0aufg2u19dzoh3135ziqe].[usr:Calculation_1243837975804870678:qk]&quot;' value='Identity Hate' />
+          <alias key='&quot;[federated.1jlxklx0aufg2u19dzoh3135ziqe].[usr:Calculation_1243837975805636631:qk]&quot;' value='Insult' />
+          <alias key='&quot;[federated.1jlxklx0aufg2u19dzoh3135ziqe].[usr:Calculation_1243837975805714456:qk]&quot;' value='Obscene' />
+          <alias key='&quot;[federated.1jlxklx0aufg2u19dzoh3135ziqe].[usr:Calculation_1243837975805829145:qk]&quot;' value='Threat' />
+          <alias key='&quot;[federated.1jlxklx0aufg2u19dzoh3135ziqe].[usr:Calculation_1243837975806803994:qk]&quot;' value='Severe Toxic' />
+        </aliases>
+      </column>
+      <column caption='P Toxic' datatype='real' name='[Calculation_1243837975804796949]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='sum([toxic])/COUNT([toxic])' />
+      </column>
+      <column caption='P Identity Hate' datatype='real' name='[Calculation_1243837975804870678]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='sum([identity_hate])/COUNT([identity_hate])' />
+      </column>
+      <column caption='P Insult' datatype='real' name='[Calculation_1243837975805636631]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='sum([insult])/COUNT([insult])' />
+      </column>
+      <column caption='P Obscene' datatype='real' name='[Calculation_1243837975805714456]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='sum([obscene])/COUNT([obscene])' />
+      </column>
+      <column caption='P Threat' datatype='real' name='[Calculation_1243837975805829145]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='sum([threat])/COUNT([threat])' />
+      </column>
+      <column caption='P Severe Toxic' datatype='real' name='[Calculation_1243837975806803994]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='sum([severe_toxic])/COUNT([severe_toxic])' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='predicted_lol_twitter.csv' datatype='table' name='[__tableau_internal_object_id__].[predicted_lol_twitter.csv_35E8BF62B0144795992D3283D61B575E]' role='measure' type='quantitative' />
+      <column caption='Identity Hate' datatype='real' name='[identity_hate]' role='measure' type='quantitative' />
+      <column caption='Insult' datatype='real' name='[insult]' role='measure' type='quantitative' />
+      <column caption='Obscene' datatype='real' name='[obscene]' role='measure' type='quantitative' />
+      <column caption='Severe Toxic' datatype='real' name='[severe_toxic]' role='measure' type='quantitative' />
+      <column caption='Threat' datatype='real' name='[threat]' role='measure' type='quantitative' />
+      <column caption='Toxic' datatype='real' name='[toxic]' role='measure' type='quantitative' />
+      <column-instance column='[Calculation_1243837975804796949]' derivation='User' name='[usr:Calculation_1243837975804796949:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1243837975804870678]' derivation='User' name='[usr:Calculation_1243837975804870678:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1243837975805636631]' derivation='User' name='[usr:Calculation_1243837975805636631:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1243837975805714456]' derivation='User' name='[usr:Calculation_1243837975805714456:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1243837975805829145]' derivation='User' name='[usr:Calculation_1243837975805829145:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1243837975806803994]' derivation='User' name='[usr:Calculation_1243837975806803994:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='predicted_lol_twitter.csv' id='predicted_lol_twitter.csv_35E8BF62B0144795992D3283D61B575E'>
+            <properties context=''>
+              <relation connection='textscan.08ebni70m16ekp1dq50ff1u0dqvk' name='predicted_lol_twitter.csv' table='[predicted_lol_twitter#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='zh_CN' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='Tweet' ordinal='1' />
+                  <column datatype='real' name='toxic' ordinal='2' />
+                  <column datatype='real' name='severe_toxic' ordinal='3' />
+                  <column datatype='real' name='obscene' ordinal='4' />
+                  <column datatype='real' name='threat' ordinal='5' />
+                  <column datatype='real' name='insult' ordinal='6' />
+                  <column datatype='real' name='identity_hate' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 6'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>League of Legends on Twitter</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='predicted_lol_twitter' name='federated.1jlxklx0aufg2u19dzoh3135ziqe' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1jlxklx0aufg2u19dzoh3135ziqe'>
+            <column caption='P Toxic' datatype='real' name='[Calculation_1243837975804796949]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='sum([toxic])/COUNT([toxic])' />
+            </column>
+            <column caption='P Identity Hate' datatype='real' name='[Calculation_1243837975804870678]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='sum([identity_hate])/COUNT([identity_hate])' />
+            </column>
+            <column caption='P Insult' datatype='real' name='[Calculation_1243837975805636631]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='sum([insult])/COUNT([insult])' />
+            </column>
+            <column caption='P Obscene' datatype='real' name='[Calculation_1243837975805714456]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='sum([obscene])/COUNT([obscene])' />
+            </column>
+            <column caption='P Threat' datatype='real' name='[Calculation_1243837975805829145]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='sum([threat])/COUNT([threat])' />
+            </column>
+            <column caption='P Severe Toxic' datatype='real' name='[Calculation_1243837975806803994]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='sum([severe_toxic])/COUNT([severe_toxic])' />
+            </column>
+            <column caption='Identity Hate' datatype='real' name='[identity_hate]' role='measure' type='quantitative' />
+            <column caption='Insult' datatype='real' name='[insult]' role='measure' type='quantitative' />
+            <column caption='Obscene' datatype='real' name='[obscene]' role='measure' type='quantitative' />
+            <column caption='Severe Toxic' datatype='real' name='[severe_toxic]' role='measure' type='quantitative' />
+            <column caption='Threat' datatype='real' name='[threat]' role='measure' type='quantitative' />
+            <column caption='Toxic' datatype='real' name='[toxic]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1243837975804796949]' derivation='User' name='[usr:Calculation_1243837975804796949:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1243837975804870678]' derivation='User' name='[usr:Calculation_1243837975804870678:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1243837975805636631]' derivation='User' name='[usr:Calculation_1243837975805636631:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1243837975805714456]' derivation='User' name='[usr:Calculation_1243837975805714456:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1243837975805829145]' derivation='User' name='[usr:Calculation_1243837975805829145:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1243837975806803994]' derivation='User' name='[usr:Calculation_1243837975806803994:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1jlxklx0aufg2u19dzoh3135ziqe].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1jlxklx0aufg2u19dzoh3135ziqe].[usr:Calculation_1243837975804870678:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1jlxklx0aufg2u19dzoh3135ziqe].[usr:Calculation_1243837975805636631:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1jlxklx0aufg2u19dzoh3135ziqe].[usr:Calculation_1243837975805714456:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1jlxklx0aufg2u19dzoh3135ziqe].[usr:Calculation_1243837975806803994:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1jlxklx0aufg2u19dzoh3135ziqe].[usr:Calculation_1243837975805829145:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1jlxklx0aufg2u19dzoh3135ziqe].[usr:Calculation_1243837975804796949:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1jlxklx0aufg2u19dzoh3135ziqe].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1jlxklx0aufg2u19dzoh3135ziqe].[usr:Calculation_1243837975804796949:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1jlxklx0aufg2u19dzoh3135ziqe].[usr:Calculation_1243837975805714456:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1jlxklx0aufg2u19dzoh3135ziqe].[usr:Calculation_1243837975805636631:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1jlxklx0aufg2u19dzoh3135ziqe].[usr:Calculation_1243837975806803994:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1jlxklx0aufg2u19dzoh3135ziqe].[usr:Calculation_1243837975805829145:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1jlxklx0aufg2u19dzoh3135ziqe].[usr:Calculation_1243837975804870678:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1jlxklx0aufg2u19dzoh3135ziqe].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1jlxklx0aufg2u19dzoh3135ziqe].[Multiple Values]' scope='cols' value='Percentage of Toxicity for Each Toxic Type' />
+            <encoding attr='space' class='0' field='[federated.1jlxklx0aufg2u19dzoh3135ziqe].[Multiple Values]' field-type='quantitative' max='0.12' min='0.0' range-type='fixed' scope='cols' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='cell-w' value='40' />
+            <format attr='cell-h' value='20' />
+            <format attr='cell' value='20' />
+            <format attr='cell-q' value='100' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1jlxklx0aufg2u19dzoh3135ziqe].[Multiple Values]' value='p0.00%' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#fff9f9' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#333333' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='604' />
+                <format attr='maxwidth' value='604' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1jlxklx0aufg2u19dzoh3135ziqe].[:Measure Names]</rows>
+        <cols>[federated.1jlxklx0aufg2u19dzoh3135ziqe].[Multiple Values]</cols>
+      </table>
+      <simple-id uuid='{9B42680B-B568-41CB-A5E6-F4232FC2EC3F}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{797684E6-AA34-4720-B589-878F08F55255}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='179' name='Sheet 6' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
