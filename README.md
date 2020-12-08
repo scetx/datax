@@ -25,6 +25,12 @@ Our mentors at the United States Cyber Command approached us with inspiration fr
 
 ![Example](https://media.giphy.com/media/R1rR597cItIRhu3kaq/giphy.gif)
 
+Our USCC mentors explained that they wanted us to product an interactive, web-based visualization along the lines of Stevens' simulation. They suggested that the interface shuold allow users to adjust parameters (e.g. assumptions about the threat and network derfenses), as well as for the selection of several pre-defined, stylized scenarios to demonstrate the impacts of specific strategies (e.g. perimeter defense, zero-trust networking, and active threat hunting).
+
+## Purpose
+
+
+
 
 
 
