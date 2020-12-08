@@ -42,3 +42,6 @@ Using Tableau, we created visualizations of:
 - Diagnostic Scores for All Cities Over Time
 
 This information is viewable for each city, or in aggregate across all cities.
+
+The data source connection to tableau may error when you open the notebook. If this occurs, simply follow the prompt to connect a new data source, and connect the all_cities_bias_scores_final_w_pcts.xlsx file from the data_clean folder.
+
