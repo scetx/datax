@@ -4,7 +4,11 @@
 
 A simulation to model how viruses traverse through computer networks
 
-![demo](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=400)
+![demo](https://media.giphy.com/media/ympEDqHCj3OdEGV9Ou/giphy.gif)
+
+<p align="center">
+  <img src="https://media.giphy.com/media/ympEDqHCj3OdEGV9Ou/giphy.gif", align="center", width="500" />
+</p>
 
 More examples of the simulation below
 
