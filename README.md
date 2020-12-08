@@ -20,8 +20,7 @@ _____
       - `brew install yarn` for MacOS, or navigate to their [website](https://classic.yarnpkg.com/en/docs/install/#windows-stable) to manually install for other operating systems
     - `yarn install` in VSC to download all dependencies for the project
     - Start parcel with command `yarn start` to view simulation
-
-
+    
 ### attacksim
 - An ipynb file containing the script for our static visualization. 
 - Written in Python. 
@@ -47,6 +46,9 @@ Our mentors at the United States Cyber Command approached us with inspiration fr
 
 Our USCC mentors explained that they wanted us to produce an interactive, web-based visualization along the lines of Stevens' simulation. They suggested that the interface shuold allow users to adjust parameters (e.g. assumptions about the threat and network derfenses), as well as for the selection of several pre-defined, stylized scenarios to demonstrate the impacts of specific strategies (e.g. perimeter defense, zero-trust networking, and active threat hunting).
 
+## The Project
+The main libraries of this project are [react.js](https://reactjs.org/) and [material-UI](https://material-ui.com/). These javascript libraries allow for efficient event-handling, as well as a way to produce visually appealing interactive components such as the sliders and buttons. The structure of the nodes are all automated by a KD-Tree algorithm which finds the nearest neighbors for each node and connects links between them. When we start the simulation, one node is randomly chosen to be infected. Based on the vectors of the initial infected node, the virus travels down this path and infects other nodes and the loop repeats until the simulation is complete. 
+
 ## Defense Architecture
 It's quite intuitive to compare the spread of human virsues to computer viruses. In a [paper](https://pubsonline.informs.org/doi/pdf/10.1287/ited.6.2.32) by CSU Fullerton students, it is proposed that human, animal, plant, and computer networks undergo the same process of susceptibility, infection and recovery; with variables that affect the rate of time for each process. In cybersecurity, the variables that affect the virus outbreak rate and recovery time depend on the strength of the network's defensive methods. Therefore, our demo includes two adjustable sliders for `virus spread rate` and `time in compromised state`. By adjusting these parameters, we are able to model the effects of [zero trust networking](https://www.paloaltonetworks.com/cyberpedia/what-is-a-zero-trust-architecture), and [active threat hunting](https://www.csoonline.com/article/3570725/threat-hunting-explained-taking-an-active-approach-to-defense.html).
 ______
@@ -71,6 +73,3 @@ In this run, we can see that the virus has barely any chance to infect other nod
 
 ## Acknowledgements
 We would like to give a big thank you to Jack Herrington, a principal software engineer, and a Youtuber who creates videos on frontend tutorials, as well as other technology deep-dives. We came across his Youtube video on his version of an epidemic simulator, and we reworked and collaborated with Jack on his open-source code to produce this project.
-
-
-
