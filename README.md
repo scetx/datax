@@ -6,10 +6,6 @@ A simulation to model how viruses traverse through computer networks
 
 ![demo](https://media.giphy.com/media/ympEDqHCj3OdEGV9Ou/giphy.gif)
 
-<p align="center">
-  <img src="https://media.giphy.com/media/ympEDqHCj3OdEGV9Ou/giphy.gif", align="center", width="500" />
-</p>
-
 More examples of the simulation below
 
 _____
