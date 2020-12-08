@@ -48,10 +48,11 @@ Our USCC mentors explained that they wanted us to produce an interactive, web-ba
 
 ## The Project
 The main libraries of this project are [react.js](https://reactjs.org/) and [material-UI](https://material-ui.com/). These javascript libraries allow for efficient event-handling, as well as a way to produce visually appealing interactive components such as the sliders and buttons. The structure of the nodes are all automated by a KD-Tree algorithm which finds the nearest neighbors for each node and connects links between them. When we start the simulation, one node is randomly chosen to be infected. Based on the vectors of the initial infected node, the virus travels down this path and infects other nodes and the loop repeats until the simulation is complete. 
+___
 
 ## Defense Architecture
 It's quite intuitive to compare the spread of human virsues to computer viruses. In a [paper](https://pubsonline.informs.org/doi/pdf/10.1287/ited.6.2.32) by CSU Fullerton students, it is proposed that human, animal, plant, and computer networks undergo the same process of susceptibility, infection and recovery; with variables that affect the rate of time for each process. In cybersecurity, the variables that affect the virus outbreak rate and recovery time depend on the strength of the network's defensive methods. Therefore, our demo includes two adjustable sliders for `virus spread rate` and `time in compromised state`. By adjusting these parameters, we are able to model the effects of [zero trust networking](https://www.paloaltonetworks.com/cyberpedia/what-is-a-zero-trust-architecture), and [active threat hunting](https://www.csoonline.com/article/3570725/threat-hunting-explained-taking-an-active-approach-to-defense.html).
-______
+
 ### Zero Trust Network
 This defensive architecture realizes that trust is a vulnerability. With this method, *microperimeters* are in place at every level to ensure that no trust is given, regardless of whether a user has access to a previous checkpoint. Multi-factor Authentification is a core tenent of this security style, so think of any application where you might have to verify your identity before you are allowed access to information (e.g. Berkeley's DUO two-step verification). To model this, we set `virus spread rate` to a low number. The parameter `time in compromised state` is unaccounted for, because implementing only a zero trust network doesn't automatically ensure the resolution of a virus in a timely matter. 
 
