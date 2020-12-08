@@ -72,4 +72,4 @@ Threat hunting takes a more proactive approach in resolving viruses and attacks.
 In this run, we can see that the virus has barely any chance to infect other nodes because it is recovered right away.
 
 ## Acknowledgements
-We would like to give a big thank you to Jack Herrington, a principal software engineer, and a Youtuber who creates videos on frontend tutorials, as well as other technology deep-dives. We came across his Youtube video on his version of an epidemic simulator, and we reworked and collaborated with Jack on his open-source code to produce this project.
+We would like to give a big thank you to Jack Herrington, a principal software engineer, and a [Youtuber](https://www.youtube.com/channel/UC6vRUjYqDuoUsYsku86Lrsw) who creates videos on frontend tutorials, as well as other technology deep-dives. We came across his Youtube video on his version of an epidemic simulator, and we reworked and collaborated with Jack on his open-source code to produce this project.
