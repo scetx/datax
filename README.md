@@ -28,7 +28,7 @@ Since 2010, the United States Cyber Command has been making strives towards cybe
 
 Perhaps inquisitive individuals will come across this simulation and wonder how exactly does active threat hunting or other cyber defense methods work in real cyberspace. 
 
-<img src="/images/output/video1.gif" width="250" height="250"/>
+<img src="https://giphy.com/gifs/ko7twHhomhk8E/html5" width="250" height="250"/>
 
 
 ## Inspiration for this project
