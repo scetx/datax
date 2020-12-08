@@ -1,15 +1,22 @@
-# Visualizing attacks in cyberspace - DATA-X: United States Cyber Command
+# Visualizing Attacks in Cyberspace - DATA-X: United States Cyber Command
 
-Description: 
+A simulation to model how viruses traverse through computer networks
 
-1. USCYBERCOM: A folder containing scripts for our dynamic visualization. Primary language is TypeScript. Start parcel locally to view visuals in browser. 
+### USCYBERCOM
 
-This is the primary product of this project. We based our code off of Jack Herrington's epidemic simulation and met with him to discuss modifications. 
-
-
-2. attacksim: An ipynb file containing the script for our static visualization. Written in Python. Run file on Jupyter to easily view visuals. 
-
-This is the secondary product of this project. 
+- A folder containing scripts for our dynamic visualization. 
+- Primary language is TypeScript.
+- `install yarn` on local machine.
+- Start parcel with command `yarn start` locally to view visuals in browser.
 
 
-3. other: A folder containing earlier drafts of visualizations and simulations. 
+### attacksim
+- An ipynb file containing the script for our static visualization. 
+- Written in Python. 
+- Run file on Jupyter to easily view visuals.
+  
+### other
+- A folder containing earlier drafts of visualizations and simulations.
+
+## Inspiration for this project
+Our mentors at the United States Cyber Command approached us with inspiration from recent COVID-19 simulations which followed SIR epidemic models. In particular, it was an article written by Harry Stevens which included visualisations and graphics of what happens when people follow social-distancing rules and adhere to quarantine guidelines. 
