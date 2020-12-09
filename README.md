@@ -1,5 +1,5 @@
 # AdShift
-AdShift aims to identify bias in advertising models and diversify their audience targeting strategies to combat such bias. This project was developed in collaboration between students in the Data-X course at UC Berkeley and mentors from Kinesso of Interpublic Group, with all members listed below:
+AdShift aims to identify bias in advertising models and diversify their audience targeting strategies to combat such bias. This project was developed in collaboration between students in the Data-X course at UC Berkeley and mentors from Kinesso of Interpublic Group.
 
 ## Introduction and Problem
 Kinesso is the marketing intelligence engine of Interpublic Group, and as a company, it focuses on using data and technology to improve media and marketing performance. Kinesso directs the purchase of millions of digital advertising impressions every second using advanced targeting strategies. 
