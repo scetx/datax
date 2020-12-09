@@ -51,10 +51,13 @@ if __name__ == "__main__":
     if alg=="kaze":
         ftAlg = cv2.KAZE_create()
     
-    data_path=r'C:\Users\tobias.grab\switchdrive\Schule\datax\projekt\database'
+    data_path=r"C:\Users\tobias.grab\IWK_data\test"
+    # data_path=r'C:\Users\tobias.grab\switchdrive\Schule\datax\projekt\database'
     files=listdir(data_path)  
+    
     nrOfFiles=len(files)
-    imgToMatch = cv2.imread(r'C:\Users\tobias.grab\switchdrive\Schule\datax\projekt\database_test\Nr384_2.jpg',0)
+    # imgToMatch = cv2.imread(r'C:\Users\tobias.grab\switchdrive\Schule\datax\projekt\database_test\Nr384_2.jpg',0)
+    imgToMatch = cv2.imread(r"C:\Users\tobias.grab\IWK_data\test\org_Nr384_2.jpg",0)
     (kps1, descs1) = ftAlg.detectAndCompute(imgToMatch, None)
     
     nrOfGoodPerImage=np.zeros([nrOfFiles,1])

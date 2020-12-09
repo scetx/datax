@@ -50,16 +50,15 @@ def clock(i):
         my_title2=tk.Label(my_label4,text="Matching finished! Displaying results...",font=("Helvetica",20), bg='#80c1ff')
         my_title2.place(relx=0.5,rely=0.0, relwidth=0.4, relheight=0.05,anchor='n')
 
-
-
-name="org_Nr382.jpg"
+name="org_Nr381.jpg"
 path=r"C:\Users\tobias.grab\IWK_data\test"
 matcher="bf" #bf or flann
 
 files=listdir(path)
 nrOfFiles=len(files)
 image_list=[ImageTk.PhotoImage(Image.open(path+"\\"+files[nr]).resize((320, 240),Image.ANTIALIAS)) for nr in range(nrOfFiles)]
-SURF=cv2.xfeatures2d.SURF_create()
+# SURF=cv2.xfeatures2d.SURF_create()
+SURF=cv2.BRISK_create()
 img_to_match=cv2.imread(path+"\\"+name,0)
 
 (kps1, descs1) = SURF.detectAndCompute(img_to_match, None)
@@ -108,7 +107,7 @@ idx = (-np.squeeze(nrOfGoodPerImage)).argsort()[:3]
 
 
 
-DELAY=40
+DELAY=10
 HEIGHT=900
 WIDTH=1400 
 

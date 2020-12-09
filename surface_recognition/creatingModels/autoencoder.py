@@ -4,7 +4,7 @@ Created on Wed Sep 23 17:02:47 2020
 
 @author: tobias.grab
 """
-
+from skimage.transform import rotate
 from skimage.transform import downscale_local_mean
 import keras
 from keras.layers import Input, Dense, Conv2D, MaxPooling2D, UpSampling2D, BatchNormalization, Flatten, Reshape
@@ -25,11 +25,13 @@ from scipy import spatial
 if __name__ == "__main__":
     
     data_path=r'C:\Users\tobias.grab\switchdrive\Schule\datax\projekt\database'
+    # data_path=r"C:\Users\tobias.grab\IWK_data\test"
+    
     files=listdir(data_path)
     nrOfFiles=len(files)
     shrinkFactor=10
-    createDataset=1
-    trainModel=0
+    createDataset=True
+    trainModel=False
     shape0=int(1200/shrinkFactor)
     shape1=int(1600/shrinkFactor)
     
@@ -60,11 +62,16 @@ if __name__ == "__main__":
         images=[]
         for file in files:
             images.append(downscale_local_mean(cv2.imread(data_path+'\\'+file,0),(shrinkFactor,shrinkFactor)))
+            # images.append(cv2.imread(data_path+'\\'+file,0))
             
         images = [exposure.equalize_hist(i) for i in images]
         images=[i.astype('float32') for i in images]
         
         x_all= np.array(images[:])
+        
+        rotated=rotate(x_all,90)
+        
+        
         x_train = np.array(images[:350])
         x_test = np.array(images[350:])
         x_all = np.reshape(x_all, (len(x_all), shape0, shape1, 1))
@@ -75,7 +82,7 @@ if __name__ == "__main__":
     
     if trainModel==1:
         es = EarlyStopping(monitor='val_loss', mode='min', verbose=1, patience=50)
-        mc = ModelCheckpoint('best_model.h5', monitor='val_accuracy', mode='max', verbose=1, save_best_only=True)
+        mc = ModelCheckpoint('invariant_autoencoder.h5', monitor='val_accuracy', mode='max', verbose=1, save_best_only=True)
         history= autoencoder.fit(x_train, x_train,
                         epochs=1000,
                         batch_size=64,
@@ -125,7 +132,25 @@ if __name__ == "__main__":
             print("The most similar image in the database is:",files[np.argmin(a)])
         return exactMatch,closestMatch
     
-    [exact,close]=checkSimilarity(encoded_imgs[316,:])
+    def checkSimilarityAutoenc(img_to_check,files,shape0,shape1,encoder,encoded_imgs,top_k):
+    
+        img_to_check=np.reshape(img_to_check, (1, shape0, shape1, 1))
+        img_to_check_enc=encoder.predict(img_to_check)
+        distances=[abs(spatial.distance.cosine(img_to_check_enc, encoded_imgs[i,:])) for i in range(len(encoded_imgs))]
+        
+        idx = np.argpartition(distances, -2)[:top_k]
+        
+        avg_score=np.mean(distances)
+        topk_scores=[]
+        topk_names=[]
+        for a in range(len(idx)):
+            topk_scores.append(distances[idx[a]])
+            topk_names.append(files[idx[a]])
+
+        return topk_names,topk_scores,avg_score
+    top_k=100
+    topk_names,topk_scores,avg_score=checkSimilarityAutoenc(images[318],files,shape0,shape1,encoder,encoded_imgs,top_k)
+    # [exact,close]=checkSimilarity(encoded_imgs[318,:])
     
     # plt.figure(figsize=(20, 8))
     # for i in range(1, n + 1):
