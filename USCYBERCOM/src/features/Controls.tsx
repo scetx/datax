@@ -1,9 +1,11 @@
+// creating the sliders
 import React from "react";
 import { Slider, Typography } from "@material-ui/core";
 
 import { State } from "../engine";
 
-type NewType = React.FC<{
+// FC = Function Component, process event handling
+type NewType = React.FC<{ 
     onChange: (key: string, value: number) => void;
     state: State;
 }>;
@@ -14,14 +16,14 @@ const Controls: NewType = ({ onChange, state }) => (
       Virus Spread Rate
     </Typography>
     <Slider
-      defaultValue={0.5}
-      value={state.virusSpreadRate}
-      aria-labelledby="virusSpreadRate-slider"
-      valueLabelDisplay="on"
-      step={0.05}
-      onChange={(evt, value) => onChange("virusSpreadRate", value as number)}
-      marks
-      min={0.05}
+      defaultValue={0.5}    // default value for virus rate
+      value={state.virusSpreadRate}   // sets the slider to adjust virusSpreadRate variable
+      aria-labelledby="virusSpreadRate-slider"  // naming slider
+      valueLabelDisplay="on"  // displaying the little bubble above slider with the value
+      step={0.05}   // step size
+      onChange={(evt, value) => onChange("virusSpreadRate", value as number)}  // onChange function changes the settings of simulation 
+      marks  // tick marks of slider
+      min={0.05}  
       max={.5}
     />
 
