@@ -60,7 +60,13 @@ def getBestMatches(alg,test_img,top_k):
         autoencoder = keras.models.load_model(path_to_model+'\\full_autoencoder.h5')
         encoder= keras.models.load_model(path_to_model+'\\encoder.h5')
         category="novel"
-    
+        
+    if alg=="invariant autoencoder":
+        path_to_model=r'C:\Users\tobias.grab\switchdrive\Schule\datax\projekt\kerasModels'
+        autoencoder = keras.models.load_model(path_to_model+'\\full_invariant_autoencoder.h5')
+        encoder= keras.models.load_model(path_to_model+'\\invariant_encoder.h5')
+        category="novel"
+        
     ###### Match test image with the chosen algorithm
     
     if category=="old but gold":

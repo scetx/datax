@@ -1,5 +1,5 @@
 import cv2
-import matchingAlgos
+import getBestMatches
 from os import listdir
 import pandas as pd
 import numpy as np
@@ -28,7 +28,7 @@ if __name__ == "__main__":
             names_testimg = [name_testimg for x in range(len(test_files))]
             names_testimg = pd.DataFrame(names_testimg,columns=["name_testimg"])
             
-            matches,avg_score=matchingAlgos.getBestMatches(alg,test_img,top_k)
+            matches,avg_score=getBestMatches.getBestMatches(alg,test_img,top_k)
             
             confidence_score=pd.DataFrame(np.array(matches["score"]/max(matches["score"])),columns=["confidence"])
             if alg=="autoencoder":
