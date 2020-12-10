@@ -22,6 +22,8 @@ For example, we obtained our New York City stop data [here](https://www1.nyc.gov
 
 We calculated bias scores using an original algorithm developed in consultation with public policy experts. The Jupyter Notebooks containing our algorithm and methodology can be found in [`notebooks/.ipynb_checkpoints`](notebooks/.ipynb_checkpoints).
 
+For more information on how we calculated scores, please refer to our [scoring algorithm methodology](https://docs.google.com/document/d/14HGTZGBeoiHT3_NmvRMxozWnmfPMWz_MEgOWPrAoF8k/edit).
+
 ### 3. [`notebooks`](/notebooks)
 
 For each city, we used our cleaned dataframes to calculate:
