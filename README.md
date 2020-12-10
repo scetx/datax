@@ -80,3 +80,9 @@ There are a few different options you can use to run the Jupyter Notebooks found
 3. Make a copy of the Final-Bias-Algorithm.ipynb and replace it with your city name
 4. Replace the current city csv with the new cities csv
 5. Run all cells and save bias score as [cityname]_bias_score.csv in the bias-scores folder
+
+### 6. Updating the visualizations
+1. Open up the master sheet, all_cities_bias_scores_final_w_pcts .xlsx, from the data-clean folder
+2. Open [cityname]_bias_score.csv from the bias-scores folder and copy all of the cells
+3. Paste these cells into the master excel sheet and save this sheet and save this sheet
+4. Open Tableau, update the Data Source, and refresh the dashboard
