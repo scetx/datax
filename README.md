@@ -58,7 +58,7 @@ Follow instructions at https://www.tableau.com/products/desktop (https://www.tab
 
 ### 3. Opening the Dashboard and Connecting Data Sources
 
-Once Tableau is installed on your device, open the Tableau workbook found in the visualizations folder (**visualizations**) of this repository.
+Once Tableau is installed on your device, open the Tableau workbook found in the visualizations folder, called **visualizations** of this repository.
 
 The data source connection to Tableau may display an error when you open the notebook. If this occurs hit "no" in the error message prompt. Then the dashboard will prompt you to connect a data source. Select **Locate File** then select **all_cities_bias_scores_final_w_pcts.xlsx** from the /police-bias-main/data_clean folder. 
 
