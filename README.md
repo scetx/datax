@@ -45,5 +45,12 @@ This information is viewable for each city, or in aggregate across all cities.
 
 ## Instructions for Use
 
-The data source connection to tableau may error when you open the notebook. If this occurs simply hit "no" in the error message prompt and follow the steps to connect a new data source, and connect the all_cities_bias_scores_final_w_pcts.xlsx file from the data_clean folder. This error may pop up more than once, possibly several times, so just hit "no" again when that prompt shows up, and then re-connect that same data source, all_cities_bias_scores_final_w_pcts.xlsx from the data_clean folder. The police-bias-main folder will most likely be located in your downloads, and the data_clean folder will be within that.
 
+### 1. Downloading the Repository
+Click on the green “Code” button. Select “Download ZIP”
+
+### 2. Install Tableau 
+Follow instructions at https://www.tableau.com/products/desktop (https://www.tableau.com/academic/students recommended for students)
+
+### 3. Connecting Data Sources
+The data source connection to tableau may error when you open the notebook. If this occurs simply hit "no" in the error message prompt and follow the steps to connect a new data source, and connect the all_cities_bias_scores_final_w_pcts.xlsx file from the data_clean folder. This error may pop up more than once, possibly several times, so just hit "no" again when that prompt shows up, and then re-connect that same data source, all_cities_bias_scores_final_w_pcts.xlsx from the data_clean folder. The police-bias-main folder will most likely be located in your downloads, and the data_clean folder will be within that.
