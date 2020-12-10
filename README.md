@@ -47,7 +47,9 @@ This information is viewable for each city, or in aggregate across all cities.
 
 
 ### 1. Download the repository on Github
-Go to https://github.com/anissarashid/police-bias to view the project. Click on the green Code button. Click Download ZIP.
+Go to https://github.com/anissarashid/police-bias to view the project. 
+* Click on the green Code button. 
+* Click Download ZIP.
 
 ### 2. Install Tableau 
 Follow instructions at https://www.tableau.com/products/desktop (https://www.tableau.com/academic/students recommended for students)
