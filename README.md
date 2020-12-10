@@ -34,7 +34,7 @@ _____
 _____
 
 ## Purpose
-Since 2010, the United States Cyber Command has been making strives towards cyberspace superiority by taking proactive and risk-aware strategies against adversaries. However, apart from developing cyber-combat methods, the USCC seeks to promote STEM disciplines to facilicate and enhance the nation's cyber talent by stimulating the interest of curious and technical individuals. The simulations that our team has developed will help bridge the knowledge gap between the general public and the complex universe of cyberspace by providing a simplified and accessible model to all. 
+Since 2010, the United States Cyber Command has been making strides towards cyberspace superiority by taking proactive and risk-aware strategies against adversaries. However, apart from developing cyber-combat methods, the USCC seeks to promote STEM disciplines to facilicate and enhance the nation's cyber talent by stimulating the interest of curious and technical individuals. The simulations that our team has developed will help bridge the knowledge gap between the general public and the complex universe of cyberspace by providing a simplified and accessible model to all. 
 
 Perhaps inquisitive individuals will come across this simulation and wonder how exactly does active threat hunting or other cyber defense methods work in real cyberspace. 
 
