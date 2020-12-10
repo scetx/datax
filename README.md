@@ -86,3 +86,5 @@ There are a few different options you can use to run the Jupyter Notebooks found
 2. Open [cityname]_bias_score.csv from the bias-scores folder and copy all of the cells
 3. Paste these cells into the master excel sheet and save this sheet and save this sheet
 4. Open Tableau, update the Data Source, and refresh the dashboard
+5. Copy and paste worksheets from another city and update the filter to the new specified city. 
+6. Create a dashboard for the new city with these updated worksheets. 
