@@ -26,7 +26,7 @@ _____
 - Written in Python. 
 - Run file on Jupyter to easily view and interact with visuals.
 
-- How it works: Attack times are exponentially distributed due to their “memoryless” nature. The probability of a node in the network surviving past time t is defined as [e^(-lambda\*)](http://prob140.org/textbook/content/Chapter_15/04_Exponential_Distribution.html). Depending on the number of infected neighbors a node has, the survival probability changes. 
+- How it works: Attack times are exponentially distributed due to their “memoryless” nature. The probability of a node in the network surviving past time t is defined as [e^(-lambda\*t)](http://prob140.org/textbook/content/Chapter_15/04_Exponential_Distribution.html) where lambda is the average rate of attack (initial value is arbitrarily defined here for visualization purposes). Depending on the number of infected neighbors a node has, the survival probability changes. 
   
 ### other
 - A folder containing earlier drafts of visualizations and simulations.
