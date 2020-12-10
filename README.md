@@ -46,13 +46,33 @@ This information is viewable for each city, or in aggregate across all cities.
 ## Instructions for Use
 
 
-### 1. Downloading the Repository
-Click on the green “Code” button. Select “Download ZIP”
+### 1. Download the repository on Github
+Go to https://github.com/anissarashid/police-bias to view the project. Click on the green Code button. Click Download ZIP.
 
 ### 2. Install Tableau 
 Follow instructions at https://www.tableau.com/products/desktop (https://www.tableau.com/academic/students recommended for students)
 
 ### 3. Opening the Dashboard and Connecting Data Sources
-Within the main folder, open up the visualizations folder. Located there is the Tableau dashboard, go ahead and open that file up once Tableau is up and running on your computer. The data source connection to tableau may error once you open the notebook. If this occurs simply hit "no" in the error message prompt and select either "Locate file" or "Edit connection", both will lead you to opening up the data source file. Once that is selected, go ahead and locate the all_cities_bias_scores_final_w_pcts.xlsx file from the data_clean folder. The police-bias-main folder will most likely be located in your downloads, and the data_clean folder will be within that. This error may pop up more than once, possibly several times, so just hit "no" again when that prompt shows up, and then re-connect that same data source, all_cities_bias_scores_final_w_pcts.xlsx from the data_clean folder.
 
-### 4. Running the
+Once Tableau is installed on your device, open the Tableau workbook found in the visualizations folder (**visualizations**) of this repository.
+
+The data source connection to Tableau may display an error when you open the notebook. If this occurs hit "no" in the error message prompt. Then the dashboard will prompt you to connect a data source. Select **Locate File** then select **all_cities_bias_scores_final_w_pcts.xlsx** from the /police-bias-main/data_clean folder. 
+
+Note: This error may pop up more than once, possibly several times, so hit "no" again when that prompt shows up, and then re-connect that same data source, all_cities_bias_scores_final_w_pcts.xlsx from the data_clean folder. 
+
+### 4. Running the Jupyter Notebook
+
+There are a few different options you can use to run the Jupyter Notebooks found in the repository:
+* You can run the notebooks locally using Jupyter Notebook: https://jupyter.org/install
+* You can also run the notebooks using Google Colab:
+  1. To do so, upload the data-clean and notebooks folders into your Google Drive
+  2. Open the ipynb using Google Colab
+* You can also use https://deepnote.com/ for teams
+* You can also use https://datahub.berkeley.edu/hub/login?next=%2Fhub%2F should you have a Calnet login.
+
+### 5. Adding your own city
+1. Create a csv file with the same parameters as the csv files in the data-clean folder
+2. Save as [cityname].csv
+3. Make a copy of the Final-Bias-Algorithm.ipynb and replace it with your city name
+4. Replace the current city csv with the new cities csv
+5. Run all cells and save bias score as [cityname]_bias_score.csv in the bias-scores folder
