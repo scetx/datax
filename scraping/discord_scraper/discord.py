@@ -272,18 +272,20 @@ class Discord:
         db.commit()
         db.close()
 
-    def grab_data(self, folder, server, channel, isdm=False):
-        """Scan and grab the attachments.
+    def grab_data(self, folder, server, channel, num_comments=1000, isdm=False):
+        """Scan and grab the attachments. Default number of comments to extract is 1000
 
         :param folder: The folder name.
         :param server: The server name.
         :param channel: The channel name.
         :param isdm: A flag to check whether we're in a DM or not.
+
         """
 
         date = datetime.today()
 
-        while date.year >= 2015:
+
+        while date.year >= 2015 and num_comments > 0:
             request = SimpleRequest(self.headers).request
             today = get_day(date.day, date.month, date.year)
 
@@ -304,17 +306,21 @@ class Discord:
                 if content['messages'] is not None:
                     for messages in content['messages']:
                         for message in messages:
-                            self.check_config_mimetypes(message, folder)
+                            # self.check_config_mimetypes(message, folder) 
 
                             if self.types['text'] is True:
                                 if len(message['content']) > 0:
                                     self.insert_text(server, channel, message)
+                                    if num_comments % 100 == 0:
+                                        print(f"adding {num_comments}th comment to database")
+                                    num_comments -= 1
+
             except TypeError:
                 continue
             
             date += timedelta(days=-1)
 
-    def grab_server_data(self):
+    def grab_server_data(self, num_comments=1000):
         """Scan and grab the attachments within a server."""
 
         for server, channels in self.servers.items():
@@ -324,9 +330,9 @@ class Discord:
                     self.get_channel_name(channel)
                 )
 
-                self.grab_data(folder, server, channel)
+                self.grab_data(folder, server, channel, num_comments)
 
-    def grab_dm_data(self):
+    def grab_dm_data(self, num_comments=1000):
         """Scan and grab the attachments within a direct message."""
 
         for alias, channel in self.directs.items():
@@ -335,14 +341,17 @@ class Discord:
                 channel
             )
 
-            self.grab_data(folder, alias, channel, True)
+            self.grab_data(folder, alias, channel, num_comments, True)
 
 #
 # Initializer
 #
 
+import sys
 
 if __name__ == '__main__':
     ds = Discord()
-    ds.grab_server_data()
-    ds.grab_dm_data()
+    if len(sys.argv) > 1:
+        ds.grab_server_data(int(sys.argv[1]))
+    else:
+        ds.grab_server_data()
