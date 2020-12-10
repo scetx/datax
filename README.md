@@ -88,3 +88,6 @@ There are a few different options you can use to run the Jupyter Notebooks found
 4. Open Tableau, update the Data Source, and refresh the dashboard
 5. Copy and paste worksheets from another city and update the filter to the new specified city. 
 6. Create a dashboard for the new city with these updated worksheets. 
+
+## Credits
+Developed by Tiffany Yu, Anissa Rashid, Madeleine Liu, Lena Bertozzi, Inola Cohen, and Ethan Shang. Supported by UC Berkeley’s SCET Data-X course.
