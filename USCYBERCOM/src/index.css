@@ -1,4 +1,4 @@
-
+/* defines the colors of the nodes based on state */
 .compromised {
     fill: red;
   }

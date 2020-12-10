@@ -1,15 +1,18 @@
-// we use a K-D Tree alg to connect nodes with nearby nodes
+// engine is what runs the simulation
 import { NODES, BOX_SIZE, HISTORY } from "./constants";
 import createKDTree from "static-kdtree";
+// we use a K-D Tree alg to connect nodes with nearby nodes
 
-// enums allow us to delcare named variables
+// enums allow us to declare named variables
 export enum Status {
-    Resistant = -1,  // computer has enhanced defense mechanisms
+    Resistant = -1,  // a recovered node cannot become infected again
     Normal = 0,      // an active, uncompromised computer
     Compromised = 1, // computer that has been infected with virus
 }
 
 // interface defines what the syntax of an object should be
+
+// defining the nodes
 export interface Node {
     id: number;         // unique ID number
     x: number;          // x position on box
@@ -20,16 +23,19 @@ export interface Node {
     underAttack: boolean;    // True if node is under attack, else False
 }
 
+// counting the history of node states
 export interface Counts {
     [Status.Resistant]: number;     // num of resistant nodes
     [Status.Normal]: number;        // num of normal nodes
     [Status.Compromised]: number;   // num of compromised nodes
 }
 
+// keeping track of the counts of a generation at each iteration
 export interface Generation {
     generation: number;    // index of generation
     counts: Counts;        // current generation counts
 }
+
 
 export interface State {
     paused: boolean;  // True if simulation is paused
@@ -46,23 +52,22 @@ export const generateNodes = (state: State): Node[] => {
   
     // Creates a grid of locations for the nodes to spawn on
     const lines = Math.floor(Math.sqrt(NODES)) + 5;
-    const separation = (BOX_SIZE - 10) / lines;
-    const offset = 5;
-    const positions: Position[] = [];
+    const separation = (BOX_SIZE - 10) / lines;  // ensures that the position of the nodes stays within the box
+    const offset = 5;  
+    const positions: Position[] = [];   // create the empty array of positions
     const randomFactor = () => Math.random() * 2;
-    for (let x = 0; x < lines; x++) {
+    for (let x = 0; x < lines; x++) {   // iterating through possible positions and appending them to const positions
       for (let y = 0; y < lines; y++) {
         positions.push({
-          x: offset + x * separation + randomFactor(),
+          x: offset + x * separation + randomFactor(),  
           y: offset + y * separation + randomFactor(),
         });
       }
     }
-  
+       
     // this constant will instantiate a random node to be infected 
     const grabPosition = (): Position =>
       positions.splice(Math.floor(Math.random() * positions.length), 1)[0];
-      // ensures that no other node will get the same position
   
     // Create the initial set of nodes
     const nodes: Node[] = new Array(NODES).fill({}).map((n, i) => ({
@@ -109,6 +114,8 @@ export const runGeneration = (state: State) => {
         }
     });
 
+
+
     // observing if compromised nodes have spread the virus
     state.nodes
         .filter(({ status }) => status === Status.Compromised)
@@ -145,6 +152,8 @@ export const runGeneration = (state: State) => {
 
     if (state.generations.length > HISTORY) {
         state.generations.splice(0,1);
+        // if the history is too long we remove off first value
+
     }
 
     return {
@@ -176,10 +185,11 @@ export const createInitialState = (
     return initialState;
 };
 
+//low virus spread, but compromised length doesn't matter too much
 export const createZeroTrust = (
     state: State = {
         virusSpreadRate: 0.11,
-        compromisedLength: 7,
+        compromisedLength: 0.7,
         generations: [],
         generation: 0,
         paused: false,
@@ -196,6 +206,8 @@ export const createZeroTrust = (
     return zeroTrust;
 };
 
+
+// low virus spread rate and short time in compromised state for active threat hunting
 export const createActiveHunt = (
     state: State = {
         virusSpreadRate: 0.11,

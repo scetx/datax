@@ -1,3 +1,4 @@
+// custom hook that powers the ticks animation frame of simulation
 import { useEffect, useRef } from 'react';
 
 const useRequestAnimationFrame = (callback: () => void) => {
@@ -11,6 +12,7 @@ const useRequestAnimationFrame = (callback: () => void) => {
     let count = 0;
     function tick() {
       count += 1;
+      // we use one out of two animation frames to make it run a bit slower
       if (count % 2 === 0) {
         savedCallback?.current?.();
       }
