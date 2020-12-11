@@ -7,18 +7,34 @@ But how can we use data to prove that racism and unjust practices from police of
 As a solution, we developed a police bias diagnostic tool that helps the general public, policy makers, and police departments identify bias in law enforcement by analyzing past department records and displaying the results in a detailed analytic report. Our tool calculated an overall diagnostic score that takes into account racial bias and excessive force, using stop data, excessive force reports, and population demographics over four years in seven different U.S. cities. The resulting diagnostic scores and calculations are presented in an interactive Tableau dashboard that enables users to understand just how great the difference in police treatment is between people of color and white Americans.
 
 ## Project Components
-### 1. [`data_clean`](/data_clean)
+### 1. [`uncleaned_data`](/uncleaned_data)
 
 We sourced our datasets from official city and police department websites. We only analyzed cities who (1) publicly released official data and (2) included both drive stops and use of force data. This inevitably introduced bias, as no evaluation could be done on police departments who did not avail records for public use. To compensate, we found variability in other aspects of our data: population size and geographical location, enabling us to increase sample size without compromising on the integrity of our data sources. We covered every region to ensure our findings could be relevant to stakeholders from all across the United States: West (Portland, OR), Midwest (Bloomington, IN; Cincinnati, OH), South (Austin, TX), and Northeast (New York City, NY). 
 
-Using Python's `pandas` library, we loaded `.csv` and/or `.xlx` files into a dataframe to extract and calculate the features we needed for our project. Some police departments published all of their detention and arrest data in a single file, while others created separate files for drive stops only. In the former case, we specifically isolated entries related to stops and frisks, as reported by the attending officer in the records. We then used official census data to determine the demographics of the city. Since census data is only reported every 10 years, we used official population projection tables for each year in 2016-2019. This data was used to quantify whether members of given racial groups were disproportionally impacted by drive stops and use of force. For each city, we compiled this information into a dataframe containing:
+Some files were uploaded in a `.csv` file format, while others were uploaded as an Excel spreadsheet. In these datasets, column names and values were often abbrievated or codified. They were difficult to interpret without data dictionaries that were enclosed in separate Excel spreadsheets. Using Python's `pandas` library, we loaded `.csv` and/or `.xlx` files into a dataframe to extract and calculate the features we needed for our project. Some police departments published all of their detention and arrest data in a single file, while others created separate files for drive stops only. In the former case, we specifically isolated entries related to stops and frisks, as reported by the attending officer in the records. In some cases, missing values were listed as strings instead of NaN values. We replaced those with proper NaN values in order to correctly account for the number of stops we did and did not have full information on.
+
+We then used official census data to determine the demographics of the city. Since census data is only reported every 10 years, we used official population projection tables for each year in 2016-2019. This data was used to quantify whether members of given racial groups were disproportionally impacted by drive stops and use of force.
+
+### 2. [`data_clean`](/data_clean)
+For each city, we compiled the above information into a standard dataframe containing:
 - Year
 - Total Population
-- Population Percentage of Each Race
-- Number of Drive Stops, by Driver Race
-- Use of Force, by Driver Race
+- Percentage of Population that is Black
+- Percentage of Population that is White
+- Percentage of Population that is Hispanic
+- Percentage of Population that is Asian/Pacific Islander
+- Number of Drive Stops Involving Black Drivers
+- Number of Drive Stops Involving White Drivers
+- Number of Drive Stops Involving Hispanic Drivers
+- Number of Drive Stops Involving Asian/Pacific Islander Drivers
+- Use of Force on Black Drivers
+- Use of Force on White Drivers
+- Use of Force on Hispanic Drivers
+- Use of Force on Asian/Pacific Islander Drivers
 
-For example, we obtained our New York City stop data [here](https://www1.nyc.gov/site/nypd/stats/reports-analysis/stopfrisk.page). Some files were uploaded in a `.csv` file format, while others were uploaded as an Excel spreadsheet. In these datasets, column names and values were often abbrievated or codified. They were difficult to interpret without data dictionaries that were enclosed in separate Excel spreadsheets. Our dataframe transformations displayed the data in a clear, consistent, and comprehensible manner across cities.
+Note: We also included the above categories for drivers listed as belonging to "other" races. However, there was ambiguity in regards to how responding police officers applied this racial categorization. As such, we did not include this set of cases in our visualizations.
+
+Our dataframe transformations displayed the data in a clear, consistent, and comprehensible manner across cities.
 
 We've included an example of the data cleaning process in the [/uncleaned_data/Example -Bloomington Data Cleaning](https://github.com/anissarashid/police-bias/tree/main/uncleaned_data/Example%20-Bloomington%20Data%20Cleaning) folder.
 
