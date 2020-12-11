@@ -20,7 +20,7 @@ Using Python's `pandas` library, we loaded `.csv` and/or `.xlx` files into a dat
 
 For example, we obtained our New York City stop data [here](https://www1.nyc.gov/site/nypd/stats/reports-analysis/stopfrisk.page). Some files were uploaded in a `.csv` file format, while others were uploaded as an Excel spreadsheet. In these datasets, column names and values were often abbrievated or codified. They were difficult to interpret without data dictionaries that were enclosed in separate Excel spreadsheets. Our dataframe transformations displayed the data in a clear, consistent, and comprehensible manner across cities.
 
-We've included an example of the data cleaning process in the [uncleaned_data/Example -Bloomington Data Cleaning](/uncleaned_data/Example -Bloomington Data Cleaning) folder.
+We've included an example of the data cleaning process in the [uncleaned_data/Example -Bloomington Data Cleaning](/uncleaned_data/Example\ -Bloomington\ Data\ Cleaning) folder.
 
 ### 2. [`bias_scores`](/bias_scores)
 
