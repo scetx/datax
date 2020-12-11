@@ -26,6 +26,9 @@ Given a feature and bias metric, AdShift's targeting diversification algorithm (
     - If `maintain_budget == False`, this integer corresponds to the number of impressions added to the underrepresented zip code at each iteration of the algorithm.
     - If `maintain_budget == True`, this integer corresponds to the number of impressions taken away from an overrepresented zip code. The number of impressions then added to the underrepresented zip code is calculated using a ratio of the average cost for an ad at the overrepresented zip code over the average cost for an ad at the underrepresented zip code.
 
+### *Tying together the Diversification Algorithm and Visualizations/Dashbaord*
+As stated, we currently have an interactive dashboard and a diversification algorithm.  The dashboard serves more as an exploratory interface, where a user can obtain a broader view of where bias exists and start to understand why, with options to explore income, ethnicity, and age.  The diversification algorithm is more of a specific plan, targetting  certain demographic features and budget.  In order for these two components to interact, a user can use the diversification plan and run similar visualiations to see bias is changing.
+
 ## Additional Information
 Exploratory data analysis and simple visualizations for the impression dataset and demographic dataset are provided in the files `impression_data_eda.ipynb` and `demo_data_eda.ipynb` respectively, so feel free to view these notebooks to learn more about the structure of the data and its features.
 
