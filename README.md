@@ -36,7 +36,7 @@ Note: We also included the above categories for drivers listed as belonging to "
 
 Our dataframe transformations displayed the data in a clear, consistent, and comprehensible manner across cities.
 
-We've included an example of the data cleaning process in the [/uncleaned_data/Example -Bloomington Data Cleaning](https://github.com/anissarashid/police-bias/tree/main/uncleaned_data/Example%20-Bloomington%20Data%20Cleaning) folder.
+We've included an example of the data cleaning process in the [/uncleaned_data/Example -Bloomington Data Cleaning](/uncleaned_data/Example_Data_Cleaning_Bloomington) folder.
 
 ### 2. [`bias_scores`](/bias_scores)
 
