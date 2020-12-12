@@ -4,11 +4,11 @@ AdShift aims to identify bias in advertising models and diversify their audience
 ## About the Team
 We are a team of six UC Berkeley students with various backgrounds and majors. Our team consists of Wei Huang (Materials Science and Engineering), Fernanda Ramos (Data Science), Shaya Barry (Operations Research and Management Sciences), Sneha Sudhakar (Data Science), Zichen Zhao (Economics and Data Science), and Dillon Eskandar (Electrical Engineering and Computer Sciences). In addition, with a diverse list of interdisciplinary experiences including working at a startup, developing API, wrangling with large data sets, research experiences, and so on, we are a well-rounded team who is capable of both qualitative and quantitative projects and has expertise in both the business and technical sides of our work. 
 
-To see our news release and contact details, please click https://docs.google.com/document/d/11oAe92MfQf1QLMI53FijlpCIBYl6FN3c4cNJ-P6qNhw/edit
-
 #### &nbsp;&nbsp;&nbsp;&nbsp; Kinesso:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ◦&nbsp;&nbsp;Bill Lyman, Director of R&D ([william.lyman@kinesso.com](mailto:william.lyman@kinesso.com))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ◦&nbsp;&nbsp;Graham Wilkinson, EVP of Product Strategy & Innovation ([graham.wilkinson@kinesso.com](mailto:graham.wilkinson@kinesso.com))  
+
+To see our news release and contact details, please click https://docs.google.com/document/d/11oAe92MfQf1QLMI53FijlpCIBYl6FN3c4cNJ-P6qNhw/edit
 
 ## Introduction and Problem
 Kinesso is the marketing intelligence engine of Interpublic Group, and as a company, it focuses on using data and technology to improve media and marketing performance. Kinesso directs the purchase of millions of digital advertising impressions every second using advanced targeting strategies. 
