@@ -1,12 +1,6 @@
 # AdShift
 AdShift aims to identify bias in advertising models and diversify their audience targeting strategies to combat such bias. This project was developed in collaboration between students in the Data-X course at UC Berkeley and mentors from Kinesso of Interpublic Group, with all members listed below:
-#### &nbsp;&nbsp;&nbsp;&nbsp; Data-X:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ◦&nbsp;&nbsp;Shaya Barry ([shayabarry@berkeley.edu](mailto:shayabarry@berkeley.edu))  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ◦&nbsp;&nbsp;Dillon Eskandar ([dilloneskandar@berkeley.edu](mailto:dilloneskandar@berkeley.edu))  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ◦&nbsp;&nbsp;Wei Huang ([wei_huang@berkeley.edu](mailto:wei_huang@berkeley.edu))  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ◦&nbsp;&nbsp;Fernanda Ramos ([framos0421@berkeley.edu](mailto:framos0421@berkeley.edu))  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ◦&nbsp;&nbsp;Sneha Sudhakar ([sneha_sudhakar@berkeley.edu](mailto:sneha_sudhakar@berkeley.edu))  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ◦&nbsp;&nbsp;Zichen Zhao ([zzc@berkeley.edu](mailto:zzc@berkeley.edu))  
+
 #### &nbsp;&nbsp;&nbsp;&nbsp; Kinesso:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ◦&nbsp;&nbsp;Bill Lyman, Director of R&D ([william.lyman@kinesso.com](mailto:william.lyman@kinesso.com))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ◦&nbsp;&nbsp;Graham Wilkinson, EVP of Product Strategy & Innovation ([graham.wilkinson@kinesso.com](mailto:graham.wilkinson@kinesso.com))  
