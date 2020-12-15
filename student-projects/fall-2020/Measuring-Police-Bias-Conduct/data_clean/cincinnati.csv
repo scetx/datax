@@ -1,0 +1,5 @@
+,city,year,total_pop,black_pct,white_pct,latinx_pct,asian_pct,other_pct,black_drive_stops,white_drive_stops,latinx_drive_stops,asian_drive_stops,other_drive_stops,black_uof,white_uof,latinx_uof,asian_uof,other_uof
+0,Cincinnati,2016,298802,0.412,0.49,0.042,0.017,0.039,13714,7463,0,80,476,455,166,4,1,11
+1,Cincinnati,2017,301305,0.423,0.475,0.039,0.026,0.037,12826,7019,0,86,484,488,142,2,0,15
+2,Cincinnati,2018,302615,0.404,0.498,0.036,0.023,0.039,4995,2789,0,34,241,508,147,5,0,7
+3,Cincinnati,2019,303954,0.411,0.495,0.035,0.28,0.031,4995,2789,0,34,241,361,132,1,0,4
