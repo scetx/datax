@@ -7,7 +7,7 @@
 [Link to course website & syllabus](https://data-x.blog)
 
 #### Teaching team Spring 2021:
-- Faculties: :** Ikhlaq Sidhu, Arash Nourian, and Ed Henrich **
+- Faculties: :**Ikhlaq Sidhu, Arash Nourian, and Ed Henrich**
 
 - GSIs: Mahan Tajrobehkar, Xiaoer Hu and , Yu-hung Liao
  
@@ -95,7 +95,7 @@ List of Dependencies:
 ## ✅ Past contributors
 
 - Alexander Fred-Ojala: afo @ berkeley edu ([LinkedIn](https://www.linkedin.com/in/alexanderfo/))
--Ming-Yen Kao, Johann Schleier-Smith, Shunan Jiang (Fall 2020 GSIs)
+- Ming-Yen Kao, Johann Schleier-Smith, Shunan Jiang (Fall 2020 GSIs)
 
 ## 🎓 License
 
