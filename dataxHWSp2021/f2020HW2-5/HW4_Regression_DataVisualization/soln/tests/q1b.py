@@ -1,0 +1,12 @@
+test = {   'name': 'q1b',
+    'points': 2,
+    'suites': [   {   'cases': [   {   'code': '>>> df_SP500.shape\n(1114, 2)',
+                                       'hidden': False,
+                                       'locked': False},
+                                   {   'code': '>>> df_Gold.shape\n(609, 2)',
+                                       'hidden': True,
+                                       'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
