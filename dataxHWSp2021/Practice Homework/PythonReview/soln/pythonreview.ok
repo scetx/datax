@@ -1,1 +1,0 @@
-{"name": "hw2_python", "endpoint": "datax", "src": ["hw2_python.ipynb"], "tests": {"tests/q*.py": "ok_test"}, "protocols": ["file_contents", "grading", "backup"]}

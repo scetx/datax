@@ -1,1 +1,0 @@
-{"name": "HW4_Regression_DataVisualization", "endpoint": "datax", "src": ["HW4_Regression_DataVisualization.ipynb"], "tests": {"tests/q*.py": "ok_test"}, "protocols": ["file_contents", "grading", "backup"]}
