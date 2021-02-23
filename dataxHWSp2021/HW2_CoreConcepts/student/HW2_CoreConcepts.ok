@@ -1,0 +1,1 @@
+{"name": "HW2_CoreConcepts", "endpoint": "dataxsp2021", "src": ["HW2_CoreConcepts.ipynb"], "tests": {"tests/q*.py": "ok_test"}, "protocols": ["file_contents", "grading", "backup"]}
