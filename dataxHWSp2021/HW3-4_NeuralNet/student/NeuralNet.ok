@@ -1,0 +1,1 @@
+{"name": "NeuralNet", "endpoint": "NeuralNet", "src": ["NeuralNet.ipynb"], "tests": {"tests/q*.py": "ok_test"}, "protocols": ["file_contents", "grading", "backup"]}
