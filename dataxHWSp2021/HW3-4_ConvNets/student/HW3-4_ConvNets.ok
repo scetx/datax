@@ -1,0 +1,1 @@
+{"name": "HW3-4_ConvNets", "endpoint": "dataxsp2021", "src": ["HW3-4_ConvNets.ipynb"], "tests": {"tests/q*.py": "ok_test"}, "protocols": ["file_contents", "grading", "backup"]}
