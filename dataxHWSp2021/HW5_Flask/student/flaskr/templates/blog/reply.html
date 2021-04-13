@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Reply to "{{ post['title'] }}"{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <!-- disply post -->
+  <article class="post">
+  <div>
+    <div class="about">
+    <!-- TODO: Q3 (Hide the username (display "by Anonymous User" instead) if post is anonymous) -->
+    <!-- start displaying author -->
+    by {{ post['username'] }} 
+    <!-- end displaying author -->
+    on {{ post['created'].strftime('%m/%d/%Y, %H:%M:%S') }}</div>
+  </div>
+  <p class="body">{{ post['body'] }}</p>
+    {% for reply in replies %}
+    <div class="reply">
+       <div class="about">
+       Replied by {{ reply['username'] }} on {{ reply['created'].strftime('%m/%d/%Y, %H:%M:%S') }} 
+       </div>
+      <p class="body">{{ reply['body']}}</p>
+    </div>
+    {% endfor %}
+  </article>
+
+  <!-- form for reply -->
+  <form method="post">
+    <label for="body">Your reply:</label>
+    <textarea name="body" id="body">{{ request.form['body'] }}</textarea>
+    <!-- new function: post anonymous -->
+    <input type="submit" value="Save">
+  </form>
+{% endblock %}
