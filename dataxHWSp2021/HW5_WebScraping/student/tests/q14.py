@@ -1,6 +1,6 @@
 test = {   'name': 'q14',
     'points': 6,
-    'suites': [   {   'cases': [   {   'code': '>>> len(clmns) == 7\nTrue',
+    'suites': [   {   'cases': [   {   'code': '>>> len(df.columns) == 7\nTrue',
                                        'hidden': False,
                                        'locked': False},
                                    {   'code': ">>> list(df.index) == ['Debate "
