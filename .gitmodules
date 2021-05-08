@@ -22,3 +22,9 @@
 [submodule "student-projects/spring-2021/Team34_Superconductive"]
 	path = student-projects/spring-2021/Team34_Superconductive
 	url = https://github.com/9yiyi9/Superconductive-low-coded-ML
+[submodule "student-projects/spring-2021/Team04_DaraXKinesso"]
+	path = student-projects/spring-2021/Team04_DaraXKinesso
+	url = https://github.com/lyubah/DataXKinesso
+[submodule "student-projects/spring-2021/Team08_yelp_rec"]
+	path = student-projects/spring-2021/Team08_yelp_rec
+	url = https://github.com/Toilleee/Data_135_yelp_rec
