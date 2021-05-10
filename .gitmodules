@@ -31,3 +31,12 @@
 [submodule "student-projects/spring-2021/Team13_E-Motion"]
 	path = student-projects/spring-2021/Team13_E-Motion
 	url = https://github.com/Savinay09/DataX
+[submodule "student-projects/spring-2021/Team36_InNav"]
+	path = student-projects/spring-2021/Team36_InNav
+	url = https://github.com/Xiaobai-Ji/InNav
+[submodule "student-projects/spring-2021/Team22_NBAPrediction"]
+	path = student-projects/spring-2021/Team22_NBAPrediction
+	url = https://github.com/ayushsax/NBAPrediction
+[submodule "student-projects/spring-2021/Team30_Tinger"]
+	path = student-projects/spring-2021/Team30_Tinger
+	url = https://github.com/rbqpark/tinger
