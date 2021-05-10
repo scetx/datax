@@ -28,3 +28,6 @@
 [submodule "student-projects/spring-2021/Team08_yelp_rec"]
 	path = student-projects/spring-2021/Team08_yelp_rec
 	url = https://github.com/Toilleee/Data_135_yelp_rec
+[submodule "student-projects/spring-2021/Team13_E-Motion"]
+	path = student-projects/spring-2021/Team13_E-Motion
+	url = https://github.com/Savinay09/DataX
