@@ -40,3 +40,18 @@
 [submodule "student-projects/spring-2021/Team30_Tinger"]
 	path = student-projects/spring-2021/Team30_Tinger
 	url = https://github.com/rbqpark/tinger
+[submodule "student-projects/spring-2021/Team03_NavSafe"]
+	path = student-projects/spring-2021/Team03_NavSafe
+	url = https://github.com/jacesheu/navsafe
+[submodule "student-projects/spring-2021/Team32_Emotion_Detection"]
+	path = student-projects/spring-2021/Team32_Emotion_Detection
+	url = https://github.com/tsrivatsav/Emotion-Detection
+[submodule "student-projects/spring-2021/Team25_Facial_Engagement_Visualizer"]
+	path = student-projects/spring-2021/Team25_Facial_Engagement_Visualizer
+	url = https://github.com/abhinavpottabathula/facial-engagement-visualizer
+[submodule "student-projects/spring-2021/Team26_Hondezvous"]
+	path = student-projects/spring-2021/Team26_Hondezvous
+	url = https://github.com/Isabelzav/Data_X_Hondezvous
+[submodule "student-projects/spring-2021/Team24_eXamine"]
+	path = student-projects/spring-2021/Team24_eXamine
+	url = https://github.com/jyeung2/eXamine
