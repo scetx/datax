@@ -55,3 +55,9 @@
 [submodule "student-projects/spring-2021/Team24_eXamine"]
 	path = student-projects/spring-2021/Team24_eXamine
 	url = https://github.com/jyeung2/eXamine
+[submodule "student-projects/spring-2021/Team06_RecycleAI"]
+	path = student-projects/spring-2021/Team06_RecycleAI
+	url = https://github.com/mclafferty/recycleai2
+[submodule "student-projects/spring-2021/Team16_Rent-Prediction-for-YiRental"]
+	path = student-projects/spring-2021/Team16_Rent-Prediction-for-YiRental
+	url = https://github.com/SunweiGu/Rent-Prediction-for-YiRental
