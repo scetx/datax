@@ -82,3 +82,6 @@
 [submodule "student-projects/spring-2021/Team18_Bitcoin_Price_Prediction"]
 	path = student-projects/spring-2021/Team18_Bitcoin_Price_Prediction
 	url = https://github.com/Zhihan-Hui/DataX-Bitcoin-Price-Prediction.git
+[submodule "student-projects/spring-2021/Team21_RapidReviews"]
+	path = student-projects/spring-2021/Team21_RapidReviews
+	url = https://github.com/ryanpmeyer/RapidReviews-code-review.git
