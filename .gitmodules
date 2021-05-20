@@ -61,3 +61,6 @@
 [submodule "student-projects/spring-2021/Team16_Rent-Prediction-for-YiRental"]
 	path = student-projects/spring-2021/Team16_Rent-Prediction-for-YiRental
 	url = https://github.com/SunweiGu/Rent-Prediction-for-YiRental
+[submodule "student-projects/spring-2021/Team01_Uniswap"]
+	path = student-projects/spring-2021/Team01_Uniswap
+	url = https://github.com/zy-han/Data-X-Uniswap-Winning-Trading-Strategy-Analysis.git
