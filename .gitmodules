@@ -76,3 +76,6 @@
 [submodule "student-projects/spring-2021/Team33_CA_Road_Accidents_Severity_Prediction"]
 	path = student-projects/spring-2021/Team33_CA_Road_Accidents_Severity_Prediction
 	url = https://github.com/ZhiZuo2021/CaliforniaRoadAccidentsSeverityPrediction.git
+[submodule "student-projects/spring-2021/Team20_To_Trade_Or_Not_To_Trade"]
+	path = student-projects/spring-2021/Team20_To_Trade_Or_Not_To_Trade
+	url = https://github.com/Jiayuez081/Ineng-135-Group-20.git
