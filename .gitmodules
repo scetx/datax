@@ -64,3 +64,12 @@
 [submodule "student-projects/spring-2021/Team01_Uniswap"]
 	path = student-projects/spring-2021/Team01_Uniswap
 	url = https://github.com/zy-han/Data-X-Uniswap-Winning-Trading-Strategy-Analysis.git
+[submodule "student-projects/spring-2021/Team23_NSOT"]
+	path = student-projects/spring-2021/Team23_NSOT
+	url = https://github.com/basketkoo98/Data_X_NSOT.git
+[submodule "student-projects/spring-2021/Team29_FireCast"]
+	path = student-projects/spring-2021/Team29_FireCast
+	url = https://github.com/abe-niu/IEOR-135.git
+[submodule "student-projects/spring-2021/Team33_CARoadAccidentsSeverityPrediction"]
+	path = student-projects/spring-2021/Team33_CARoadAccidentsSeverityPrediction
+	url = https://github.com/ZhiZuo2021/CaliforniaRoadAccidentsSeverityPrediction.git
