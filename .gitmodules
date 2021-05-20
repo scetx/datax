@@ -73,3 +73,6 @@
 [submodule "student-projects/spring-2021/Team33_CARoadAccidentsSeverityPrediction"]
 	path = student-projects/spring-2021/Team33_CARoadAccidentsSeverityPrediction
 	url = https://github.com/ZhiZuo2021/CaliforniaRoadAccidentsSeverityPrediction.git
+[submodule "student-projects/spring-2021/Team33_CA_Road_Accidents_Severity_Prediction"]
+	path = student-projects/spring-2021/Team33_CA_Road_Accidents_Severity_Prediction
+	url = https://github.com/ZhiZuo2021/CaliforniaRoadAccidentsSeverityPrediction.git
