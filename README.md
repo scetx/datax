@@ -2,16 +2,13 @@
    <img src="./imgsource/dx_logo.png" alt="Data-X Instructors" alt="data-x logo" title="Data-x" align="bottom-right" height="100" />
 </a>
 
-### IEOR 135 / 290: Applied Data Science with Venture Applications
+### INDENG 135 / 235, Applied Data Science with Venture Applications: Data-X
 
 [Link to course website & syllabus](https://data-x.blog)
 
-#### Teaching team Spring 2021:
-- Faculties: :**Ikhlaq Sidhu, Arash Nourian, and Ed Henrich**
-
-- GSIs: Mahan Tajrobehkar, Xiaoer Hu and , Yu-hung Liao
- 
-- Course Coordinator: Yin Yin Teo
+#### Teaching Team Fall 2021:
+- Faculty: Ikhlaq Sidhu and Derek S. Chan
+- GSIs: Mahan Tajrobehkar and Ruiqi Guo
 
 *This is the official Github repository for the Data-X class at UC Berkeley*
 
@@ -19,7 +16,8 @@
 <img src='https://img.shields.io/badge/Data--X-Berkeley-yellow.svg'>
 </a>
 
-## Resources:
+Cours
+## Course Website:
 * ##### [Data-X Official Website](https://data-x.blog/)
 * ##### [Data-X Advsiors](https://data-x.blog/advisors/)
 * ##### [Data-X Resources](https://data-x.blog/resources/)
@@ -64,19 +62,6 @@ git pull
 
 *For more information about Version Control, git, and Github please read this excellent guide: [Introduction to git and Github](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)*
 
----
-
-## 📧 Contact us
-
-- **Ikhlaq Sidhu:** sidhu @ berkeley edu ([LinkedIn](https://www.linkedin.com/in/ikhlaq/))
-- **Arash Nourian:** nourian @ berkeley edu ([LinkedIn](www.linkedin.com/in/arashnourian))
-
-## 📁 About the Course
-
-Today, the world is literally reinventing itself with Data and AI.  However, neither leading companies nor the world’s top students have the complete knowledge set to participate in this newly developing world.  This course provides the tools and understanding to boost any student’s ability to create the emerging data applications of the future.  This bootcamp is suitable for individuals interested in hands-on practical understanding of data science and application opportunities in new ventures, industry project areas, and potential support of research with data technologies.
-
-The Data-X course is a high paced immersion into data and data science principles in a uniquely practical approach.  The program contains theory segments, code samples in Python and in Jupyter Notebooks, and a real-life wide ranging project that can be started with guidance for instructors.  The course includes a real life code development project.
-
 
 ## ❤️ Credits
 
@@ -96,6 +81,7 @@ List of Dependencies:
 
 - Alexander Fred-Ojala: afo @ berkeley edu ([LinkedIn](https://www.linkedin.com/in/alexanderfo/))
 - Ming-Yen Kao, Johann Schleier-Smith, Shunan Jiang (Fall 2020 GSIs)
+- And many more people!
 
 ## 🎓 License
 
