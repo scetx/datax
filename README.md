@@ -19,13 +19,11 @@
 
 Cours
 ## Course Website:
-* ##### [Data-X Official Website](https://data-x.blog/)
-* ##### [Data-X Advsiors](https://data-x.blog/advisors/)
-* ##### [Data-X Resources](https://data-x.blog/resources/)
-* ##### [Data-X Completed Projects](https://data-x.blog/projects/)
-* ##### [Data-X Project Suggestions](https://data-x.blog/projects/)
+* ##### [Data-X Official Website](https://datax.berkeley.edu/syllabus-spring-2022/)
+* ##### [Data-X People](https://datax.berkeley.edu/people/)
+* ##### [Data-X Resources](https://datax.berkeley.edu/resources/)
+* ##### [Data-X Completed Projects](https://datax.berkeley.edu/projects/)
 * #### [Course Announcements](https://github.com/ikhlaqsidhu/data-x/wiki/Course-Announcements)
-
 
 ### Download the material
 
