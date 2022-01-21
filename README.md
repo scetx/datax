@@ -4,11 +4,12 @@
 
 ### INDENG 135 / 235, Applied Data Science with Venture Applications: Data-X
 
-[Link to course website & syllabus](https://data-x.blog)
+[Link to course website & syllabus](https://datax.berkeley.edu/syllabus-spring-2022/)
 
-#### Teaching Team Fall 2021:
+#### Teaching Team Spring 2022:
 - Faculty: Ikhlaq Sidhu and Derek S. Chan
-- GSIs: Mahan Tajrobehkar and Ruiqi Guo
+- GSIs: Mahan Tajrobehkar and Tung-Ling (Tony) Li
+- Consultant: Mario Filho
 
 *This is the official Github repository for the Data-X class at UC Berkeley*
 
@@ -80,7 +81,7 @@ List of Dependencies:
 ## ✅ Past contributors
 
 - Alexander Fred-Ojala: afo @ berkeley edu ([LinkedIn](https://www.linkedin.com/in/alexanderfo/))
-- Ming-Yen Kao, Johann Schleier-Smith, Shunan Jiang (Fall 2020 GSIs)
+- Ruiqu Guo, Ming-Yen Kao, Johann Schleier-Smith, Shunan Jiang (Fall 2020 GSIs)
 - And many more people!
 
 ## 🎓 License
